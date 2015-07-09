@@ -1,0 +1,12 @@
+Job 6396151 (multicore-3.2.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-070.cm.cluster
+ Host             = compute-070.cm.cluster
+ Start Time       = 07/09/2015 17:28:02
+ End Time         = 07/09/2015 17:30:02
+ User Time        = 00:01:20
+ System Time      = 00:00:06
+ Wallclock Time   = 00:02:00
+ CPU              = 00:14:00
+ Max vmem         = 12.926G
+ Exit Status      = 0
