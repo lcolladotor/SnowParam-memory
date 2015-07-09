@@ -26,7 +26,6 @@ stopifnot(opt$param %in% c('snow', 'multicore'))
 
 ## Create some toy data
 n <- 2000
-opt$mcores <- 2
 set.seed(20150709)
 mat <- data.frame(matrix(rnorm(n^2 * opt$mcores), ncol = n, nrow = n * opt$mcores))
 
