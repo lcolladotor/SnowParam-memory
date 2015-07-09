@@ -38,7 +38,7 @@ mv ${SHORT}.* logs/
 echo '**** Job ends ****'
 date
 EOF
-    call="qsub .{sname}.sh"
+    call="qsub .${sname}.sh"
     $call
     done
 done
