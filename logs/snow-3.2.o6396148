@@ -1,0 +1,38 @@
+**** Job starts ****
+Thu Jul  9 17:28:03 EDT 2015
+307.2 Mb
+30.7 Mb
+class: SnowParam 
+  bpjobname:BPJOB; bpworkers:10; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:FALSE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK 
+ setting  value                                      
+ version  R version 3.2.0 Patched (2015-04-29 r68274)
+ system   x86_64, linux-gnu                          
+ ui       X11                                        
+ language (EN)                                       
+ collate  en_US.UTF-8                                
+ tz       <NA>                                       
+
+ package        * version date       source        
+ BiocParallel   * 1.3.33  2015-07-09 Bioconductor  
+ curl             0.9.1   2015-07-04 CRAN (R 3.2.0)
+ devtools       * 1.8.0   2015-05-09 CRAN (R 3.2.0)
+ digest           0.6.8   2014-12-31 CRAN (R 3.2.0)
+ futile.logger    1.4.1   2015-04-20 CRAN (R 3.2.0)
+ futile.options   1.0.0   2010-04-06 CRAN (R 3.2.0)
+ getopt         * 1.20.0  2013-08-30 CRAN (R 3.2.0)
+ git2r            0.10.1  2015-05-07 CRAN (R 3.2.0)
+ lambda.r         1.1.7   2015-03-20 CRAN (R 3.2.0)
+ memoise          0.2.1   2014-04-22 CRAN (R 3.2.0)
+ Rcpp             0.11.6  2015-05-01 CRAN (R 3.2.0)
+ rversions        1.0.1   2015-06-06 CRAN (R 3.2.0)
+ snow             0.3-13  2013-09-27 CRAN (R 3.2.0)
+ xml2             0.1.1   2015-06-02 CRAN (R 3.2.0)
+   user  system elapsed 
+ 17.534   6.031 171.826 
+[1] "2015-07-09 17:30:55 EDT"
+**** Job ends ****
+Thu Jul  9 17:30:55 EDT 2015
