@@ -2,7 +2,7 @@
 
 
 ## Usage
-# sh SnowParam-memory.sh
+# sh SnowParam-memory-derfinder.sh
 
 CORES=10
 
