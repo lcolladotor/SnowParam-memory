@@ -1,0 +1,9 @@
+starting worker for localhost:11056 
+Type: EXEC 
+2015-07-10 15:07:36 Filtering chromosome chr10
+2015-07-10 15:07:36 filterData: normalizing coverage
+2015-07-10 15:07:37 filterData: done normalizing coverage
+2015-07-10 15:07:38 filterData: originally there were 100000 rows, now there are 99890 rows. Meaning that 0.109999999999999 percent was filtered.
+Type: DONE 
+Session info -----------------------------------------------------------------------------------------------------------
+Packages ---------------------------------------------------------------------------------------------------------------
