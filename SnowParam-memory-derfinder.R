@@ -68,7 +68,7 @@ myFilt <- function(chr, rawData, cutoff, totalMapped = NULL, targetSize = 80e6, 
 	## Save it in a unified name format
 	varname <- paste0(chr, 'CovInfo')
 	assign(varname, res)
-	output <- paste0(param, '-', varname, '.Rdata')
+	output <- paste0(param, paste(sapply(c('major', 'minor', 'year', 'month'), function(x) { R.Version()[[x]]}), collapse = '-'), '-', varname, '.Rdata')
 	
 	## Save the filtered data
 	save(list = varname, file = output, compress='gzip')
@@ -93,7 +93,7 @@ message(paste(Sys.time(), 'Filtering and saving the data with cutoff', opt$cutof
 filteredCov <- bpmapply(myFilt, names(fullCov), fullCov, BPPARAM = bp, MoreArgs = list(cutoff = opt$cutoff, totalMapped = totalMapped, targetSize = targetSize, param = opt$param))
 
 ## Check that it worked
-load(paste0(opt$param, '-chr1CovInfo.Rdata'))
+load(paste0(opt$param, paste(sapply(c('major', 'minor', 'year', 'month'), function(x) { R.Version()[[x]]}), collapse = '-'), '-chr1CovInfo.Rdata'))
 chr1CovInfo
 
 ## Session information and other info
