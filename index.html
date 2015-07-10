@@ -866,7 +866,7 @@
 <div class="row row-offcanvas row-offcanvas-right">
 <div class="contents col-xs-12 col-md-10">
 <h1>Memory issues with BiocParallel</h1>
-<p>This repo is about a memory issue with <code>BiocParallel</code> in the computing cluster I have access to managed by a SGE system. It seems that after R changed to version 3.2, which matches other major changes to <code>BiocParallel</code>, the memory used greatly increased when using <code>SnowParam()</code>.</p>
+<p>This repo is about a memory issue with <code>BiocParallel</code> in the computing cluster I have access to managed by a SGE system. The full post can be found at the <a href="https://stat.ethz.ch/pipermail/bioc-devel/2015-July/007788.html">Bioc-devel</a> mailing list. Basically, it seems that after R changed to version 3.2 -- which matches other major changes to <code>BiocParallel</code> -- the memory used greatly increased when using <code>SnowParam()</code>.</p>
 <p>I first noticed this issue when attempting to reproduce the results of <a href="https://github.com/leekgroup/derSoftware/blob/gh-pages/step1-fullCoverage.sh">step1-fullCoverage.sh</a> using R 3.2.x (using <code>sh step1-fullCoverage.sh brainspan</code>). Previously with R 3.1.x, the script used 173.5 GB of RAM and in R 3.2 and 3.2.x it reached 450 GB before getting shut down by the cluster system. The main package used in that script is basically identical between R versions 3.1.x and 3.2, and while <code>SnowParam()</code> did change it's also likely that the issue is related to another package(s). Note that the results and memory used are reproducible with R 3.1.x.</p>
 <p>Here I made some scripts to try to show the problem with a smaller data set. The actual scripts are <a href="https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/SnowParam-memory.R">SnowParam-memory.R</a> and <a href="https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/SnowParam-memory.sh">SnowParam-memory.sh</a> which are run using <code>sh SnowParam-memory.sh</code>. It runs the same code for R versions 3.1.x, 3.2 and 3.2.x.</p>
 <h2>Data</h2>
@@ -979,7 +979,7 @@ ggplot(df, aes(x = memory, y = R, colour = param)) + geom_point()</code></pre>
 </div>
 </div>
 <p>Note that starting in R 3.2, the type of cluster is SOCK instead of PSOCK. I ignore if this could explain the observed difference.</p>
-This page was last updated at 2015-07-09 23:51:48.
+This page was last updated at 2015-07-10 00:28:09.
 </div>
 </div>
 <div class="navbar navbar-fixed-bottom navbar-inverse">
