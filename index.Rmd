@@ -24,9 +24,9 @@ Below is the summary information for these jobs with memory shown in GB used, as
 
 ```{r 'summary', bootstrap.show.code = FALSE}
 df <- data.frame(
-    memory = c(6.404, 5.170, 5.036, 12.926, 12.899, 11.735),
-    R = rep(c('3.2.x', '3.2.', '3.1.x'), 2),
-    param = rep(c('snow', 'multicore'), each = 3)
+    memory = c(6.404, 5.170, 5.036, 12.926, 12.899, 11.735, NA, NA, NA),
+    R = rep(c('3.2.x', '3.2', '3.1.x'), 3),
+    param = rep(c('snow', 'multicore', 'serial'), each = 3)
 )
 knitr::kable(df, format = 'html')
 ```
@@ -46,9 +46,9 @@ Note that starting in R 3.2, the type of cluster is SOCK instead of PSOCK. I ign
 
 ```{r 'summary-der', bootstrap.show.code = FALSE}
 df2 <- data.frame(
-    memory = c(13.091, 12.308, 7.175, 13.856, 13.268, 8.475),
-    R = rep(c('3.2.x', '3.2.', '3.1.x'), 2),
-    param = rep(c('snow', 'multicore'), each = 3)
+    memory = c(13.091, 12.308, 7.175, 13.856, 13.268, 8.475, 1.027, 1.040, 927.723 / 1024),
+    R = rep(c('3.2.x', '3.2', '3.1.x'), 3),
+    param = rep(c('snow', 'multicore', 'serial'), each = 3)
 )
 knitr::kable(df2, format = 'html')
 ```
@@ -59,7 +59,7 @@ The same information is shown below in a plot.
 ggplot(df2, aes(x = memory, y = R, colour = param)) + geom_point()
 ```
 
-In this example, the memory fold change when using `SnowParam()` between R 3.2.x and 3.1.x is `r signif(df2$memory[1] / df2$memory[3], 3)`x, compared to `r signif(df$memory[1] / df$memory[3], 3)`x from the first example.
+In this example, the memory fold change when using `SnowParam()` between R 3.2.x and 3.1.x is `r signif(df2$memory[1] / df2$memory[3], 3)`x, compared to `r signif(df$memory[1] / df$memory[3], 3)`x from the first example. In comparison, with `SerialParam()` the same fold changes are `r signif(df2$memory[7] / df2$memory[9], 3)`x and `r signif(df$memory[7] / df$memory[9], 3)`x respectively.
 
 As shown in the [compare view](https://github.com/lcolladotor/derfinder/compare/bioc3.0...master) nothing changed in [filterData()](https://github.com/lcolladotor/derfinder/blob/master/R/filterData.R) between R 3.1.x and 3.2.x.
 

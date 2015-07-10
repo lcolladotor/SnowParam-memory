@@ -1,0 +1,12 @@
+Job 6417659 (der-serial-3.1.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-066.cm.cluster
+ Host             = compute-066.cm.cluster
+ Start Time       = 07/10/2015 15:36:45
+ End Time         = 07/10/2015 15:37:57
+ User Time        = 00:01:01
+ System Time      = 00:00:01
+ Wallclock Time   = 00:01:12
+ CPU              = 00:01:02
+ Max vmem         = 927.723M
+ Exit Status      = 0
