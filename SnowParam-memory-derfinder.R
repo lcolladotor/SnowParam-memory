@@ -57,7 +57,7 @@ print(object.size(fullCov[[1]]), units = 'Mb')
 
 ## Some function to apply to the data
 ## Filter the data and save it by chr
-myFilt <- function(chr, rawData, cutoff, totalMapped = NULL, targetSize = 80e6) {
+myFilt <- function(chr, rawData, cutoff, totalMapped = NULL, targetSize = 80e6, param) {
     library('derfinder')
     message(paste(Sys.time(), 'Filtering chromosome', chr))
     
@@ -68,7 +68,7 @@ myFilt <- function(chr, rawData, cutoff, totalMapped = NULL, targetSize = 80e6) 
 	## Save it in a unified name format
 	varname <- paste0(chr, 'CovInfo')
 	assign(varname, res)
-	output <- paste0(varname, '.Rdata')
+	output <- paste0(param, '-', varname, '.Rdata')
 	
 	## Save the filtered data
 	save(list = varname, file = output, compress='gzip')
@@ -90,10 +90,10 @@ register(bp, default = TRUE)
 bpparam()
 ## Still manually pass the param object
 message(paste(Sys.time(), 'Filtering and saving the data with cutoff', opt$cutoff))
-filteredCov <- bpmapply(myFilt, names(fullCov), fullCov, BPPARAM = bp, MoreArgs = list(cutoff = opt$cutoff, totalMapped = totalMapped, targetSize = targetSize))
+filteredCov <- bpmapply(myFilt, names(fullCov), fullCov, BPPARAM = bp, MoreArgs = list(cutoff = opt$cutoff, totalMapped = totalMapped, targetSize = targetSize, param = opt$param))
 
 ## Check that it worked
-load('chr1CovInfo.Rdata')
+load(paste0(opt$param, '-chr1CovInfo.Rdata'))
 chr1CovInfo
 
 ## Session information and other info
