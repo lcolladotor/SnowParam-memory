@@ -25,6 +25,7 @@ if(FALSE) {
 }
 
 stopifnot(opt$param %in% c('snow', 'multicore'))
+opt$cutoff <- 100
 
 ## Create some toy data
 n <- 1e5
