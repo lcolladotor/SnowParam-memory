@@ -15,12 +15,12 @@ This repo is about a memory issue with `BiocParallel` in the computing cluster I
 
 I first noticed this issue when attempting to reproduce the results of [step1-fullCoverage.sh](https://github.com/leekgroup/derSoftware/blob/gh-pages/step1-fullCoverage.sh) using R 3.2.x (using `sh step1-fullCoverage.sh brainspan`). Previously with R 3.1.x, the script used 173.5 GB of RAM and in R 3.2 and 3.2.x it reached 450 GB before getting shut down by the cluster system. The main package used in that script is basically identical between R versions 3.1.x and 3.2, and while `SnowParam()` did change it's also likely that the issue is related to another package(s). Note that the results and memory used are reproducible with R 3.1.x.
 
-Here I made some scripts to try to show the problem with a smaller data set. The actual scripts are [SnowParam-memory.R](SnowParam-memory.R) and [SnowParam-memory.sh](SnowParam-memory.sh) which are run using `sh SnowParam-memory.sh`. It runs the same code for R versions 3.1.x, 3.2 and 3.2.x. 
+Here I made some scripts to try to show the problem with a smaller data set. The actual scripts are [SnowParam-memory.R](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/SnowParam-memory.R) and [SnowParam-memory.sh](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/SnowParam-memory.sh) which are run using `sh SnowParam-memory.sh`. It runs the same code for R versions 3.1.x, 3.2 and 3.2.x. 
 
 
 ## Data
 
-Below is the summary information for these jobs with memory shown in GB used, as reported by the cluster I'm using. The actual files are at [mem_emails](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/mem_emails).
+Below is the summary information for these jobs with memory shown in GB used, as reported by the cluster I'm using. The actual files are at [mem_emails](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/mem_emails). The log files are avaiable at [logs](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/logs).
 
 ```{r 'summary', bootstrap.show.code = FALSE}
 df <- data.frame(
@@ -37,6 +37,8 @@ The same information is shown below in a plot.
 library('ggplot2')
 ggplot(df, aes(x = memory, y = R, colour = param)) + geom_point()
 ```
+
+Note that starting in R 3.2, the type of cluster is SOCK instead of PSOCK. I ignore if this could explain the observed difference.
 
 This page was last updated at `r Sys.time()`.
 
