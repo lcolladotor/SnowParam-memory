@@ -6,7 +6,7 @@ library('GenomicRanges')
 
 ## Specify parameters
 spec <- matrix(c(
-	'param', 'p', 1, 'character', 'Param to use. Either snow or multicore.',
+	'param', 'p', 1, 'character', 'Param to use. Either snow, multicore, or serial.',
 	'mcores', 'm', 1, 'integer', 'Number of cores',
 	'help' , 'h', 0, 'logical', 'Display help'
 ), byrow=TRUE, ncol=5)
@@ -24,7 +24,7 @@ if(FALSE) {
     opt <- list(mcores = 2, param = 'snow')
 }
 
-stopifnot(opt$param %in% c('snow', 'multicore'))
+stopifnot(opt$param %in% c('snow', 'multicore', 'serial'))
 opt$cutoff <- 80
 
 ## Create some toy data
@@ -83,6 +83,8 @@ if(opt$param == 'snow') {
     bp <- SnowParam(workers = opt$mcores, outfile = Sys.getenv('SGE_STDERR_PATH'))
 } else if (opt$param == 'multicore') {
     bp <- MulticoreParam(workers = opt$mcores)
+} else if (opt$param == 'serial') {
+    bp <- SerialParam()
 }
 
 ## Register and check that it's the correct

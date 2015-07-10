@@ -9,7 +9,8 @@ CORES=10
 for rversion in 3.1.x 3.2 3.2.x
 do
     echo "Creating scripts for R version ${rversion}"
-    for param in snow multicore
+#    for param in snow multicore serial
+    for param in serial
     do
     echo "Creating script for bpparam ${param}"
     SHORT="${param}-${rversion}"
