@@ -1,0 +1,12 @@
+Job 6416603 (der-snow-3.2.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-059.cm.cluster
+ Host             = compute-059.cm.cluster
+ Start Time       = 07/10/2015 15:06:22
+ End Time         = 07/10/2015 15:07:33
+ User Time        = 00:00:29
+ System Time      = 00:00:05
+ Wallclock Time   = 00:01:11
+ CPU              = 00:03:43
+ Max vmem         = 13.091G
+ Exit Status      = 0

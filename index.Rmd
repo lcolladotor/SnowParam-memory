@@ -40,5 +40,29 @@ ggplot(df, aes(x = memory, y = R, colour = param)) + geom_point()
 
 Note that starting in R 3.2, the type of cluster is SOCK instead of PSOCK. I ignore if this could explain the observed difference.
 
+## `derfinder` example
+
+[SnowParam-memory-derfinder.R](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/SnowParam-memory.R) and [SnowParam-memory-derfinder.sh](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/SnowParam-memory.sh) compose a second example using objects and some of the code from the original use case. I wrote to see if it lead to the same memory fold changes I observe with my analysis script. Here are some of the results.
+
+```{r 'summary-der', bootstrap.show.code = FALSE}
+df2 <- data.frame(
+    memory = c(13.091, 12.308, 7.175, 13.856, 13.268, 8.475),
+    R = rep(c('3.2.x', '3.2.', '3.1.x'), 2),
+    param = rep(c('snow', 'multicore'), each = 3)
+)
+knitr::kable(df2, format = 'html')
+```
+
+The same information is shown below in a plot.
+
+```{r 'plot-der', bootstrap.show.code = FALSE}
+ggplot(df2, aes(x = memory, y = R, colour = param)) + geom_point()
+```
+
+In this example, the memory fold change when using `SnowParam()` between R 3.2.x and 3.1.x is `r signif(df2$memory[1] / df2$memory[3], 3)`x, compared to `r signif(df$memory[1] / df$memory[3], 3)`x from the first example.
+
+As shown in the [compare view](https://github.com/lcolladotor/derfinder/compare/bioc3.0...master) nothing changed in [filterData()](https://github.com/lcolladotor/derfinder/blob/master/R/filterData.R) between R 3.1.x and 3.2.x.
+
+
 This page was last updated at `r Sys.time()`.
 
