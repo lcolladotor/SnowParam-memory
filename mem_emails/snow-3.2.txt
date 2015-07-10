@@ -1,12 +1,12 @@
-Job 6396148 (snow-3.2) Complete
+Job 6396270 (snow-3.2) Complete
  User             = lcollado
- Queue            = shared.q@compute-061.cm.cluster
- Host             = compute-061.cm.cluster
- Start Time       = 07/09/2015 17:28:02
- End Time         = 07/09/2015 17:30:55
- User Time        = 00:00:17
- System Time      = 00:00:06
- Wallclock Time   = 00:02:53
- CPU              = 00:19:35
- Max vmem         = 6.271G
+ Queue            = shared.q@compute-056.cm.cluster
+ Host             = compute-056.cm.cluster
+ Start Time       = 07/09/2015 23:08:20
+ End Time         = 07/09/2015 23:10:12
+ User Time        = 00:00:08
+ System Time      = 00:00:01
+ Wallclock Time   = 00:01:52
+ CPU              = 00:12:58
+ Max vmem         = 5.170G
  Exit Status      = 0
