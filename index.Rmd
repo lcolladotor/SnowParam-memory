@@ -24,7 +24,7 @@ Below is the summary information for these jobs with memory shown in GB used, as
 
 ```{r 'summary', bootstrap.show.code = FALSE}
 df <- data.frame(
-    memory = c(6.404, 5.170, 5.036, 12.926, 12.899, 11.735, NA, NA, NA),
+    memory = c(6.404, 5.170, 5.036, 12.926, 12.899, 11.735, 1.573, 1.573, 1.508),
     R = rep(c('3.2.x', '3.2', '3.1.x'), 3),
     param = rep(c('snow', 'multicore', 'serial'), each = 3)
 )

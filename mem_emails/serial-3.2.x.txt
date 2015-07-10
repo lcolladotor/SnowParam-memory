@@ -1,0 +1,12 @@
+Job 6417664 (serial-3.2.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-071.cm.cluster
+ Host             = compute-071.cm.cluster
+ Start Time       = 07/10/2015 15:36:45
+ End Time         = 07/10/2015 15:52:01
+ User Time        = 00:15:13
+ System Time      = 00:00:01
+ Wallclock Time   = 00:15:16
+ CPU              = 00:15:15
+ Max vmem         = 1.573G
+ Exit Status      = 0
