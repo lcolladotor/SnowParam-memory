@@ -1,13 +1,13 @@
 **** Job starts ****
-Thu Jul  9 17:28:03 EDT 2015
+Thu Jul  9 23:08:20 EDT 2015
 307.2 Mb
 30.7 Mb
-class: MulticoreParam 
-  bpjobname:BPJOB; bpworkers:10; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+class: SnowParam 
+  bpworkers:10; bptasks:0; bpRNGseed:; bpisup:FALSE
   bplog:FALSE; bpthreshold:INFO; bplogdir:NA
   bpstopOnError:FALSE; bpprogressbar:FALSE
   bpresultdir:NA
-cluster type: FORK 
+cluster type: SOCK 
  setting  value                                      
  version  R version 3.2.0 Patched (2015-04-29 r68274)
  system   x86_64, linux-gnu                          
@@ -17,7 +17,7 @@ cluster type: FORK
  tz       <NA>                                       
 
  package        * version date       source        
- BiocParallel   * 1.3.33  2015-07-09 Bioconductor  
+ BiocParallel   * 1.2.7   2015-07-03 Bioconductor  
  curl             0.9.1   2015-07-04 CRAN (R 3.2.0)
  devtools       * 1.8.0   2015-05-09 CRAN (R 3.2.0)
  digest           0.6.8   2014-12-31 CRAN (R 3.2.0)
@@ -29,9 +29,10 @@ cluster type: FORK
  memoise          0.2.1   2014-04-22 CRAN (R 3.2.0)
  Rcpp             0.11.6  2015-05-01 CRAN (R 3.2.0)
  rversions        1.0.1   2015-06-06 CRAN (R 3.2.0)
+ snow             0.3-13  2013-09-27 CRAN (R 3.2.0)
  xml2             0.1.1   2015-06-02 CRAN (R 3.2.0)
    user  system elapsed 
-  9.712   6.889 165.218 
-[1] "2015-07-09 17:30:48 EDT"
+  8.732   1.804 110.895 
+[1] "2015-07-09 23:10:11 EDT"
 **** Job ends ****
-Thu Jul  9 17:30:48 EDT 2015
+Thu Jul  9 23:10:12 EDT 2015
