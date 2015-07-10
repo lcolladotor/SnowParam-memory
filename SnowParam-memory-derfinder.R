@@ -25,23 +25,23 @@ if(FALSE) {
 }
 
 stopifnot(opt$param %in% c('snow', 'multicore'))
-opt$cutoff <- 100
+opt$cutoff <- 80
 
 ## Create some toy data
 n <- 1e5
 set.seed(20150710)
 fullCov <- lapply(1:10, function(x) {
     DataFrame(
-        S1 = rnorm(n, mean = 100),
-        S2 = rnorm(n, mean = 100),
-        S3 = rnorm(n, mean = 100),
-        S4 = rnorm(n, mean = 100),
-        S5 = rnorm(n, mean = 100),
-        S6 = rnorm(n, mean = 100),
-        S7 = rnorm(n, mean = 100),
-        S8 = rnorm(n, mean = 100),
-        S9 = rnorm(n, mean = 100),
-        S10 = rnorm(n, mean = 100)
+        S1 = Rle(rnorm(n, mean = 100)),
+        S2 = Rle(rnorm(n, mean = 100)),
+        S3 = Rle(rnorm(n, mean = 100)),
+        S4 = Rle(rnorm(n, mean = 100)),
+        S5 = Rle(rnorm(n, mean = 100)),
+        S6 = Rle(rnorm(n, mean = 100)),
+        S7 = Rle(rnorm(n, mean = 100)),
+        S8 = Rle(rnorm(n, mean = 100)),
+        S9 = Rle(rnorm(n, mean = 100)),
+        S10 = Rle(rnorm(n, mean = 100))
     )
 })
 names(fullCov) <- paste0('chr', seq_len(length(fullCov)))
