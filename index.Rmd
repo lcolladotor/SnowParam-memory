@@ -1,0 +1,42 @@
+---
+output:
+  knitrBootstrap::bootstrap_document:
+    theme.chooser: FALSE
+    highlight.chooser: FALSE
+  html_document:
+    toc: true
+    theme: spacelab
+---
+
+Memory issues with BiocParallel
+=====
+
+This repo is about a memory issue with `BiocParallel` in the computing cluster I have access to managed by a SGE system. It seems that after R changed to version 3.2, which matches other major changes to `BiocParallel`, the memory used greatly increased when using `SnowParam()`. 
+
+I first noticed this issue when attempting to reproduce the results of [step1-fullCoverage.sh](https://github.com/leekgroup/derSoftware/blob/gh-pages/step1-fullCoverage.sh) using R 3.2.x (using `sh step1-fullCoverage.sh brainspan`). Previously with R 3.1.x, the script used 173.5 GB of RAM and in R 3.2 and 3.2.x it reached 450 GB before getting shut down by the cluster system. The main package used in that script is basically identical between R versions 3.1.x and 3.2, and while `SnowParam()` did change it's also likely that the issue is related to another package(s). Note that the results and memory used are reproducible with R 3.1.x.
+
+Here I made some scripts to try to show the problem with a smaller data set. The actual scripts are [SnowParam-memory.R](SnowParam-memory.R) and [SnowParam-memory.sh](SnowParam-memory.sh) which are run using `sh SnowParam-memory.sh`. It runs the same code for R versions 3.1.x, 3.2 and 3.2.x. 
+
+
+## Data
+
+Below is the summary information for these jobs with memory shown in GB used, as reported by the cluster I'm using. The actual files are at [mem_emails](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/mem_emails).
+
+```{r 'summary', bootstrap.show.code = FALSE}
+df <- data.frame(
+    memory = c(6.404, 5.170, 5.036, 12.926, 12.899, 11.735),
+    R = rep(c('3.2.x', '3.2.', '3.1.x'), 2),
+    param = rep(c('snow', 'multicore'), each = 3)
+)
+knitr::kable(df, format = 'html')
+```
+
+The same information is shown below in a plot.
+
+```{r 'plot', bootstrap.show.code = FALSE}
+library('ggplot2')
+ggplot(df, aes(x = memory, y = R, colour = param)) + geom_point()
+```
+
+This page was last updated at `r Sys.time()`.
+
