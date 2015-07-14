@@ -10,3 +10,16 @@ Job 6417660 (der-serial-3.2) Complete
  CPU              = 00:00:42
  Max vmem         = 1.040G
  Exit Status      = 0
+ 
+Job 6463203 (der-serial-3.2) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-030.cm.cluster
+ Host             = compute-030.cm.cluster
+ Start Time       = 07/14/2015 11:53:10
+ End Time         = 07/14/2015 11:53:54
+ User Time        = 00:00:40
+ System Time      = 00:00:01
+ Wallclock Time   = 00:00:44
+ CPU              = 00:00:41
+ Max vmem         = 1.042G
+ Exit Status      = 0

@@ -10,3 +10,16 @@ Job 6396147 (multicore-3.1.x) Complete
  CPU              = 00:17:38
  Max vmem         = 11.735G
  Exit Status      = 0
+
+Job 6463208 (multicore-3.1.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-051.cm.cluster
+ Host             = compute-051.cm.cluster
+ Start Time       = 07/14/2015 11:53:10
+ End Time         = 07/14/2015 11:55:37
+ User Time        = 00:13:25
+ System Time      = 00:00:06
+ Wallclock Time   = 00:02:27
+ CPU              = 00:15:38
+ Max vmem         = 11.676G
+ Exit Status      = 0
