@@ -20,7 +20,9 @@ Here I made some scripts to try to show the problem with a smaller data set. The
 
 ## Data
 
-Below is the summary information for these jobs with memory shown in GB used, as reported by the cluster I'm using. The actual files are at [mem_emails](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/mem_emails). The log files are avaiable at [logs](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/logs).
+Below is the summary information for these jobs with memory shown in GB used, as reported by the cluster I'm using. The actual files are at [mem_emails/](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/mem_emails). The log files are available at [logs/](https://github.com/lcolladotor/SnowParam-memory/tree/gh-pages/logs).
+
+For example, [mem_emails/der-snow-3.1.x.txt](https://github.com/lcolladotor/SnowParam-memory/blob/gh-pages/mem_emails/der-snow-3.1.x.txt) has an entry with the email information for the job per replicate run. The email information includes among other things, the maximum memory as measured by the cluster under "Max vmem". Each entry starts with the job name, for example [job 6416599](https://github.com/lcolladotor/SnowParam-memory/blob/gh-pages/mem_emails/der-snow-3.1.x.txt#L1). The job number is then useful to identify which are the corresponding log files. The log files will have names with extentions __.e__ and __.o__ for stderr and stdout respectively, and with the same digits as the job id. So for this example, the log files are [logs/der-snow-3.1.x.e6416599](https://github.com/lcolladotor/SnowParam-memory/blob/gh-pages/logs/der-snow-3.1.x.e6416599) and [logs/der-snow-3.1.x.o6416599](https://github.com/lcolladotor/SnowParam-memory/blob/gh-pages/logs/der-snow-3.1.x.o6416599).
 
 ```{r 'summary', bootstrap.show.code = FALSE}
 df <- data.frame(
