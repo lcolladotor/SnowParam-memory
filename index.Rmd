@@ -24,18 +24,33 @@ Below is the summary information for these jobs with memory shown in GB used, as
 
 ```{r 'summary', bootstrap.show.code = FALSE}
 df <- data.frame(
-    memory = c(6.404, 5.170, 5.036, 12.926, 12.899, 11.735, 1.573, 1.573, 1.508),
-    R = rep(c('3.2.x', '3.2', '3.1.x'), 3),
-    param = rep(c('snow', 'multicore', 'serial'), each = 3)
+    memory = c(
+        6.404, 5.170, 5.036,
+        12.926, 12.899, 11.735,
+        1.573, 1.573, 1.508,
+        7.286, 7.285, 5.036,
+        12.370, 12.303, 11.676,
+        1.574, 1.574, 1.508,
+        7.286, 7.285, 5.036,
+        12.394, 12.452, 11.974,
+        1.574, 1.574, 1.508
+    ),
+    R = factor(rep(c('3.2.x', '3.2', '3.1.x'), 3),
+        levels = c('3.1.x', '3.2', '3.2.x')),
+    param = rep(c('snow', 'multicore', 'serial'), each = 3),
+    run = factor(rep(1:3, each = 9))
 )
 knitr::kable(df, format = 'html')
 ```
 
-The same information is shown below in a plot.
+The same information is shown below in two plots. The first one use _loess_ to summarize the overall trend while the second one shows one line per each replicate run.
 
-```{r 'plot', bootstrap.show.code = FALSE}
+```{r 'plot', bootstrap.show.code = FALSE, warning = FALSE}
 library('ggplot2')
-ggplot(df, aes(x = memory, y = R, colour = param)) + geom_point()
+ggplot(df, aes(y = memory, x = R, colour = param, shape = run, group = param)) + geom_point() + geom_smooth(method = loess, se = FALSE)
+
+## One line per run
+ggplot(df, aes(y = memory, x = R, colour = param, shape = run, group = paste0(df$param, df$run))) + geom_point() + geom_line()
 ```
 
 Note that starting in R 3.2, the type of cluster is SOCK instead of PSOCK. I ignore if this could explain the observed difference.
@@ -46,20 +61,35 @@ Note that starting in R 3.2, the type of cluster is SOCK instead of PSOCK. I ign
 
 ```{r 'summary-der', bootstrap.show.code = FALSE}
 df2 <- data.frame(
-    memory = c(13.091, 12.308, 7.175, 13.856, 13.268, 8.475, 1.027, 1.040, 927.723 / 1024),
-    R = rep(c('3.2.x', '3.2', '3.1.x'), 3),
-    param = rep(c('snow', 'multicore', 'serial'), each = 3)
+    memory = c(
+        13.091, 12.308, 7.175,
+        13.856, 13.268, 8.475,
+        1.027, 1.040, 927.723 / 1024,
+        12.871, 10.904, 7.174,
+        13.671, 13.789, 8.475,
+        1.029, 1.042, 927.723 / 1024,
+        12.871, 10.940, 7.174,
+        13.675, 13.793, 8.465,
+        1.028, 1.042, 931.301 / 1024
+    ),
+    R = factor(rep(c('3.2.x', '3.2', '3.1.x'), 3),
+        levels = c('3.1.x', '3.2', '3.2.x')),
+    param = rep(c('snow', 'multicore', 'serial'), each = 3),
+    run = factor(rep(1:3, each = 9))
 )
-knitr::kable(df2, format = 'html')
+knitr::kable(df2, format = 'html', digits = 3)
 ```
 
-The same information is shown below in a plot.
+The same information is shown below in two plots. The first one use _loess_ to summarize the overall trend while the second one shows one line per each replicate run.
 
-```{r 'plot-der', bootstrap.show.code = FALSE}
-ggplot(df2, aes(x = memory, y = R, colour = param)) + geom_point()
+```{r 'plot-der', bootstrap.show.code = FALSE, warning = FALSE}
+ggplot(df2, aes(y = memory, x = R, colour = param, shape = run, group = param)) + geom_point() + geom_smooth(method = loess, se = FALSE)
+
+## One line per run
+ggplot(df2, aes(y = memory, x = R, colour = param, shape = run, group = paste0(df2$param, df2$run))) + geom_point() + geom_line()
 ```
 
-In this example, the memory fold change when using `SnowParam()` between R 3.2.x and 3.1.x is `r signif(df2$memory[1] / df2$memory[3], 3)`x, compared to `r signif(df$memory[1] / df$memory[3], 3)`x from the first example. In comparison, with `SerialParam()` the same fold changes are `r signif(df2$memory[7] / df2$memory[9], 3)`x and `r signif(df$memory[7] / df$memory[9], 3)`x respectively.
+In this example, the memory mean fold change when using `SnowParam()` between R 3.2.x and 3.1.x is `r signif(mean(df2$memory[c(1, 10, 19)]) / mean(df2$memory[c(3, 12, 21)]), 3)`x, compared to `r signif(mean(df$memory[c(1, 10, 19)]) / mean(df$memory[c(3, 12, 21)]), 3)`x from the first example. In comparison, with `SerialParam()` the same mean fold changes are `r signif(mean(df2$memory[c(7, 16, 25)]) / mean(df2$memory[c(9, 18, 27)]), 3)`x and `r signif(mean(df$memory[c(7, 16, 25)]) / mean(df$memory[c(9, 18, 27)]), 3)`x respectively.
 
 As shown in the [compare view](https://github.com/lcolladotor/derfinder/compare/bioc3.0...master) nothing changed in [filterData()](https://github.com/lcolladotor/derfinder/blob/master/R/filterData.R) between R 3.1.x and 3.2.x.
 
