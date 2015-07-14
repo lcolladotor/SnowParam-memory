@@ -33,12 +33,15 @@ df <- data.frame(
         1.574, 1.574, 1.508,
         7.286, 7.285, 5.036,
         12.394, 12.452, 11.974,
-        1.574, 1.574, 1.508
+        1.574, 1.574, 1.508,
+        7.286, 7.285, 5.036,
+        12.161, 12.422, 11.974,
+        1.306, 1.306, 1.210
     ),
     R = factor(rep(c('3.2.x', '3.2', '3.1.x'), 3),
         levels = c('3.1.x', '3.2', '3.2.x')),
     param = rep(c('snow', 'multicore', 'serial'), each = 3),
-    run = factor(rep(1:3, each = 9))
+    run = factor(rep(1:4, each = 9))
 )
 knitr::kable(df, format = 'html')
 ```
@@ -70,12 +73,15 @@ df2 <- data.frame(
         1.029, 1.042, 927.723 / 1024,
         12.871, 10.940, 7.174,
         13.675, 13.793, 8.465,
-        1.028, 1.042, 931.301 / 1024
+        1.028, 1.042, 931.301 / 1024,
+        12.866, 11.072, 7.175,
+        13.671, 13.793, 8.473,
+        1.011, 1.030, 929.055 / 1024
     ),
     R = factor(rep(c('3.2.x', '3.2', '3.1.x'), 3),
         levels = c('3.1.x', '3.2', '3.2.x')),
     param = rep(c('snow', 'multicore', 'serial'), each = 3),
-    run = factor(rep(1:3, each = 9))
+    run = factor(rep(1:4, each = 9))
 )
 knitr::kable(df2, format = 'html', digits = 3)
 ```
@@ -89,7 +95,7 @@ ggplot(df2, aes(y = memory, x = R, colour = param, shape = run, group = param)) 
 ggplot(df2, aes(y = memory, x = R, colour = param, shape = run, group = paste0(df2$param, df2$run))) + geom_point() + geom_line()
 ```
 
-In this example, the memory mean fold change when using `SnowParam()` between R 3.2.x and 3.1.x is `r signif(mean(df2$memory[c(1, 10, 19)]) / mean(df2$memory[c(3, 12, 21)]), 3)`x, compared to `r signif(mean(df$memory[c(1, 10, 19)]) / mean(df$memory[c(3, 12, 21)]), 3)`x from the first example. In comparison, with `SerialParam()` the same mean fold changes are `r signif(mean(df2$memory[c(7, 16, 25)]) / mean(df2$memory[c(9, 18, 27)]), 3)`x and `r signif(mean(df$memory[c(7, 16, 25)]) / mean(df$memory[c(9, 18, 27)]), 3)`x respectively.
+In this example, the memory mean fold change when using `SnowParam()` between R 3.2.x and 3.1.x is `r signif(mean(df2$memory[c(1, 10, 19, 28)]) / mean(df2$memory[c(3, 12, 21, 30)]), 3)`x, compared to `r signif(mean(df$memory[c(1, 10, 19, 28)]) / mean(df$memory[c(3, 12, 21, 30)]), 3)`x from the first example. In comparison, with `SerialParam()` the same mean fold changes are `r signif(mean(df2$memory[c(7, 16, 25, 34)]) / mean(df2$memory[c(9, 18, 27, 36)]), 3)`x and `r signif(mean(df$memory[c(7, 16, 25, 34)]) / mean(df$memory[c(9, 18, 27, 36)]), 3)`x respectively.
 
 As shown in the [compare view](https://github.com/lcolladotor/derfinder/compare/bioc3.0...master) nothing changed in [filterData()](https://github.com/lcolladotor/derfinder/blob/master/R/filterData.R) between R 3.1.x and 3.2.x.
 
