@@ -36,3 +36,16 @@ Job 6463242 (der-snow-3.1.x) Complete
  CPU              = 00:05:33
  Max vmem         = 7.174G
  Exit Status      = 0
+
+Job 6463545 (der-snow-3.1.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-059.cm.cluster
+ Host             = compute-059.cm.cluster
+ Start Time       = 07/14/2015 15:02:21
+ End Time         = 07/14/2015 15:03:47
+ User Time        = 00:00:36
+ System Time      = 00:00:01
+ Wallclock Time   = 00:01:26
+ CPU              = 00:05:33
+ Max vmem         = 7.175G
+ Exit Status      = 0
