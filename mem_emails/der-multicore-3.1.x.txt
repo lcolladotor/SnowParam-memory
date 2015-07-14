@@ -23,3 +23,16 @@ Job 6463199 (der-multicore-3.1.x) Complete
  CPU              = 00:01:13
  Max vmem         = 8.475G
  Exit Status      = 0
+
+Job 6463243 (der-multicore-3.1.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-059.cm.cluster
+ Host             = compute-059.cm.cluster
+ Start Time       = 07/14/2015 12:20:48
+ End Time         = 07/14/2015 12:21:29
+ User Time        = 00:01:07
+ System Time      = 00:00:05
+ Wallclock Time   = 00:00:41
+ CPU              = 00:01:18
+ Max vmem         = 8.465G
+ Exit Status      = 0
