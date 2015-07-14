@@ -77,14 +77,25 @@ myFilt <- function(chr, rawData, cutoff, totalMapped = NULL, targetSize = 80e6, 
 	return(invisible(NULL))
 }
 
-
-
-if(opt$param == 'snow') {
-    bp <- SnowParam(workers = opt$mcores, outfile = Sys.getenv('SGE_STDERR_PATH'))
-} else if (opt$param == 'multicore') {
-    bp <- MulticoreParam(workers = opt$mcores)
-} else if (opt$param == 'serial') {
-    bp <- SerialParam()
+if(R.Version()$minor == '1.1') {
+    if(opt$param == 'snow') {
+        bp <- SnowParam(workers = opt$mcores,
+            outfile = Sys.getenv('SGE_STDERR_PATH'))
+    } else if (opt$param == 'multicore') {
+        bp <- MulticoreParam(workers = opt$mcores)
+    } else if (opt$param == 'serial') {
+        bp <- SerialParam()
+    }
+} else {
+    if(opt$param == 'snow') {
+        bp <- SnowParam(workers = opt$mcores,
+            outfile = Sys.getenv('SGE_STDERR_PATH'), log = TRUE)
+    
+    } else if (opt$param == 'multicore') {
+        bp <- MulticoreParam(workers = opt$mcores, log = TRUE)
+    } else if (opt$param == 'serial') {
+        bp <- SerialParam(log = TRUE)
+    }
 }
 
 ## Register and check that it's the correct

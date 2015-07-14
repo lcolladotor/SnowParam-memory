@@ -42,13 +42,27 @@ print(object.size(mat.list[[1]]), units = 'Mb')
 ## Some function to appy to the data
 projection <- function(x) { x <- as.matrix(x); diag(1, nrow = nrow(x), ncol = ncol(x)) - x %*% solve(t(x) %*% x) %*% t(x)}
 
-if(opt$param == 'snow') {
-    bp <- SnowParam(workers = opt$mcores, outfile = Sys.getenv('SGE_STDERR_PATH'))
-} else if (opt$param == 'multicore') {
-    bp <- MulticoreParam(workers = opt$mcores)
-} else if (opt$param == 'serial') {
-    bp <- SerialParam()
+if(R.Version()$minor == '1.1') {
+    if(opt$param == 'snow') {
+        bp <- SnowParam(workers = opt$mcores,
+            outfile = Sys.getenv('SGE_STDERR_PATH'))
+    } else if (opt$param == 'multicore') {
+        bp <- MulticoreParam(workers = opt$mcores)
+    } else if (opt$param == 'serial') {
+        bp <- SerialParam()
+    }
+} else {
+    if(opt$param == 'snow') {
+        bp <- SnowParam(workers = opt$mcores,
+            outfile = Sys.getenv('SGE_STDERR_PATH'), log = TRUE)
+    
+    } else if (opt$param == 'multicore') {
+        bp <- MulticoreParam(workers = opt$mcores, log = TRUE)
+    } else if (opt$param == 'serial') {
+        bp <- SerialParam(log = TRUE)
+    }
 }
+
 
 ## Register and check that it's the correct
 register(bp, default = TRUE)
