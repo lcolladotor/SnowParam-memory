@@ -1,0 +1,73 @@
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.2.x
+Loading required package: methods
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, as.vector, cbind, colnames,
+    do.call, duplicated, eval, evalq, Filter, Find, get, grep, grepl,
+    intersect, is.unsorted, lapply, Map, mapply, match, mget, order,
+    paste, pmax, pmax.int, pmin, pmin.int, Position, rank, rbind,
+    Reduce, rep.int, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unlist, unsplit
+
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+2015-07-14 12:21:17 Filtering and saving the data with cutoff 80
+2015-07-14 12:21:17 Filtering chromosome chr1
+2015-07-14 12:21:17 filterData: normalizing coverage
+2015-07-14 12:21:17 filterData: done normalizing coverage
+2015-07-14 12:21:18 filterData: originally there were 100000 rows, now there are 99913 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 12:21:19 Filtering chromosome chr2
+2015-07-14 12:21:19 filterData: normalizing coverage
+2015-07-14 12:21:20 filterData: done normalizing coverage
+2015-07-14 12:21:20 filterData: originally there were 100000 rows, now there are 99922 rows. Meaning that 0.0799999999999983 percent was filtered.
+2015-07-14 12:21:22 Filtering chromosome chr3
+2015-07-14 12:21:22 filterData: normalizing coverage
+2015-07-14 12:21:22 filterData: done normalizing coverage
+2015-07-14 12:21:22 filterData: originally there were 100000 rows, now there are 99909 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 12:21:24 Filtering chromosome chr4
+2015-07-14 12:21:24 filterData: normalizing coverage
+2015-07-14 12:21:24 filterData: done normalizing coverage
+2015-07-14 12:21:25 filterData: originally there were 100000 rows, now there are 99905 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 12:21:26 Filtering chromosome chr5
+2015-07-14 12:21:26 filterData: normalizing coverage
+2015-07-14 12:21:27 filterData: done normalizing coverage
+2015-07-14 12:21:28 filterData: originally there were 100000 rows, now there are 99909 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 12:21:29 Filtering chromosome chr6
+2015-07-14 12:21:29 filterData: normalizing coverage
+2015-07-14 12:21:29 filterData: done normalizing coverage
+2015-07-14 12:21:30 filterData: originally there were 100000 rows, now there are 99907 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 12:21:31 Filtering chromosome chr7
+2015-07-14 12:21:31 filterData: normalizing coverage
+2015-07-14 12:21:32 filterData: done normalizing coverage
+2015-07-14 12:21:32 filterData: originally there were 100000 rows, now there are 99902 rows. Meaning that 0.0999999999999943 percent was filtered.
+2015-07-14 12:21:34 Filtering chromosome chr8
+2015-07-14 12:21:34 filterData: normalizing coverage
+2015-07-14 12:21:34 filterData: done normalizing coverage
+2015-07-14 12:21:35 filterData: originally there were 100000 rows, now there are 99899 rows. Meaning that 0.0999999999999943 percent was filtered.
+2015-07-14 12:21:36 Filtering chromosome chr9
+2015-07-14 12:21:36 filterData: normalizing coverage
+2015-07-14 12:21:37 filterData: done normalizing coverage
+2015-07-14 12:21:37 filterData: originally there were 100000 rows, now there are 99899 rows. Meaning that 0.0999999999999943 percent was filtered.
+2015-07-14 12:21:39 Filtering chromosome chr10
+2015-07-14 12:21:39 filterData: normalizing coverage
+2015-07-14 12:21:39 filterData: done normalizing coverage
+2015-07-14 12:21:40 filterData: originally there were 100000 rows, now there are 99890 rows. Meaning that 0.109999999999999 percent was filtered.
+Session info -----------------------------------------------------------------------------------------------------------
+Packages ---------------------------------------------------------------------------------------------------------------
