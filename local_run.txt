@@ -1,0 +1,1320 @@
+$ Rscript SnowParam-memory.R -p "snow" -m 2
+Loading required package: colorout
+Loading required package: methods
+Warning message:
+package ‘devtools’ was built under R version 3.1.3
+61.4 Mb
+30.7 Mb
+class: SnowParam; bpisup: FALSE; bpworkers: 2; catch.errors: TRUE
+cluster spec: 2; type: PSOCK
+Loading required package: colorout
+starting worker pid=45546 on localhost:11944 at 14:54:15.244
+Loading required package: colorout
+starting worker pid=45554 on localhost:11944 at 14:54:15.530
+$`1`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   458117 24.5     818163  43.7   550917  29.5
+Vcells 12627084 96.4   30304475 231.3 28635930 218.5
+
+$`2`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   458119 24.5     818163  43.7   550916  29.5
+Vcells 12628085 96.4   30305526 231.3 28636931 218.5
+
+Session info -----------------------------------------------------------------------------------------------------------
+ setting  value
+ version  R version 3.1.2 Patched (2014-11-01 r66923)
+ system   x86_64, darwin10.8.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ tz       America/New_York
+
+Packages ---------------------------------------------------------------------------------------------------------------
+ package      * version  date       source
+ base64enc      0.1-2    2014-06-26 CRAN (R 3.1.0)
+ BatchJobs      1.6      2015-03-18 CRAN (R 3.1.3)
+ BBmisc         1.9      2015-02-03 CRAN (R 3.1.2)
+ BiocGenerics   0.12.1   2014-11-14 Bioconductor
+ BiocParallel * 1.0.3    2015-02-08 Bioconductor
+ bitops         1.0-6    2013-08-17 CRAN (R 3.1.0)
+ brew           1.0-6    2011-04-13 CRAN (R 3.1.0)
+ checkmate      1.5.3    2015-05-13 CRAN (R 3.1.3)
+ codetools      0.2-11   2015-03-10 CRAN (R 3.1.3)
+ colorout     * 1.0-2    2014-11-03 local
+ DBI            0.3.1    2014-09-24 CRAN (R 3.1.1)
+ devtools     * 1.8.0    2015-05-09 CRAN (R 3.1.3)
+ digest         0.6.8    2014-12-31 CRAN (R 3.1.2)
+ fail           1.2      2013-09-19 CRAN (R 3.1.0)
+ foreach        1.4.2    2014-04-11 CRAN (R 3.1.0)
+ getopt       * 1.20.0   2013-08-30 CRAN (R 3.1.0)
+ git2r          0.10.1   2015-05-07 CRAN (R 3.1.3)
+ iterators      1.0.7    2014-04-11 CRAN (R 3.1.0)
+ magrittr       1.5      2014-11-22 CRAN (R 3.1.2)
+ memoise        0.2.1    2014-04-22 CRAN (R 3.1.0)
+ RCurl          1.95-4.6 2015-04-24 CRAN (R 3.1.3)
+ RSQLite        1.0.0    2014-10-25 CRAN (R 3.1.2)
+ rversions      1.0.0    2015-04-22 CRAN (R 3.1.3)
+ sendmailR      1.2-1    2014-09-21 CRAN (R 3.1.1)
+ stringi        0.4-1    2014-12-14 CRAN (R 3.1.2)
+ stringr        1.0.0    2015-04-30 CRAN (R 3.1.3)
+ XML            3.98-1.1 2013-06-20 CRAN (R 3.1.0)
+   user  system elapsed
+  2.959   0.249  59.046
+[1] "2015-07-14 14:55:10 EDT"
+
+
+$ Rscript SnowParam-memory.R -p "snow" -m 2
+Loading required package: colorout
+Loading required package: methods
+Warning message:
+package ‘BiocParallel’ was built under R version 3.2.1
+61.4 Mb
+30.7 Mb
+class: SnowParam
+  bpjobname:BPJOB; bpworkers:2; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK
+INFO [2015-07-14 14:55:27] loading futile.logger on workers
+############### LOG OUTPUT ###############
+Task: 1
+Node: 1
+Timestamp: 2015-07-14 14:56:17
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 49.369   0.341  49.878
+Memory use (gc):
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  322945 17.3     592000  31.7   431626  23.1
+Vcells 4432551 33.9   28703524 219.0 32447639 247.6
+Log messages:
+
+stderr and stdout:
+character(0)
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-14 14:56:18
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 49.293   0.334  49.780
+Memory use (gc):
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  322945 17.3     592000  31.7   431628  23.1
+Vcells 4433550 33.9   28704908 219.1 32448640 247.6
+Log messages:
+
+stderr and stdout:
+character(0)
+$`1`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   325084 17.4     592000  31.7   431626  23.1
+Vcells 12438637 94.9   35879406 273.8 32447639 247.6
+
+$`2`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   325086 17.4     592000  31.7   431628  23.1
+Vcells 12439638 95.0   35881136 273.8 32448640 247.6
+
+Session info -----------------------------------------------------------------------------------------------------------
+ setting  value
+ version  R version 3.2.0 Patched (2015-05-18 r68382)
+ system   x86_64, darwin10.8.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ tz       America/New_York
+
+Packages ---------------------------------------------------------------------------------------------------------------
+ package        * version date       source
+ BiocParallel   * 1.2.9   2015-07-11 Bioconductor
+ colorout       * 1.0-2   2015-05-19 local
+ curl             0.9.1   2015-07-04 CRAN (R 3.2.1)
+ devtools       * 1.8.0   2015-05-09 CRAN (R 3.2.0)
+ digest           0.6.8   2014-12-31 CRAN (R 3.2.0)
+ futile.logger    1.4.1   2015-04-20 CRAN (R 3.2.0)
+ futile.options   1.0.0   2010-04-06 CRAN (R 3.2.0)
+ getopt         * 1.20.0  2013-08-30 CRAN (R 3.2.0)
+ git2r            0.10.1  2015-05-07 CRAN (R 3.2.0)
+ lambda.r         1.1.7   2015-03-20 CRAN (R 3.2.0)
+ memoise          0.2.1   2014-04-22 CRAN (R 3.2.0)
+ Rcpp             0.11.6  2015-05-01 CRAN (R 3.2.0)
+ rversions        1.0.2   2015-07-13 CRAN (R 3.2.1)
+ snow             0.3-13  2013-09-27 CRAN (R 3.2.0)
+ xml2             0.1.1   2015-06-02 CRAN (R 3.2.1)
+   user  system elapsed
+  2.217   0.330  54.148
+[1] "2015-07-14 14:56:18 EDT"
+
+
+$ Rscript SnowParam-memory.R -p "snow" -m 2
+Loading required package: colorout
+Loading required package: methods
+Warning message:
+package ‘BiocParallel’ was built under R version 3.2.1
+61.4 Mb
+30.7 Mb
+class: SnowParam
+  bpjobname:BPJOB; bpworkers:2; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK
+INFO [2015-07-14 14:56:45] loading futile.logger on workers
+############### LOG OUTPUT ###############
+Task: 1
+Node: 1
+Timestamp: 2015-07-14 14:57:37
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 50.158   0.351  50.975
+Memory use (gc):
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  322934 17.3     592000  31.7   431615  23.1
+Vcells 4432554 33.9   28703529 219.0 32447642 247.6
+Log messages:
+
+stderr and stdout:
+character(0)
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-14 14:57:38
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 49.998   0.346  50.850
+Memory use (gc):
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  322934 17.3     592000  31.7   431617  23.1
+Vcells 4433553 33.9   28704913 219.1 32448643 247.6
+Log messages:
+
+stderr and stdout:
+character(0)
+$`1`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   325073 17.4     592000  31.7   431615  23.1
+Vcells 12438640 94.9   35879412 273.8 32447642 247.6
+
+$`2`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   325075 17.4     592000  31.7   431617  23.1
+Vcells 12439641 95.0   35881142 273.8 32448643 247.6
+
+Session info -----------------------------------------------------------------------------------------------------------
+ setting  value
+ version  R version 3.2.0 Patched (2015-05-18 r68382)
+ system   x86_64, darwin10.8.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ tz       America/New_York
+
+Packages ---------------------------------------------------------------------------------------------------------------
+ package        * version     date       source
+ BiocParallel   * 1.3.34      2015-07-10 Bioconductor
+ colorout       * 1.0-2       2015-05-19 local
+ curl             0.9.1       2015-07-04 CRAN (R 3.2.1)
+ devtools       * 1.8.0       2015-05-09 CRAN (R 3.2.0)
+ digest           0.6.8       2014-12-31 CRAN (R 3.2.0)
+ futile.logger    1.4.1       2015-04-20 CRAN (R 3.2.0)
+ futile.options   1.0.0       2010-04-06 CRAN (R 3.2.0)
+ getopt         * 1.20.0      2013-08-30 CRAN (R 3.2.0)
+ git2r            0.10.1.9000 2015-07-14 Github (ropensci/git2r@94831de)
+ lambda.r         1.1.7       2015-03-20 CRAN (R 3.2.0)
+ memoise          0.2.1       2014-04-22 CRAN (R 3.2.0)
+ Rcpp             0.11.6      2015-05-01 CRAN (R 3.2.0)
+ rversions        1.0.2       2015-07-13 CRAN (R 3.2.1)
+ snow             0.3-13      2013-09-27 CRAN (R 3.2.0)
+ xml2             0.1.1       2015-06-02 CRAN (R 3.2.0)
+   user  system elapsed
+  2.228   0.318  55.168
+[1] "2015-07-14 14:57:38 EDT"
+
+
+$ Rscript SnowParam-memory-derfinder.R -p "snow" -m 2
+Loading required package: colorout
+Loading required package: methods
+Warning message:
+package ‘devtools’ was built under R version 3.1.3
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, as.vector, cbind, colnames,
+    do.call, duplicated, eval, evalq, Filter, Find, get, intersect,
+    is.unsorted, lapply, Map, mapply, match, mget, order, paste, pmax,
+    pmax.int, pmin, pmin.int, Position, rank, rbind, Reduce, rep.int,
+    rownames, sapply, setdiff, sort, table, tapply, union, unique,
+    unlist, unsplit
+
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Warning message:
+package ‘GenomeInfoDb’ was built under R version 3.1.3
+22.9 Mb
+11.5 Mb
+class: SnowParam; bpisup: FALSE; bpworkers: 2; catch.errors: TRUE
+cluster spec: 2; type: PSOCK
+2015-07-14 14:58:08 Filtering and saving the data with cutoff 80
+Loading required package: colorout
+starting worker pid=45680 on localhost:11466 at 14:58:09.037
+Loading required package: colorout
+starting worker pid=45688 on localhost:11466 at 14:58:09.331
+2015-07-14 14:58:24 Filtering chromosome chr1
+2015-07-14 14:58:24 filterData: normalizing coverage
+2015-07-14 14:58:25 filterData: done normalizing coverage
+2015-07-14 14:58:25 Filtering chromosome chr2
+2015-07-14 14:58:25 filterData: normalizing coverage
+2015-07-14 14:58:25 filterData: originally there were 100000 rows, now there are 100000 rows. Meaning that 0 percent was filtered.
+2015-07-14 14:58:26 filterData: done normalizing coverage
+2015-07-14 14:58:27 filterData: originally there were 100000 rows, now there are 100000 rows. Meaning that 0 percent was filtered.
+, , chr1
+
+          used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 3658085 195.4    5543382 296.1  4485858 239.6
+Vcells 6359448  48.6    9574040  73.1  9013468  68.8
+
+, , chr2
+
+          used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 3658085 195.4    5543382 296.1  4485858 239.6
+Vcells 6359448  48.6    9574040  73.1  9013468  68.8
+
+$coverage
+DataFrame with 100000 rows and 10 columns
+             S1       S2       S3       S4       S5       S6       S7       S8
+          <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>
+1      403.9297 401.8594 407.2884 398.8671 399.2005 399.9752 397.3815 401.5096
+2      391.0080 399.4816 403.0043 403.0454 406.2799 396.5977 398.0993 405.8985
+3      402.9991 399.8811 399.2584 395.7621 410.4592 396.6493 396.7342 398.4851
+4      399.2557 407.1322 402.6175 397.6689 404.0137 403.1660 397.8183 396.4396
+5      395.3604 401.4768 397.8098 403.9143 397.0418 401.3576 392.3739 404.0355
+...         ...      ...      ...      ...      ...      ...      ...      ...
+99996  395.5503 399.8810 399.3015 405.3436 398.5243 398.8091 401.7666 401.9049
+99997  410.1367 399.3556 401.1613 404.3569 400.1092 400.1999 400.8889 407.0320
+99998  396.3925 400.3737 399.2595 400.3410 393.9184 401.0393 399.4622 395.2234
+99999  396.5102 394.2740 398.2681 397.6517 400.6320 396.1116 396.0717 394.8096
+100000 407.3614 398.2705 395.6249 400.8592 397.5135 401.6248 398.2810 397.1426
+             S9      S10
+          <Rle>    <Rle>
+1      400.0295 402.5323
+2      398.1414 403.9171
+3      402.5404 399.4123
+4      398.8554 401.2427
+5      401.2386 400.6265
+...         ...      ...
+99996  402.0486 396.1418
+99997  397.1386 395.6856
+99998  394.0778 404.2652
+99999  399.1667 402.6338
+100000 408.6037 397.7378
+
+$position
+logical-Rle of length 100000 with 1 run
+  Lengths: 100000
+  Values :   TRUE
+
+Session info -----------------------------------------------------------------------------------------------------------
+ setting  value
+ version  R version 3.1.2 Patched (2014-11-01 r66923)
+ system   x86_64, darwin10.8.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ tz       America/New_York
+
+Packages ---------------------------------------------------------------------------------------------------------------
+ package           * version  date       source
+ acepack             1.3-3.3  2013-05-03 CRAN (R 3.1.0)
+ AnnotationDbi       1.28.2   2015-03-19 Bioconductor
+ base64enc           0.1-2    2014-06-26 CRAN (R 3.1.0)
+ BatchJobs           1.6      2015-03-18 CRAN (R 3.1.3)
+ BBmisc              1.9      2015-02-03 CRAN (R 3.1.2)
+ Biobase             2.26.0   2014-10-14 Bioconductor
+ BiocGenerics      * 0.12.1   2014-11-14 Bioconductor
+ BiocParallel      * 1.0.3    2015-02-08 Bioconductor
+ biomaRt             2.22.0   2014-10-14 Bioconductor
+ Biostrings          2.34.1   2014-12-12 Bioconductor
+ bitops              1.0-6    2013-08-17 CRAN (R 3.1.0)
+ brew                1.0-6    2011-04-13 CRAN (R 3.1.0)
+ bumphunter          1.6.0    2014-10-14 Bioconductor
+ checkmate           1.5.3    2015-05-13 CRAN (R 3.1.3)
+ cluster             2.0.1    2015-01-31 CRAN (R 3.1.2)
+ codetools           0.2-11   2015-03-10 CRAN (R 3.1.3)
+ colorout          * 1.0-2    2014-11-03 local
+ colorspace          1.2-6    2015-03-11 CRAN (R 3.1.3)
+ DBI                 0.3.1    2014-09-24 CRAN (R 3.1.1)
+ derfinder         * 1.0.10   2014-11-23 Bioconductor
+ derfinderHelper     1.0.4    2014-11-06 Bioconductor
+ devtools          * 1.8.0    2015-05-09 CRAN (R 3.1.3)
+ digest              0.6.8    2014-12-31 CRAN (R 3.1.2)
+ doRNG               1.6      2014-03-07 CRAN (R 3.1.1)
+ fail                1.2      2013-09-19 CRAN (R 3.1.0)
+ foreach             1.4.2    2014-04-11 CRAN (R 3.1.0)
+ foreign             0.8-63   2015-02-20 CRAN (R 3.1.2)
+ Formula             1.2-1    2015-04-07 CRAN (R 3.1.3)
+ GenomeInfoDb      * 1.2.5    2015-04-08 Bioconductor
+ GenomicAlignments   1.2.2    2015-03-03 Bioconductor
+ GenomicFeatures     1.18.7   2015-04-08 Bioconductor
+ GenomicFiles        1.2.1    2015-02-07 Bioconductor
+ GenomicRanges     * 1.18.4   2015-01-07 Bioconductor
+ getopt            * 1.20.0   2013-08-30 CRAN (R 3.1.0)
+ ggplot2             1.0.1    2015-03-17 CRAN (R 3.1.3)
+ git2r               0.10.1   2015-05-07 CRAN (R 3.1.3)
+ gridExtra           0.9.1    2012-08-09 CRAN (R 3.1.0)
+ gtable              0.1.2    2012-12-05 CRAN (R 3.1.0)
+ Hmisc               3.16-0   2015-04-30 CRAN (R 3.1.3)
+ IRanges           * 2.0.1    2014-12-12 Bioconductor
+ iterators           1.0.7    2014-04-11 CRAN (R 3.1.0)
+ lattice             0.20-31  2015-03-30 CRAN (R 3.1.3)
+ latticeExtra        0.6-26   2013-08-15 CRAN (R 3.1.0)
+ locfit              1.5-9.1  2013-04-20 CRAN (R 3.1.0)
+ magrittr            1.5      2014-11-22 CRAN (R 3.1.2)
+ MASS                7.3-40   2015-03-21 CRAN (R 3.1.3)
+ Matrix              1.2-0    2015-04-04 CRAN (R 3.1.3)
+ matrixStats         0.14.0   2015-02-14 CRAN (R 3.1.2)
+ memoise             0.2.1    2014-04-22 CRAN (R 3.1.0)
+ munsell             0.4.2    2013-07-11 CRAN (R 3.1.0)
+ nnet                7.3-9    2015-02-11 CRAN (R 3.1.2)
+ pkgmaker            0.22     2014-05-14 CRAN (R 3.1.0)
+ plyr                1.8.2    2015-04-21 CRAN (R 3.1.3)
+ proto               0.3-10   2012-12-22 CRAN (R 3.1.0)
+ qvalue              1.43.0   2015-03-05 Bioconductor
+ RColorBrewer        1.1-2    2014-12-07 CRAN (R 3.1.2)
+ Rcpp                0.11.6   2015-05-01 CRAN (R 3.1.3)
+ RCurl               1.95-4.6 2015-04-24 CRAN (R 3.1.3)
+ registry            0.2      2012-01-24 CRAN (R 3.1.0)
+ reshape2            1.4.1    2014-12-06 CRAN (R 3.1.2)
+ rngtools            1.2.4    2014-03-06 CRAN (R 3.1.0)
+ rpart               4.1-9    2015-02-11 CRAN (R 3.1.2)
+ Rsamtools           1.18.3   2015-03-03 Bioconductor
+ RSQLite             1.0.0    2014-10-25 CRAN (R 3.1.2)
+ rtracklayer         1.26.3   2015-03-29 Bioconductor
+ rversions           1.0.0    2015-04-22 CRAN (R 3.1.3)
+ S4Vectors         * 0.4.0    2014-10-14 Bioconductor
+ scales              0.2.4    2014-04-22 CRAN (R 3.1.0)
+ sendmailR           1.2-1    2014-09-21 CRAN (R 3.1.1)
+ stringi             0.4-1    2014-12-14 CRAN (R 3.1.2)
+ stringr             1.0.0    2015-04-30 CRAN (R 3.1.3)
+ survival            2.38-1   2015-02-24 CRAN (R 3.1.2)
+ XML                 3.98-1.1 2013-06-20 CRAN (R 3.1.0)
+ xtable              1.7-4    2014-09-12 CRAN (R 3.1.1)
+ XVector             0.6.0    2014-10-14 Bioconductor
+ zlibbioc            1.12.0   2014-10-14 Bioconductor
+   user  system elapsed
+ 17.024   0.333  37.586
+[1] "2015-07-14 14:58:30 EDT"
+
+
+$ Rscript SnowParam-memory-derfinder.R -p "snow" -m 2
+Loading required package: colorout
+Loading required package: methods
+Warning message:
+package ‘BiocParallel’ was built under R version 3.2.1
+Warning message:
+package ‘derfinder’ was built under R version 3.2.1
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, as.vector, cbind, colnames,
+    do.call, duplicated, eval, evalq, Filter, Find, get, intersect,
+    is.unsorted, lapply, Map, mapply, match, mget, order, paste, pmax,
+    pmax.int, pmin, pmin.int, Position, rank, rbind, Reduce, rep.int,
+    rownames, sapply, setdiff, sort, table, tapply, union, unique,
+    unlist, unsplit
+
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Warning messages:
+1: package ‘S4Vectors’ was built under R version 3.2.1
+2: package ‘IRanges’ was built under R version 3.2.1
+3: package ‘GenomeInfoDb’ was built under R version 3.2.1
+22.9 Mb
+11.5 Mb
+class: SnowParam
+  bpjobname:BPJOB; bpworkers:2; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK
+2015-07-14 14:58:57 Filtering and saving the data with cutoff 80
+INFO [2015-07-14 14:58:58] loading futile.logger on workers
+############### LOG OUTPUT ###############
+Task: 1
+Node: 1
+Timestamp: 2015-07-14 14:59:11
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 11.547   0.305  11.966
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  3791405 202.5    5684620 303.6  4703850 251.3
+Vcells 12186538  93.0   20658310 157.7 20648186 157.6
+Log messages:
+WARN [2015-07-14 14:58:58] package ‘derfinder’ was built under R version 3.2.1
+
+stderr and stdout:
+[1] 2015-07-14 14:59:08 Filtering chromosome chr1
+[2] 2015-07-14 14:59:08 filterData: normalizing coverage
+[3] 2015-07-14 14:59:08 filterData: done normalizing coverage
+[4] 2015-07-14 14:59:09 filterData: originally there were 100000 rows, now there are 100000 rows. Meaning that 0 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-14 14:59:11
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 11.545   0.316  11.951
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  3791405 202.5    5684620 303.6  4703850 251.3
+Vcells 12186538  93.0   20658310 157.7 20648186 157.6
+Log messages:
+WARN [2015-07-14 14:58:59] package ‘derfinder’ was built under R version 3.2.1
+
+stderr and stdout:
+[1] 2015-07-14 14:59:09 Filtering chromosome chr2
+[2] 2015-07-14 14:59:09 filterData: normalizing coverage
+[3] 2015-07-14 14:59:09 filterData: done normalizing coverage
+[4] 2015-07-14 14:59:09 filterData: originally there were 100000 rows, now there are 100000 rows. Meaning that 0 percent was filtered.
+, , chr1
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  3791758 202.6    5684620 303.6  4703850 251.3
+Vcells 13686700 104.5   20658310 157.7 20648186 157.6
+
+, , chr2
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  3791758 202.6    5684620 303.6  4703850 251.3
+Vcells 13686700 104.5   20658310 157.7 20648186 157.6
+
+$coverage
+DataFrame with 100000 rows and 10 columns
+             S1       S2       S3       S4       S5       S6       S7       S8
+          <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>
+1      403.9297 401.8594 407.2884 398.8671 399.2005 399.9752 397.3815 401.5096
+2      391.0080 399.4816 403.0043 403.0454 406.2799 396.5977 398.0993 405.8985
+3      402.9991 399.8811 399.2584 395.7621 410.4592 396.6493 396.7342 398.4851
+4      399.2557 407.1322 402.6175 397.6689 404.0137 403.1660 397.8183 396.4396
+5      395.3604 401.4768 397.8098 403.9143 397.0418 401.3576 392.3739 404.0355
+...         ...      ...      ...      ...      ...      ...      ...      ...
+99996  395.5503 399.8810 399.3015 405.3436 398.5243 398.8091 401.7666 401.9049
+99997  410.1367 399.3556 401.1613 404.3569 400.1092 400.1999 400.8889 407.0320
+99998  396.3925 400.3737 399.2595 400.3410 393.9184 401.0393 399.4622 395.2234
+99999  396.5102 394.2740 398.2681 397.6517 400.6320 396.1116 396.0717 394.8096
+100000 407.3614 398.2705 395.6249 400.8592 397.5135 401.6248 398.2810 397.1426
+             S9      S10
+          <Rle>    <Rle>
+1      400.0295 402.5323
+2      398.1414 403.9171
+3      402.5404 399.4123
+4      398.8554 401.2427
+5      401.2386 400.6265
+...         ...      ...
+99996  402.0486 396.1418
+99997  397.1386 395.6856
+99998  394.0778 404.2652
+99999  399.1667 402.6338
+100000 408.6037 397.7378
+
+$position
+logical-Rle of length 100000 with 1 run
+  Lengths: 100000
+  Values :   TRUE
+
+Session info -----------------------------------------------------------------------------------------------------------
+ setting  value
+ version  R version 3.2.0 Patched (2015-05-18 r68382)
+ system   x86_64, darwin10.8.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ tz       America/New_York
+
+Packages ---------------------------------------------------------------------------------------------------------------
+ package           * version  date       source
+ acepack             1.3-3.3  2014-11-24 CRAN (R 3.2.0)
+ AnnotationDbi       1.30.1   2015-04-26 Bioconductor
+ Biobase             2.28.0   2015-04-17 Bioconductor
+ BiocGenerics      * 0.14.0   2015-04-17 Bioconductor
+ BiocParallel      * 1.2.9    2015-07-11 Bioconductor
+ biomaRt             2.24.0   2015-04-17 Bioconductor
+ Biostrings          2.36.1   2015-05-07 Bioconductor
+ bitops              1.0-6    2013-08-17 CRAN (R 3.2.0)
+ bumphunter          1.8.0    2015-04-17 Bioconductor
+ cluster             2.0.2    2015-06-19 CRAN (R 3.2.1)
+ codetools           0.2-11   2015-03-10 CRAN (R 3.2.0)
+ colorout          * 1.0-2    2015-05-19 local
+ colorspace          1.2-6    2015-03-11 CRAN (R 3.2.0)
+ curl                0.9.1    2015-07-04 CRAN (R 3.2.1)
+ DBI                 0.3.1    2014-09-24 CRAN (R 3.2.0)
+ derfinder         * 1.2.1    2015-06-16 Bioconductor
+ derfinderHelper     1.2.0    2015-04-17 Bioconductor
+ devtools          * 1.8.0    2015-05-09 CRAN (R 3.2.0)
+ digest              0.6.8    2014-12-31 CRAN (R 3.2.0)
+ doRNG               1.6      2014-03-07 CRAN (R 3.2.0)
+ foreach             1.4.2    2014-04-11 CRAN (R 3.2.0)
+ foreign             0.8-65   2015-07-02 CRAN (R 3.2.1)
+ Formula             1.2-1    2015-04-07 CRAN (R 3.2.0)
+ futile.logger       1.4.1    2015-04-20 CRAN (R 3.2.0)
+ futile.options      1.0.0    2010-04-06 CRAN (R 3.2.0)
+ GenomeInfoDb      * 1.4.1    2015-06-18 Bioconductor
+ GenomicAlignments   1.4.1    2015-04-24 Bioconductor
+ GenomicFeatures     1.20.1   2015-05-07 Bioconductor
+ GenomicFiles        1.4.0    2015-04-17 Bioconductor
+ GenomicRanges     * 1.20.5   2015-06-09 Bioconductor
+ getopt            * 1.20.0   2013-08-30 CRAN (R 3.2.0)
+ ggplot2             1.0.1    2015-03-17 CRAN (R 3.2.0)
+ git2r               0.10.1   2015-05-07 CRAN (R 3.2.0)
+ gridExtra           0.9.1    2012-08-09 CRAN (R 3.2.0)
+ gtable              0.1.2    2012-12-05 CRAN (R 3.2.0)
+ Hmisc               3.16-0   2015-04-30 CRAN (R 3.2.0)
+ IRanges           * 2.2.5    2015-06-28 Bioconductor
+ iterators           1.0.7    2014-04-11 CRAN (R 3.2.0)
+ lambda.r            1.1.7    2015-03-20 CRAN (R 3.2.0)
+ lattice             0.20-31  2015-03-30 CRAN (R 3.2.0)
+ latticeExtra        0.6-26   2013-08-15 CRAN (R 3.2.0)
+ locfit              1.5-9.1  2013-04-20 CRAN (R 3.2.0)
+ magrittr            1.5      2014-11-22 CRAN (R 3.2.0)
+ MASS                7.3-42   2015-07-02 CRAN (R 3.2.1)
+ Matrix              1.2-2    2015-07-08 CRAN (R 3.2.1)
+ matrixStats         0.14.2   2015-06-24 CRAN (R 3.2.1)
+ memoise             0.2.1    2014-04-22 CRAN (R 3.2.0)
+ munsell             0.4.2    2013-07-11 CRAN (R 3.2.0)
+ nnet                7.3-10   2015-06-29 CRAN (R 3.2.1)
+ pkgmaker            0.22     2014-05-14 CRAN (R 3.2.0)
+ plyr                1.8.3    2015-06-12 CRAN (R 3.2.1)
+ proto               0.3-10   2012-12-22 CRAN (R 3.2.0)
+ qvalue              2.0.0    2015-04-17 Bioconductor
+ RColorBrewer        1.1-2    2014-12-07 CRAN (R 3.2.0)
+ Rcpp                0.11.6   2015-05-01 CRAN (R 3.2.0)
+ RCurl               1.95-4.7 2015-06-30 CRAN (R 3.2.1)
+ registry            0.3      2015-07-08 CRAN (R 3.2.1)
+ reshape2            1.4.1    2014-12-06 CRAN (R 3.2.0)
+ rngtools            1.2.4    2014-03-06 CRAN (R 3.2.0)
+ rpart               4.1-10   2015-06-29 CRAN (R 3.2.1)
+ Rsamtools           1.20.4   2015-06-01 Bioconductor
+ RSQLite             1.0.0    2014-10-25 CRAN (R 3.2.0)
+ rtracklayer         1.28.6   2015-07-02 Bioconductor
+ rversions           1.0.2    2015-07-13 CRAN (R 3.2.1)
+ S4Vectors         * 0.6.1    2015-06-28 Bioconductor
+ scales              0.2.5    2015-06-12 CRAN (R 3.2.1)
+ snow                0.3-13   2013-09-27 CRAN (R 3.2.0)
+ stringi             0.5-5    2015-06-29 CRAN (R 3.2.1)
+ stringr             1.0.0    2015-04-30 CRAN (R 3.2.0)
+ survival            2.38-3   2015-07-02 CRAN (R 3.2.1)
+ XML                 3.98-1.3 2015-06-30 CRAN (R 3.2.0)
+ xml2                0.1.1    2015-06-02 CRAN (R 3.2.1)
+ xtable              1.7-4    2014-09-12 CRAN (R 3.2.0)
+ XVector             0.8.0    2015-04-17 Bioconductor
+ zlibbioc            1.14.0   2015-04-17 Bioconductor
+   user  system elapsed
+ 10.642   0.388  25.336
+[1] "2015-07-14 14:59:12 EDT"
+
+
+$ Rscript SnowParam-memory-derfinder.R -p "snow" -m 2
+Loading required package: colorout
+Loading required package: methods
+Warning message:
+package ‘BiocParallel’ was built under R version 3.2.1
+Warning message:
+replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, as.vector, cbind, colnames,
+    do.call, duplicated, eval, evalq, Filter, Find, get, grep, grepl,
+    intersect, is.unsorted, lapply, Map, mapply, match, mget, order,
+    paste, pmax, pmax.int, pmin, pmin.int, Position, rank, rbind,
+    Reduce, rep.int, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unlist, unsplit
+
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Warning messages:
+1: package ‘GenomicRanges’ was built under R version 3.2.1
+2: package ‘BiocGenerics’ was built under R version 3.2.1
+3: package ‘S4Vectors’ was built under R version 3.2.1
+4: package ‘IRanges’ was built under R version 3.2.1
+5: package ‘GenomeInfoDb’ was built under R version 3.2.1
+22.9 Mb
+11.5 Mb
+class: SnowParam
+  bpjobname:BPJOB; bpworkers:2; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK
+2015-07-14 14:59:33 Filtering and saving the data with cutoff 80
+INFO [2015-07-14 14:59:34] loading futile.logger on workers
+############### LOG OUTPUT ###############
+Task: 1
+Node: 1
+Timestamp: 2015-07-14 14:59:47
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 12.075   0.341  12.489
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4065171 217.2    6861544 366.5  5684620 303.6
+Vcells 12303398  93.9   20658316 157.7 20637748 157.5
+Log messages:
+WARN [2015-07-14 14:59:42] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 14:59:45 Filtering chromosome chr1
+[2] 2015-07-14 14:59:45 filterData: normalizing coverage
+[3] 2015-07-14 14:59:45 filterData: done normalizing coverage
+[4] 2015-07-14 14:59:46 filterData: originally there were 100000 rows, now there are 100000 rows. Meaning that 0 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-14 14:59:48
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 12.087   0.336  12.491
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4065171 217.2    6861544 366.5  5684620 303.6
+Vcells 12303398  93.9   20658316 157.7 20637748 157.5
+Log messages:
+WARN [2015-07-14 14:59:43] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 14:59:46 Filtering chromosome chr2
+[2] 2015-07-14 14:59:46 filterData: normalizing coverage
+[3] 2015-07-14 14:59:46 filterData: done normalizing coverage
+[4] 2015-07-14 14:59:46 filterData: originally there were 100000 rows, now there are 100000 rows. Meaning that 0 percent was filtered.
+, , chr1
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4065524 217.2    6861544 366.5  5684620 303.6
+Vcells 13803560 105.4   20658316 157.7 20637748 157.5
+
+, , chr2
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4065524 217.2    6861544 366.5  5684620 303.6
+Vcells 13803560 105.4   20658316 157.7 20637748 157.5
+
+$coverage
+DataFrame with 100000 rows and 10 columns
+             S1       S2       S3       S4       S5       S6       S7       S8
+          <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>
+1      403.9297 401.8594 407.2884 398.8671 399.2005 399.9752 397.3815 401.5096
+2      391.0080 399.4816 403.0043 403.0454 406.2799 396.5977 398.0993 405.8985
+3      402.9991 399.8811 399.2584 395.7621 410.4592 396.6493 396.7342 398.4851
+4      399.2557 407.1322 402.6175 397.6689 404.0137 403.1660 397.8183 396.4396
+5      395.3604 401.4768 397.8098 403.9143 397.0418 401.3576 392.3739 404.0355
+...         ...      ...      ...      ...      ...      ...      ...      ...
+99996  395.5503 399.8810 399.3015 405.3436 398.5243 398.8091 401.7666 401.9049
+99997  410.1367 399.3556 401.1613 404.3569 400.1092 400.1999 400.8889 407.0320
+99998  396.3925 400.3737 399.2595 400.3410 393.9184 401.0393 399.4622 395.2234
+99999  396.5102 394.2740 398.2681 397.6517 400.6320 396.1116 396.0717 394.8096
+100000 407.3614 398.2705 395.6249 400.8592 397.5135 401.6248 398.2810 397.1426
+             S9      S10
+          <Rle>    <Rle>
+1      400.0295 402.5323
+2      398.1414 403.9171
+3      402.5404 399.4123
+4      398.8554 401.2427
+5      401.2386 400.6265
+...         ...      ...
+99996  402.0486 396.1418
+99997  397.1386 395.6856
+99998  394.0778 404.2652
+99999  399.1667 402.6338
+100000 408.6037 397.7378
+
+$position
+logical-Rle of length 100000 with 1 run
+  Lengths: 100000
+  Values :   TRUE
+
+Session info -----------------------------------------------------------------------------------------------------------
+ setting  value
+ version  R version 3.2.0 Patched (2015-05-18 r68382)
+ system   x86_64, darwin10.8.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ tz       America/New_York
+
+Packages ---------------------------------------------------------------------------------------------------------------
+ package              * version     date       source
+ acepack                1.3-3.3     2014-11-24 CRAN (R 3.2.0)
+ AnnotationDbi          1.31.17     2015-06-18 Bioconductor
+ Biobase                2.29.1      2015-05-03 Bioconductor
+ BiocGenerics         * 0.15.3      2015-06-30 Bioconductor
+ BiocParallel         * 1.3.34      2015-07-10 Bioconductor
+ biomaRt                2.25.1      2015-04-21 Bioconductor
+ Biostrings             2.37.2      2015-05-07 Bioconductor
+ bitops                 1.0-6       2013-08-17 CRAN (R 3.2.0)
+ bumphunter             1.9.1       2015-05-05 Bioconductor
+ cluster                2.0.2       2015-06-19 CRAN (R 3.2.1)
+ codetools              0.2-11      2015-03-10 CRAN (R 3.2.0)
+ colorout             * 1.0-2       2015-05-19 local
+ colorspace             1.2-6       2015-03-11 CRAN (R 3.2.0)
+ curl                   0.9.1       2015-07-04 CRAN (R 3.2.1)
+ DBI                    0.3.1       2014-09-24 CRAN (R 3.2.0)
+ derfinder            * 1.3.3       2015-06-15 Bioconductor
+ derfinderHelper        1.3.1       2015-06-20 Bioconductor
+ devtools             * 1.8.0       2015-05-09 CRAN (R 3.2.0)
+ digest                 0.6.8       2014-12-31 CRAN (R 3.2.0)
+ doRNG                  1.6         2014-03-07 CRAN (R 3.2.0)
+ foreach                1.4.2       2014-04-11 CRAN (R 3.2.0)
+ foreign                0.8-65      2015-07-02 CRAN (R 3.2.1)
+ Formula                1.2-1       2015-04-07 CRAN (R 3.2.0)
+ futile.logger          1.4.1       2015-04-20 CRAN (R 3.2.0)
+ futile.options         1.0.0       2010-04-06 CRAN (R 3.2.0)
+ GenomeInfoDb         * 1.5.8       2015-06-17 Bioconductor
+ GenomicAlignments      1.5.11      2015-06-30 Bioconductor
+ GenomicFeatures        1.21.13     2015-06-09 Bioconductor
+ GenomicFiles           1.5.4       2015-07-03 Bioconductor
+ GenomicRanges        * 1.21.16     2015-06-30 Bioconductor
+ getopt               * 1.20.0      2013-08-30 CRAN (R 3.2.0)
+ ggplot2                1.0.1.9000  2015-06-12 Github (hadley/ggplot2@3b6a126)
+ git2r                  0.10.1.9000 2015-07-14 Github (ropensci/git2r@94831de)
+ gridExtra              0.9.1       2012-08-09 CRAN (R 3.2.0)
+ gtable                 0.1.2       2012-12-05 CRAN (R 3.2.0)
+ Hmisc                  3.16-0      2015-04-30 CRAN (R 3.2.0)
+ IRanges              * 2.3.14      2015-07-03 Bioconductor
+ iterators              1.0.7       2014-04-11 CRAN (R 3.2.0)
+ lambda.r               1.1.7       2015-03-20 CRAN (R 3.2.0)
+ lattice                0.20-31     2015-03-30 CRAN (R 3.2.0)
+ latticeExtra           0.6-26      2013-08-15 CRAN (R 3.2.0)
+ locfit                 1.5-9.1     2013-04-20 CRAN (R 3.2.0)
+ magrittr               1.5         2014-11-22 CRAN (R 3.2.0)
+ MASS                   7.3-42      2015-07-02 CRAN (R 3.2.1)
+ Matrix                 1.2-2       2015-07-08 CRAN (R 3.2.1)
+ matrixStats            0.14.2      2015-06-24 CRAN (R 3.2.1)
+ memoise                0.2.1       2014-04-22 CRAN (R 3.2.0)
+ munsell                0.4.2       2013-07-11 CRAN (R 3.2.0)
+ nnet                   7.3-10      2015-06-29 CRAN (R 3.2.1)
+ pkgmaker               0.22        2014-05-14 CRAN (R 3.2.0)
+ plyr                   1.8.3       2015-06-12 CRAN (R 3.2.0)
+ proto                  0.3-10      2012-12-22 CRAN (R 3.2.0)
+ qvalue                 2.1.0       2015-04-17 Bioconductor
+ RColorBrewer           1.1-2       2014-12-07 CRAN (R 3.2.0)
+ Rcpp                   0.11.6      2015-05-01 CRAN (R 3.2.0)
+ RCurl                  1.95-4.7    2015-06-30 CRAN (R 3.2.1)
+ registry               0.3         2015-07-08 CRAN (R 3.2.1)
+ reshape2               1.4.1       2014-12-06 CRAN (R 3.2.0)
+ rngtools               1.2.4       2014-03-06 CRAN (R 3.2.0)
+ rpart                  4.1-10      2015-06-29 CRAN (R 3.2.1)
+ Rsamtools              1.21.13     2015-07-09 Bioconductor
+ RSQLite                1.0.0       2014-10-25 CRAN (R 3.2.0)
+ rtracklayer            1.29.12     2015-07-03 Bioconductor
+ rversions              1.0.2       2015-07-13 CRAN (R 3.2.1)
+ S4Vectors            * 0.7.10      2015-07-03 Bioconductor
+ scales                 0.2.5       2015-06-12 CRAN (R 3.2.0)
+ snow                   0.3-13      2013-09-27 CRAN (R 3.2.0)
+ stringi                0.5-5       2015-06-29 CRAN (R 3.2.1)
+ stringr                1.0.0       2015-04-30 CRAN (R 3.2.0)
+ SummarizedExperiment   0.3.2       2015-07-03 Bioconductor
+ survival               2.38-3      2015-07-02 CRAN (R 3.2.1)
+ XML                    3.98-1.3    2015-06-30 CRAN (R 3.2.0)
+ xml2                   0.1.1       2015-06-02 CRAN (R 3.2.0)
+ xtable                 1.7-4       2014-09-12 CRAN (R 3.2.0)
+ XVector                0.9.1       2015-04-30 Bioconductor
+ zlibbioc               1.15.0      2015-04-17 Bioconductor
+   user  system elapsed
+ 11.683   0.388  26.779
+[1] "2015-07-14 14:59:49 EDT"
+
+
+$ Rscript SnowParam-memory-derfinder.R -p "snow" -m 10
+Loading required package: colorout
+Loading required package: methods
+Warning message:
+package ‘BiocParallel’ was built under R version 3.2.1
+Warning message:
+replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, as.vector, cbind, colnames,
+    do.call, duplicated, eval, evalq, Filter, Find, get, grep, grepl,
+    intersect, is.unsorted, lapply, Map, mapply, match, mget, order,
+    paste, pmax, pmax.int, pmin, pmin.int, Position, rank, rbind,
+    Reduce, rep.int, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unlist, unsplit
+
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Warning messages:
+1: package ‘GenomicRanges’ was built under R version 3.2.1
+2: package ‘BiocGenerics’ was built under R version 3.2.1
+3: package ‘S4Vectors’ was built under R version 3.2.1
+4: package ‘IRanges’ was built under R version 3.2.1
+5: package ‘GenomeInfoDb’ was built under R version 3.2.1
+114.6 Mb
+11.5 Mb
+class: SnowParam
+  bpjobname:BPJOB; bpworkers:10; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK
+2015-07-14 15:08:37 Filtering and saving the data with cutoff 80
+INFO [2015-07-14 15:08:41] loading futile.logger on workers
+############### LOG OUTPUT ###############
+Task: 1
+Node: 1
+Timestamp: 2015-07-14 15:09:40
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 16.755   0.608  28.043
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74404777 567.7
+Log messages:
+WARN [2015-07-14 15:08:56] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:04 Filtering chromosome chr1
+[2] 2015-07-14 15:09:04 filterData: normalizing coverage
+[3] 2015-07-14 15:09:05 filterData: done normalizing coverage
+[4] 2015-07-14 15:09:06 filterData: originally there were 100000 rows, now there are 99913 rows. Meaning that 0.0900000000000034 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-14 15:09:40
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 17.648   0.622  34.190
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74402045 567.7
+Log messages:
+WARN [2015-07-14 15:09:02] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:12 Filtering chromosome chr2
+[2] 2015-07-14 15:09:12 filterData: normalizing coverage
+[3] 2015-07-14 15:09:13 filterData: done normalizing coverage
+[4] 2015-07-14 15:09:14 filterData: originally there were 100000 rows, now there are 99922 rows. Meaning that 0.0799999999999983 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 3
+Node: 3
+Timestamp: 2015-07-14 15:09:40
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 18.005   0.642  40.533
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74409003 567.7
+Log messages:
+WARN [2015-07-14 15:09:10] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:21 Filtering chromosome chr3
+[2] 2015-07-14 15:09:21 filterData: normalizing coverage
+[3] 2015-07-14 15:09:22 filterData: done normalizing coverage
+[4] 2015-07-14 15:09:24 filterData: originally there were 100000 rows, now there are 99909 rows. Meaning that 0.0900000000000034 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 4
+Node: 4
+Timestamp: 2015-07-14 15:09:42
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 18.124   0.678  48.233
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74414113 567.8
+Log messages:
+WARN [2015-07-14 15:09:19] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:31 Filtering chromosome chr4
+[2] 2015-07-14 15:09:31 filterData: normalizing coverage
+[3] 2015-07-14 15:09:32 filterData: done normalizing coverage
+[4] 2015-07-14 15:09:34 filterData: originally there were 100000 rows, now there are 99905 rows. Meaning that 0.0900000000000034 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 5
+Node: 5
+Timestamp: 2015-07-14 15:09:48
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 18.021   0.621  49.857
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74411877 567.8
+Log messages:
+WARN [2015-07-14 15:09:28] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:41 Filtering chromosome chr5
+[2] 2015-07-14 15:09:41 filterData: normalizing coverage
+[3] 2015-07-14 15:09:41 filterData: done normalizing coverage
+[4] 2015-07-14 15:09:43 filterData: originally there were 100000 rows, now there are 99909 rows. Meaning that 0.0900000000000034 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 6
+Node: 6
+Timestamp: 2015-07-14 15:09:54
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 17.985   0.646  49.610
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74407032 567.7
+Log messages:
+WARN [2015-07-14 15:09:38] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:48 Filtering chromosome chr6
+[2] 2015-07-14 15:09:48 filterData: normalizing coverage
+[3] 2015-07-14 15:09:48 filterData: done normalizing coverage
+[4] 2015-07-14 15:09:50 filterData: originally there were 100000 rows, now there are 99907 rows. Meaning that 0.0900000000000034 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 7
+Node: 7
+Timestamp: 2015-07-14 15:10:00
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 17.936   0.669  46.939
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74405288 567.7
+Log messages:
+WARN [2015-07-14 15:09:46] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:54 Filtering chromosome chr7
+[2] 2015-07-14 15:09:54 filterData: normalizing coverage
+[3] 2015-07-14 15:09:55 filterData: done normalizing coverage
+[4] 2015-07-14 15:09:56 filterData: originally there were 100000 rows, now there are 99902 rows. Meaning that 0.0999999999999943 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 8
+Node: 8
+Timestamp: 2015-07-14 15:10:04
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 17.889   0.677  42.269
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74408570 567.7
+Log messages:
+WARN [2015-07-14 15:09:53] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:09:59 Filtering chromosome chr8
+[2] 2015-07-14 15:09:59 filterData: normalizing coverage
+[3] 2015-07-14 15:10:00 filterData: done normalizing coverage
+[4] 2015-07-14 15:10:01 filterData: originally there were 100000 rows, now there are 99899 rows. Meaning that 0.0999999999999943 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 9
+Node: 9
+Timestamp: 2015-07-14 15:10:07
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 17.656   0.663  36.994
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74405796 567.7
+Log messages:
+WARN [2015-07-14 15:09:58] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:10:03 Filtering chromosome chr9
+[2] 2015-07-14 15:10:03 filterData: normalizing coverage
+[3] 2015-07-14 15:10:04 filterData: done normalizing coverage
+[4] 2015-07-14 15:10:04 filterData: originally there were 100000 rows, now there are 99899 rows. Meaning that 0.0999999999999943 percent was filtered.
+############### LOG OUTPUT ###############
+Task: 10
+Node: 10
+Timestamp: 2015-07-14 15:10:10
+Success: TRUE
+Task duration:
+   user  system elapsed
+ 17.262   0.639  29.670
+Memory use (gc):
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4068639 217.3    6861544 366.5  5684620 303.6
+Vcells 48304902 368.6   79215736 604.4 74409907 567.8
+Log messages:
+WARN [2015-07-14 15:10:02] replacing previous import by ‘scales::alpha’ when loading ‘Hmisc’
+
+stderr and stdout:
+[1] 2015-07-14 15:10:07 Filtering chromosome chr10
+[2] 2015-07-14 15:10:07 filterData: normalizing coverage
+[3] 2015-07-14 15:10:07 filterData: done normalizing coverage
+[4] 2015-07-14 15:10:08 filterData: originally there were 100000 rows, now there are 99890 rows. Meaning that 0.109999999999999 percent was filtered.
+, , chr1
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803953 380.0   79215736 604.4 74404777 567.7
+
+, , chr2
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49804065 380.0   79215736 604.4 74402045 567.7
+
+, , chr3
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803901 380.0   79215736 604.4 74409003 567.7
+
+, , chr4
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803849 380.0   79215736 604.4 74414113 567.8
+
+, , chr5
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803901 380.0   79215736 604.4 74411877 567.8
+
+, , chr6
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803875 380.0   79215736 604.4 74407032 567.7
+
+, , chr7
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803805 380.0   79215736 604.4 74405288 567.7
+
+, , chr8
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803771 380.0   79215736 604.4 74408570 567.7
+
+, , chr9
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803769 380.0   79215736 604.4 74405796 567.7
+
+, , chr10
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  4069001 217.4    6861544 366.5  5684620 303.6
+Vcells 49803649 380.0   79215736 604.4 74409907 567.8
+
+$coverage
+DataFrame with 99913 rows and 10 columns
+            S1       S2       S3       S4       S5       S6       S7       S8
+         <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>    <Rle>
+1     80.78653 80.37479 81.45647 79.77241 79.84066 79.99931 79.47446 80.30054
+2     78.20217 79.89921 80.59965 80.60807 81.25655 79.32379 79.61802 81.17831
+3     80.60042 79.97910 79.85049 79.15141 82.09241 79.33410 79.34500 79.69565
+4     79.85172 81.42939 80.52229 79.53277 80.80331 80.63752 79.56182 79.28657
+5     79.07265 80.29826 79.56078 80.78184 79.40892 80.27581 78.47295 80.80571
+...        ...      ...      ...      ...      ...      ...      ...      ...
+99909 79.11063 79.97909 79.85911 81.06769 79.70542 79.76608 80.35146 80.37959
+99910 82.02795 79.87402 80.23107 80.87035 80.02239 80.04426 80.17593 81.40500
+99911 79.27908 80.07763 79.85071 80.06719 78.78424 80.21215 79.89059 79.04332
+99912 79.30261 78.85765 79.65243 79.52933 80.12696 79.22655 79.21250 78.96057
+99913 81.47288 79.65698 79.12379 80.17082 79.50326 80.32925 79.65435 79.42715
+            S9      S10
+         <Rle>    <Rle>
+1     80.00628 80.50486
+2     79.62868 80.78182
+3     80.50846 79.88086
+4     79.77147 80.24695
+5     80.24810 80.12370
+...        ...      ...
+99909 80.41011 79.22679
+99910 79.42811 79.13554
+99911 78.81595 80.85143
+99912 79.83372 80.52515
+99913 81.72114 79.54598
+
+$position
+logical-Rle of length 100000 with 175 runs
+  Lengths:   665     1  3717     1   523 ...   179     1   763     1  4036
+  Values :  TRUE FALSE  TRUE FALSE  TRUE ...  TRUE FALSE  TRUE FALSE  TRUE
+
+Session info -----------------------------------------------------------------------------------------------------------
+ setting  value
+ version  R version 3.2.0 Patched (2015-05-18 r68382)
+ system   x86_64, darwin10.8.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ tz       America/New_York
+
+Packages ---------------------------------------------------------------------------------------------------------------
+ package              * version     date       source
+ acepack                1.3-3.3     2014-11-24 CRAN (R 3.2.0)
+ AnnotationDbi          1.31.17     2015-06-18 Bioconductor
+ Biobase                2.29.1      2015-05-03 Bioconductor
+ BiocGenerics         * 0.15.3      2015-06-30 Bioconductor
+ BiocParallel         * 1.3.34      2015-07-10 Bioconductor
+ biomaRt                2.25.1      2015-04-21 Bioconductor
+ Biostrings             2.37.2      2015-05-07 Bioconductor
+ bitops                 1.0-6       2013-08-17 CRAN (R 3.2.0)
+ bumphunter             1.9.1       2015-05-05 Bioconductor
+ cluster                2.0.2       2015-06-19 CRAN (R 3.2.1)
+ codetools              0.2-11      2015-03-10 CRAN (R 3.2.0)
+ colorout             * 1.0-2       2015-05-19 local
+ colorspace             1.2-6       2015-03-11 CRAN (R 3.2.0)
+ curl                   0.9.1       2015-07-04 CRAN (R 3.2.1)
+ DBI                    0.3.1       2014-09-24 CRAN (R 3.2.0)
+ derfinder            * 1.3.3       2015-06-15 Bioconductor
+ derfinderHelper        1.3.1       2015-06-20 Bioconductor
+ devtools             * 1.8.0       2015-05-09 CRAN (R 3.2.0)
+ digest                 0.6.8       2014-12-31 CRAN (R 3.2.0)
+ doRNG                  1.6         2014-03-07 CRAN (R 3.2.0)
+ foreach                1.4.2       2014-04-11 CRAN (R 3.2.0)
+ foreign                0.8-65      2015-07-02 CRAN (R 3.2.1)
+ Formula                1.2-1       2015-04-07 CRAN (R 3.2.0)
+ futile.logger          1.4.1       2015-04-20 CRAN (R 3.2.0)
+ futile.options         1.0.0       2010-04-06 CRAN (R 3.2.0)
+ GenomeInfoDb         * 1.5.8       2015-06-17 Bioconductor
+ GenomicAlignments      1.5.11      2015-06-30 Bioconductor
+ GenomicFeatures        1.21.13     2015-06-09 Bioconductor
+ GenomicFiles           1.5.4       2015-07-03 Bioconductor
+ GenomicRanges        * 1.21.16     2015-06-30 Bioconductor
+ getopt               * 1.20.0      2013-08-30 CRAN (R 3.2.0)
+ ggplot2                1.0.1.9000  2015-06-12 Github (hadley/ggplot2@3b6a126)
+ git2r                  0.10.1.9000 2015-07-14 Github (ropensci/git2r@94831de)
+ gridExtra              0.9.1       2012-08-09 CRAN (R 3.2.0)
+ gtable                 0.1.2       2012-12-05 CRAN (R 3.2.0)
+ Hmisc                  3.16-0      2015-04-30 CRAN (R 3.2.0)
+ IRanges              * 2.3.14      2015-07-03 Bioconductor
+ iterators              1.0.7       2014-04-11 CRAN (R 3.2.0)
+ lambda.r               1.1.7       2015-03-20 CRAN (R 3.2.0)
+ lattice                0.20-31     2015-03-30 CRAN (R 3.2.0)
+ latticeExtra           0.6-26      2013-08-15 CRAN (R 3.2.0)
+ locfit                 1.5-9.1     2013-04-20 CRAN (R 3.2.0)
+ magrittr               1.5         2014-11-22 CRAN (R 3.2.0)
+ MASS                   7.3-42      2015-07-02 CRAN (R 3.2.1)
+ Matrix                 1.2-2       2015-07-08 CRAN (R 3.2.1)
+ matrixStats            0.14.2      2015-06-24 CRAN (R 3.2.1)
+ memoise                0.2.1       2014-04-22 CRAN (R 3.2.0)
+ munsell                0.4.2       2013-07-11 CRAN (R 3.2.0)
+ nnet                   7.3-10      2015-06-29 CRAN (R 3.2.1)
+ pkgmaker               0.22        2014-05-14 CRAN (R 3.2.0)
+ plyr                   1.8.3       2015-06-12 CRAN (R 3.2.0)
+ proto                  0.3-10      2012-12-22 CRAN (R 3.2.0)
+ qvalue                 2.1.0       2015-04-17 Bioconductor
+ RColorBrewer           1.1-2       2014-12-07 CRAN (R 3.2.0)
+ Rcpp                   0.11.6      2015-05-01 CRAN (R 3.2.0)
+ RCurl                  1.95-4.7    2015-06-30 CRAN (R 3.2.1)
+ registry               0.3         2015-07-08 CRAN (R 3.2.1)
+ reshape2               1.4.1       2014-12-06 CRAN (R 3.2.0)
+ rngtools               1.2.4       2014-03-06 CRAN (R 3.2.0)
+ rpart                  4.1-10      2015-06-29 CRAN (R 3.2.1)
+ Rsamtools              1.21.13     2015-07-09 Bioconductor
+ RSQLite                1.0.0       2014-10-25 CRAN (R 3.2.0)
+ rtracklayer            1.29.12     2015-07-03 Bioconductor
+ rversions              1.0.2       2015-07-13 CRAN (R 3.2.1)
+ S4Vectors            * 0.7.10      2015-07-03 Bioconductor
+ scales                 0.2.5       2015-06-12 CRAN (R 3.2.0)
+ snow                   0.3-13      2013-09-27 CRAN (R 3.2.0)
+ stringi                0.5-5       2015-06-29 CRAN (R 3.2.1)
+ stringr                1.0.0       2015-04-30 CRAN (R 3.2.0)
+ SummarizedExperiment   0.3.2       2015-07-03 Bioconductor
+ survival               2.38-3      2015-07-02 CRAN (R 3.2.1)
+ XML                    3.98-1.3    2015-06-30 CRAN (R 3.2.0)
+ xml2                   0.1.1       2015-06-02 CRAN (R 3.2.0)
+ xtable                 1.7-4       2014-09-12 CRAN (R 3.2.0)
+ XVector                0.9.1       2015-04-30 Bioconductor
+ zlibbioc               1.15.0      2015-04-17 Bioconductor
+   user  system elapsed
+ 25.367   2.849 106.842
+[1] "2015-07-14 15:10:11 EDT"
