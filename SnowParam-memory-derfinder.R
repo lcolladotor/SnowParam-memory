@@ -30,7 +30,7 @@ opt$cutoff <- 80
 ## Create some toy data
 n <- 1e5
 set.seed(20150710)
-fullCov <- lapply(1:10, function(x) {
+fullCov <- lapply(seq_len(opt$mcores), function(x) {
     DataFrame(
         S1 = Rle(rnorm(n, mean = 100)),
         S2 = Rle(rnorm(n, mean = 100)),
@@ -74,10 +74,10 @@ myFilt <- function(chr, rawData, cutoff, totalMapped = NULL, targetSize = 80e6, 
 	save(list = varname, file = output, compress='gzip')
 	
 	## Finish
-	return(invisible(NULL))
+	return(gc())
 }
 
-if(R.Version()$minor == '1.1') {
+if(R.Version()$minor %in% c('1.1', '1.2')) {
     if(opt$param == 'snow') {
         bp <- SnowParam(workers = opt$mcores,
             outfile = Sys.getenv('SGE_STDERR_PATH'))
@@ -104,6 +104,7 @@ bpparam()
 ## Still manually pass the param object
 message(paste(Sys.time(), 'Filtering and saving the data with cutoff', opt$cutoff))
 filteredCov <- bpmapply(myFilt, names(fullCov), fullCov, BPPARAM = bp, MoreArgs = list(cutoff = opt$cutoff, totalMapped = totalMapped, targetSize = targetSize, param = opt$param))
+filteredCov
 
 ## Check that it worked
 load(paste0(opt$param, paste(sapply(c('major', 'minor', 'year', 'month'), function(x) { R.Version()[[x]]}), collapse = '-'), '-chr1CovInfo.Rdata'))

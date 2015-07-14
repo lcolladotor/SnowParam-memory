@@ -40,9 +40,9 @@ print(object.size(mat.list), units = 'Mb')
 print(object.size(mat.list[[1]]), units = 'Mb')
 
 ## Some function to appy to the data
-projection <- function(x) { x <- as.matrix(x); diag(1, nrow = nrow(x), ncol = ncol(x)) - x %*% solve(t(x) %*% x) %*% t(x)}
+projection <- function(x) { x <- as.matrix(x); res = diag(1, nrow = nrow(x), ncol = ncol(x)) - x %*% solve(t(x) %*% x) %*% t(x); gc()}
 
-if(R.Version()$minor == '1.1') {
+if(R.Version()$minor %in% c('1.1', '1.2')) {
     if(opt$param == 'snow') {
         bp <- SnowParam(workers = opt$mcores,
             outfile = Sys.getenv('SGE_STDERR_PATH'))
@@ -69,6 +69,7 @@ register(bp, default = TRUE)
 bpparam()
 ## Still manually pass the param object
 result <- bplapply(mat.list, projection, BPPARAM = bp)
+result
 
 
 ## Session information and other info
