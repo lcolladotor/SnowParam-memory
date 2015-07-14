@@ -1,0 +1,149 @@
+**** Job starts ****
+Tue Jul 14 15:02:21 EDT 2015
+307.2 Mb
+30.7 Mb
+class: SnowParam 
+  bpjobname:BPJOB; bpworkers:10; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK 
+INFO [2015-07-14 15:02:37] loading futile.logger on workers
+   user  system elapsed 
+ 58.457   0.057  58.596 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447279  23.9
+Vcells 4429986 33.8   39473652 301.2 60526468 461.8
+character(0)
+   user  system elapsed 
+ 59.543   0.048  59.721 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+   user  system elapsed 
+ 63.233   0.057  63.438 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447288  23.9
+Vcells 4430985 33.9   39461670 301.1 60526477 461.8
+character(0)
+   user  system elapsed 
+ 59.706   0.053  59.847 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+   user  system elapsed 
+ 59.833   0.057  59.975 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+   user  system elapsed 
+ 59.685   0.060  59.836 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+   user  system elapsed 
+ 58.081   0.050  58.251 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+   user  system elapsed 
+ 59.476   0.049  59.646 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+   user  system elapsed 
+ 59.210   0.071  59.371 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+   user  system elapsed 
+ 60.617   0.100  60.862 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  321475 17.2     750400  40.1   447289  23.9
+Vcells 4430985 33.9   39461670 301.1 60526478 461.8
+character(0)
+$`1`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323614 17.3     750400  40.1   447279  23.9
+Vcells 12436072 94.9   49342065 376.5 60526468 461.8
+
+$`2`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323616 17.3     750400  40.1   447288  23.9
+Vcells 12437073 94.9   49327088 376.4 60526477 461.8
+
+$`3`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+$`4`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+$`5`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+$`6`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+$`7`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+$`8`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+$`9`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+$`10`
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   323617 17.3     750400  40.1   447289  23.9
+Vcells 12437074 94.9   49327088 376.4 60526478 461.8
+
+ setting  value                                      
+ version  R version 3.2.0 Patched (2015-04-29 r68274)
+ system   x86_64, linux-gnu                          
+ ui       X11                                        
+ language (EN)                                       
+ collate  en_US.UTF-8                                
+ tz       <NA>                                       
+
+ package        * version date       source        
+ BiocParallel   * 1.2.9   2015-07-11 Bioconductor  
+ curl             0.9.1   2015-07-04 CRAN (R 3.2.0)
+ devtools       * 1.8.0   2015-05-09 CRAN (R 3.2.0)
+ digest           0.6.8   2014-12-31 CRAN (R 3.2.0)
+ futile.logger    1.4.1   2015-04-20 CRAN (R 3.2.0)
+ futile.options   1.0.0   2010-04-06 CRAN (R 3.2.0)
+ getopt         * 1.20.0  2013-08-30 CRAN (R 3.2.0)
+ git2r            0.10.1  2015-05-07 CRAN (R 3.2.0)
+ lambda.r         1.1.7   2015-03-20 CRAN (R 3.2.0)
+ memoise          0.2.1   2014-04-22 CRAN (R 3.2.0)
+ Rcpp             0.11.6  2015-05-01 CRAN (R 3.2.0)
+ rversions        1.0.2   2015-07-13 CRAN (R 3.2.0)
+ snow             0.3-13  2013-09-27 CRAN (R 3.2.0)
+ xml2             0.1.1   2015-06-02 CRAN (R 3.2.0)
+   user  system elapsed 
+ 17.742   3.058 100.719 
+[1] "2015-07-14 15:04:02 EDT"
+**** Job ends ****
+Tue Jul 14 15:04:02 EDT 2015

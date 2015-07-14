@@ -1,0 +1,93 @@
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+Loading required package: methods
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, as.vector, cbind, colnames,
+    do.call, duplicated, eval, evalq, Filter, Find, get, intersect,
+    is.unsorted, lapply, Map, mapply, match, mget, order, paste, pmax,
+    pmax.int, pmin, pmin.int, Position, rank, rbind, Reduce, rep.int,
+    rownames, sapply, setdiff, sort, table, tapply, union, unique,
+    unlist, unsplit
+
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+2015-07-14 15:02:58 Filtering and saving the data with cutoff 80
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41877 on localhost:11903 at 15:02:59.332
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41887 on localhost:11903 at 15:02:59.808
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41897 on localhost:11903 at 15:03:00.324
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41907 on localhost:11903 at 15:03:00.743
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41917 on localhost:11903 at 15:03:01.272
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41927 on localhost:11903 at 15:03:01.708
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41937 on localhost:11903 at 15:03:02.080
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41947 on localhost:11903 at 15:03:02.430
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41957 on localhost:11903 at 15:03:02.785
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.1.x
+starting worker pid=41967 on localhost:11903 at 15:03:03.207
+2015-07-14 15:03:27 Filtering chromosome chr1
+2015-07-14 15:03:27 filterData: normalizing coverage
+2015-07-14 15:03:28 filterData: done normalizing coverage
+2015-07-14 15:03:30 Filtering chromosome chr3
+2015-07-14 15:03:30 filterData: normalizing coverage
+2015-07-14 15:03:30 Filtering chromosome chr2
+2015-07-14 15:03:30 filterData: normalizing coverage
+2015-07-14 15:03:30 filterData: originally there were 100000 rows, now there are 99913 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 15:03:31 filterData: done normalizing coverage
+2015-07-14 15:03:31 filterData: done normalizing coverage
+2015-07-14 15:03:33 filterData: originally there were 100000 rows, now there are 99909 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 15:03:33 Filtering chromosome chr4
+2015-07-14 15:03:33 filterData: normalizing coverage
+2015-07-14 15:03:33 filterData: originally there were 100000 rows, now there are 99922 rows. Meaning that 0.0799999999999983 percent was filtered.
+2015-07-14 15:03:34 filterData: done normalizing coverage
+2015-07-14 15:03:35 Filtering chromosome chr5
+2015-07-14 15:03:35 filterData: normalizing coverage
+2015-07-14 15:03:36 filterData: originally there were 100000 rows, now there are 99905 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 15:03:36 filterData: done normalizing coverage
+2015-07-14 15:03:36 Filtering chromosome chr6
+2015-07-14 15:03:36 filterData: normalizing coverage
+2015-07-14 15:03:37 filterData: done normalizing coverage
+2015-07-14 15:03:37 Filtering chromosome chr7
+2015-07-14 15:03:37 filterData: normalizing coverage
+2015-07-14 15:03:38 filterData: originally there were 100000 rows, now there are 99909 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 15:03:38 filterData: done normalizing coverage
+2015-07-14 15:03:38 filterData: originally there were 100000 rows, now there are 99907 rows. Meaning that 0.0900000000000034 percent was filtered.
+2015-07-14 15:03:39 Filtering chromosome chr8
+2015-07-14 15:03:40 filterData: normalizing coverage
+2015-07-14 15:03:40 filterData: originally there were 100000 rows, now there are 99902 rows. Meaning that 0.0999999999999943 percent was filtered.
+2015-07-14 15:03:40 filterData: done normalizing coverage
+2015-07-14 15:03:41 Filtering chromosome chr9
+2015-07-14 15:03:41 Filtering chromosome chr10
+2015-07-14 15:03:41 filterData: normalizing coverage
+2015-07-14 15:03:41 filterData: normalizing coverage
+2015-07-14 15:03:42 filterData: done normalizing coverage
+2015-07-14 15:03:42 filterData: done normalizing coverage
+2015-07-14 15:03:42 filterData: originally there were 100000 rows, now there are 99899 rows. Meaning that 0.0999999999999943 percent was filtered.
+2015-07-14 15:03:43 filterData: originally there were 100000 rows, now there are 99890 rows. Meaning that 0.109999999999999 percent was filtered.
+2015-07-14 15:03:43 filterData: originally there were 100000 rows, now there are 99899 rows. Meaning that 0.0999999999999943 percent was filtered.
+Session info -----------------------------------------------------------------------------------------------------------
+Packages ---------------------------------------------------------------------------------------------------------------

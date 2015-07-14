@@ -1,0 +1,84 @@
+**** Job starts ****
+Tue Jul 14 15:02:21 EDT 2015
+307.2 Mb
+30.7 Mb
+class: SerialParam 
+  bplog:TRUE; bpthreshold:INFO
+INFO [2015-07-14 15:02:29] loading futile.logger package
+$`1`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447663  24.0     750400  40.1   750400  40.1
+Vcells 48566148 370.6   96859008 739.0 96859002 739.0
+
+$`2`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447680  24.0     750400  40.1   750400  40.1
+Vcells 48566187 370.6   96859008 739.0 96859002 739.0
+
+$`3`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447688  24.0     750400  40.1   750400  40.1
+Vcells 48566217 370.6   96859008 739.0 96859002 739.0
+
+$`4`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447695  24.0     750400  40.1   750400  40.1
+Vcells 48566246 370.6   96859008 739.0 96859002 739.0
+
+$`5`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447702  24.0     750400  40.1   750400  40.1
+Vcells 48566275 370.6   96859008 739.0 96859002 739.0
+
+$`6`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447709  24.0     750400  40.1   750400  40.1
+Vcells 48566304 370.6   96859008 739.0 96859002 739.0
+
+$`7`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447716  24.0     750400  40.1   750400  40.1
+Vcells 48566333 370.6   96859008 739.0 96859002 739.0
+
+$`8`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447723  24.0     750400  40.1   750400  40.1
+Vcells 48566362 370.6   96859008 739.0 96859002 739.0
+
+$`9`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447730  24.0     750400  40.1   750400  40.1
+Vcells 48566391 370.6   96859008 739.0 96859002 739.0
+
+$`10`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   447737  24.0     750400  40.1   750400  40.1
+Vcells 48566420 370.6   96859008 739.0 96859002 739.0
+
+ setting  value                                      
+ version  R version 3.2.1 Patched (2015-07-12 r68650)
+ system   x86_64, linux-gnu                          
+ ui       X11                                        
+ language (EN)                                       
+ collate  en_US.UTF-8                                
+ tz       <NA>                                       
+
+ package        * version date       source        
+ BiocParallel   * 1.3.34  2015-07-11 Bioconductor  
+ curl             0.9.1   2015-07-04 CRAN (R 3.2.1)
+ devtools       * 1.8.0   2015-05-09 CRAN (R 3.2.0)
+ digest           0.6.8   2014-12-31 CRAN (R 3.2.0)
+ futile.logger  * 1.4.1   2015-04-20 CRAN (R 3.2.0)
+ futile.options   1.0.0   2010-04-06 CRAN (R 3.2.0)
+ getopt         * 1.20.0  2013-08-30 CRAN (R 3.2.0)
+ git2r            0.10.1  2015-05-07 CRAN (R 3.2.0)
+ lambda.r         1.1.7   2015-03-20 CRAN (R 3.2.0)
+ memoise          0.2.1   2014-04-22 CRAN (R 3.2.0)
+ Rcpp             0.11.6  2015-05-01 CRAN (R 3.2.0)
+ rversions        1.0.2   2015-07-13 CRAN (R 3.2.1)
+ xml2             0.1.1   2015-06-02 CRAN (R 3.2.0)
+   user  system elapsed 
+333.038   0.639 334.532 
+[1] "2015-07-14 15:07:55 EDT"
+**** Job ends ****
+Tue Jul 14 15:07:55 EDT 2015

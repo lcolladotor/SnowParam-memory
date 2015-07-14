@@ -1,0 +1,88 @@
+**** Job starts ****
+Tue Jul 14 15:02:21 EDT 2015
+307.2 Mb
+30.7 Mb
+class: SerialParam; bpisup: TRUE; bpworkers: 1; catch.errors: TRUE
+$`1`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479212  25.6     818163  43.7   818163  43.7
+Vcells 48657231 371.3   84885534 647.7 84885066 647.7
+
+$`2`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479244  25.6     818163  43.7   818163  43.7
+Vcells 48657296 371.3   84885534 647.7 84885066 647.7
+
+$`3`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479252  25.6     818163  43.7   818163  43.7
+Vcells 48657326 371.3   84885534 647.7 84885066 647.7
+
+$`4`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479259  25.6     818163  43.7   818163  43.7
+Vcells 48657355 371.3   84885534 647.7 84885066 647.7
+
+$`5`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479266  25.6     818163  43.7   818163  43.7
+Vcells 48657384 371.3   84885534 647.7 84885066 647.7
+
+$`6`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479273  25.6     818163  43.7   818163  43.7
+Vcells 48657413 371.3   84885534 647.7 84885066 647.7
+
+$`7`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479280  25.6     818163  43.7   818163  43.7
+Vcells 48657442 371.3   84885534 647.7 84885066 647.7
+
+$`8`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479287  25.6     818163  43.7   818163  43.7
+Vcells 48657471 371.3   84885534 647.7 84885066 647.7
+
+$`9`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479294  25.6     818163  43.7   818163  43.7
+Vcells 48657500 371.3   84885534 647.7 84885066 647.7
+
+$`10`
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells   479301  25.6     818163  43.7   818163  43.7
+Vcells 48657529 371.3   84885534 647.7 84885066 647.7
+
+ setting  value                                      
+ version  R version 3.1.1 Patched (2014-10-16 r66782)
+ system   x86_64, linux-gnu                          
+ ui       X11                                        
+ language (EN)                                       
+ collate  en_US.UTF-8                                
+ tz       <NA>                                       
+
+ package      * version date       source        
+ base64enc    * 0.1-2   2014-06-26 CRAN (R 3.1.0)
+ BatchJobs    * 1.5     2014-10-30 CRAN (R 3.1.1)
+ BBmisc       * 1.9     2015-02-03 CRAN (R 3.1.1)
+ BiocGenerics * 0.12.1  2014-11-15 Bioconductor  
+ BiocParallel   1.0.3   2015-02-09 Bioconductor  
+ brew         * 1.0-6   2011-04-13 CRAN (R 3.1.0)
+ checkmate    * 1.5.1   2014-12-14 CRAN (R 3.1.1)
+ codetools    * 0.2-9   2014-08-21 CRAN (R 3.1.1)
+ DBI          * 0.3.1   2014-09-24 CRAN (R 3.1.1)
+ devtools       1.7.0   2015-01-17 CRAN (R 3.1.1)
+ digest       * 0.6.8   2014-12-31 CRAN (R 3.1.1)
+ fail         * 1.2     2013-09-19 CRAN (R 3.1.0)
+ foreach      * 1.4.2   2014-04-11 CRAN (R 3.1.0)
+ getopt         1.20.0  2013-08-30 CRAN (R 3.1.1)
+ iterators    * 1.0.7   2014-04-11 CRAN (R 3.1.0)
+ RSQLite      * 1.0.0   2014-10-25 CRAN (R 3.1.1)
+ rstudioapi   * 0.2     2014-12-31 CRAN (R 3.1.1)
+ sendmailR    * 1.2-1   2014-09-21 CRAN (R 3.1.1)
+ stringr      * 0.6.2   2012-12-06 CRAN (R 3.1.0)
+   user  system elapsed 
+858.118   1.189 861.483 
+[1] "2015-07-14 15:16:42 EDT"
+**** Job ends ****
+Tue Jul 14 15:16:43 EDT 2015
