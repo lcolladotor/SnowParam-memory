@@ -1,0 +1,104 @@
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.2.x
+Loading required package: methods
+############### LOG OUTPUT ###############
+Task: 6
+Node: 6
+Timestamp: 2015-07-16 15:33:54
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 7
+Node: 7
+Timestamp: 2015-07-16 15:33:59
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 8
+Node: 8
+Timestamp: 2015-07-16 15:34:18
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 9
+Node: 9
+Timestamp: 2015-07-16 15:34:27
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 4
+Node: 4
+Timestamp: 2015-07-16 15:37:26
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 5
+Node: 5
+Timestamp: 2015-07-16 15:39:29
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 3
+Node: 3
+Timestamp: 2015-07-16 15:47:11
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-16 15:55:05
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 1
+Node: 1
+Timestamp: 2015-07-16 15:55:11
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 10
+Node: 10
+Timestamp: 2015-07-16 15:58:01
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+Session info -----------------------------------------------------------------------------------------------------------
+Packages ---------------------------------------------------------------------------------------------------------------

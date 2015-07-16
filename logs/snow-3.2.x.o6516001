@@ -1,0 +1,599 @@
+**** Job starts ****
+Thu Jul 16 15:10:11 EDT 2015
+3072.4 Mb
+30.7 Mb
+class: SnowParam 
+  bpjobname:BPJOB; bpworkers:10; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK 
+INFO [2015-07-16 15:11:55] loading futile.logger on workers
+   user  system elapsed 
+856.853   1.710 859.082 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+   user  system elapsed 
+841.259   0.031 841.467 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+   user  system elapsed 
+837.022   0.118 837.324 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+   user  system elapsed 
+914.099   0.098 915.222 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+    user   system  elapsed 
+1285.099    0.108 1285.823 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+    user   system  elapsed 
+1384.106    0.901 1387.092 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+    user   system  elapsed 
+1335.320    0.589 1336.951 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+    user   system  elapsed 
+1581.618    0.563 1582.548 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648097   34.7
+Vcells 40477843 308.9  117787417 898.7 485036041 3700.6
+character(0)
+    user   system  elapsed 
+1536.433    0.056 1537.949 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+    user   system  elapsed 
+1628.271    4.295 1634.250 
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells   341330  18.3     940480  50.3    648196   34.7
+Vcells 40478842 308.9  117843890 899.1 485036140 3700.6
+character(0)
+$`1`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343406  18.4     940480   50.3    648097   34.7
+Vcells 48483668 370.0  449323347 3428.1 485036041 3700.6
+
+$`2`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343415  18.4     940480   50.3    648097   34.7
+Vcells 48483699 370.0  359458677 2742.5 485036041 3700.6
+
+$`3`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648097   34.7
+Vcells 48483729 370.0  287566941 2194.0 485036041 3700.6
+
+$`4`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648097   34.7
+Vcells 48483758 370.0  230053552 1755.2 485036041 3700.6
+
+$`5`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648097   34.7
+Vcells 48483787 370.0  184042841 1404.2 485036041 3700.6
+
+$`6`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648097   34.7
+Vcells 48483816 370.0  147234272 1123.4 485036041 3700.6
+
+$`7`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648097   34.7
+Vcells 48483845 370.0  147234272 1123.4 485036041 3700.6
+
+$`8`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648097   34.7
+Vcells 48483874 370.0  147234272 1123.4 485036041 3700.6
+
+$`9`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648097   34.7
+Vcells 48483903 370.0  147234272 1123.4 485036041 3700.6
+
+$`10`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648097   34.7
+Vcells 48483932 370.0  147234272 1123.4 485036041 3700.6
+
+$`11`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`12`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`13`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`14`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`15`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`16`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`17`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`18`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`19`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`20`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`21`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`22`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`23`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`24`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`25`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`26`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`27`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`28`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`29`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`30`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`31`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`32`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`33`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`34`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`35`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343436  18.4     940480   50.3    648196   34.7
+Vcells 48484785 370.0  184131079 1404.9 485036140 3700.6
+
+$`36`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`37`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`38`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`39`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`40`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`41`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`42`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`43`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`44`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`45`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`46`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`47`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`48`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`49`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`50`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`51`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`52`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`53`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`54`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`55`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`56`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`57`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`58`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`59`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`60`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`61`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`62`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`63`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`64`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`65`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`66`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`67`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`68`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`69`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`70`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`71`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`72`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`73`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`74`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`75`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`76`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`77`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`78`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`79`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`80`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`81`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`82`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`83`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`84`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`85`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`86`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`87`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`88`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`89`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`90`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+$`91`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343409  18.4     940480   50.3    648196   34.7
+Vcells 48484670 370.0  449538770 3429.8 485036140 3700.6
+
+$`92`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343416  18.4     940480   50.3    648196   34.7
+Vcells 48484699 370.0  359631016 2743.8 485036140 3700.6
+
+$`93`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343423  18.4     940480   50.3    648196   34.7
+Vcells 48484728 370.0  287704812 2195.1 485036140 3700.6
+
+$`94`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343430  18.4     940480   50.3    648196   34.7
+Vcells 48484757 370.0  230163849 1756.1 485036140 3700.6
+
+$`95`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343437  18.4     940480   50.3    648196   34.7
+Vcells 48484786 370.0  184131079 1404.9 485036140 3700.6
+
+$`96`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343444  18.4     940480   50.3    648196   34.7
+Vcells 48484815 370.0  147304863 1123.9 485036140 3700.6
+
+$`97`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343451  18.4     940480   50.3    648196   34.7
+Vcells 48484844 370.0  147304863 1123.9 485036140 3700.6
+
+$`98`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343458  18.4     940480   50.3    648196   34.7
+Vcells 48484873 370.0  147304863 1123.9 485036140 3700.6
+
+$`99`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343465  18.4     940480   50.3    648196   34.7
+Vcells 48484902 370.0  147304863 1123.9 485036140 3700.6
+
+$`100`
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   343472  18.4     940480   50.3    648196   34.7
+Vcells 48484931 370.0  147304863 1123.9 485036140 3700.6
+
+ setting  value                                      
+ version  R version 3.2.1 Patched (2015-07-16 r68670)
+ system   x86_64, linux-gnu                          
+ ui       X11                                        
+ language (EN)                                       
+ collate  en_US.UTF-8                                
+ tz       <NA>                                       
+
+ package        * version date       source        
+ BiocParallel   * 1.3.34  2015-07-11 Bioconductor  
+ curl             0.9.1   2015-07-04 CRAN (R 3.2.1)
+ devtools       * 1.8.0   2015-05-09 CRAN (R 3.2.0)
+ digest           0.6.8   2014-12-31 CRAN (R 3.2.0)
+ futile.logger    1.4.1   2015-04-20 CRAN (R 3.2.0)
+ futile.options   1.0.0   2010-04-06 CRAN (R 3.2.0)
+ getopt         * 1.20.0  2013-08-30 CRAN (R 3.2.0)
+ git2r            0.10.1  2015-05-07 CRAN (R 3.2.0)
+ lambda.r         1.1.7   2015-03-20 CRAN (R 3.2.0)
+ memoise          0.2.1   2014-04-22 CRAN (R 3.2.0)
+ Rcpp             0.11.6  2015-05-01 CRAN (R 3.2.0)
+ rversions        1.0.2   2015-07-13 CRAN (R 3.2.1)
+ snow             0.3-13  2013-09-27 CRAN (R 3.2.0)
+ xml2             0.1.1   2015-06-02 CRAN (R 3.2.0)
+    user   system  elapsed 
+ 188.395   46.292 1781.867 
+[1] "2015-07-16 15:39:53 EDT"
+**** Job ends ****
+Thu Jul 16 15:39:54 EDT 2015

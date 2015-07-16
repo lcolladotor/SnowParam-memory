@@ -1,0 +1,103 @@
+Loading required package: methods
+############### LOG OUTPUT ###############
+Task: 8
+Node: 8
+Timestamp: 2015-07-16 15:33:12
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 1
+Node: 1
+Timestamp: 2015-07-16 15:36:54
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-16 15:45:53
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 3
+Node: 3
+Timestamp: 2015-07-16 15:56:17
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 10
+Node: 10
+Timestamp: 2015-07-16 15:58:55
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 4
+Node: 4
+Timestamp: 2015-07-16 15:59:52
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 6
+Node: 6
+Timestamp: 2015-07-16 16:02:30
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 7
+Node: 7
+Timestamp: 2015-07-16 16:03:18
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 9
+Node: 9
+Timestamp: 2015-07-16 16:05:42
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 5
+Node: 5
+Timestamp: 2015-07-16 16:08:53
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+Session info -----------------------------------------------------------------------------------------------------------
+Packages ---------------------------------------------------------------------------------------------------------------
