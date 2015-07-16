@@ -31,7 +31,7 @@ opt$cutoff <- 80
 n <- 1e5
 m <- 10
 set.seed(20150710)
-fullCov <- lapply(seq_len(opt$mcores) * m, function(x) {
+fullCov <- lapply(seq_len(opt$mcores * m), function(x) {
     DataFrame(
         S1 = Rle(rnorm(n, mean = 100)),
         S2 = Rle(rnorm(n, mean = 100)),
