@@ -18,7 +18,7 @@ do
 #!/bin/bash
 #$ -cwd
 #$ -m e
-#$ -l mem_free=1G,h_vmem=3G,h_fsize=5G
+#$ -l mem_free=10G,h_vmem=30G,h_fsize=5G
 #$ -N ${SHORT}
 #$ -pe local ${CORES}
 
