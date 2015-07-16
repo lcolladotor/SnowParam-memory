@@ -26,7 +26,7 @@ EOF
 
 echo "Submitting log memory job"
 qsub .logMemory.sh
-sleep 120
+sleep 60
 
 sh SnowParam-memory.sh
 sh SnowParam-memory-derfinder.sh
