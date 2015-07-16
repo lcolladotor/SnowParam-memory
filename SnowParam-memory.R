@@ -26,11 +26,12 @@ stopifnot(opt$param %in% c('snow', 'multicore', 'serial'))
 
 ## Create some toy data
 n <- 2000
+m <- 10
 set.seed(20150709)
-mat <- data.frame(matrix(rnorm(n^2 * opt$mcores), ncol = n, nrow = n * opt$mcores))
+mat <- data.frame(matrix(rnorm(n^2 * opt$mcores * m), ncol = n, nrow = n * opt$mcores * m))
 
 ## Stored in data.frame so split() would work nicely
-mat.list <- split(mat, rep(seq_len(opt$mcores), each = n))
+mat.list <- split(mat, rep(seq_len(opt$mcores * m), each = n))
 rm(mat)
 
 ## How large is the data?
