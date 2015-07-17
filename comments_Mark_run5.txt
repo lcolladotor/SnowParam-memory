@@ -1,0 +1,46 @@
+Here were the 4 jobs I followed:
+
+6515995 0.52948 snow-3.1.x lcollado     r     07/16/2015 15:10:10
+shared.q@compute-057.cm.cluste    10
+6515996 0.52948 multicore- lcollado     r     07/16/2015 15:10:10
+shared.q@compute-069.cm.cluste    10
+
+6516001 0.52948 snow-3.2.x lcollado     r     07/16/2015 15:10:10
+shared.q@compute-053.cm.cluste    10
+6516002 0.52948 multicore- lcollado     r     07/16/2015 15:10:10
+shared.q@compute-050.cm.cluste    10
+
+From the system side, there were wildly different numbers...
+
+For Snow 3.1, there were 10 R processes, each reporting 0.48 GB of RAM
+(that's half a GB), and one R process using 6.1GB
+
+For Mulicore 3.1 there were 10 R processes, each reporting 4.1GB of RAM,
+and one R process using 6.1GB
+
+For Snow 3.2, there were 10 R processes, each reporting 3.4 GB of RAM, and
+one R process using 6.1GB
+For Mulicore 3.2 there were 10 R processes, each reporting 6.6 GB of RAM,
+and one R process using 6.1GB
+
+
+
+
+
+I checked the system "shared memory" with the "ipcs" command, and none of
+the system were using the Linux Shared Memory... so it must be implemented
+in another way...
+
+I'm really curious why the Snow 3.1 used so much less memroy.  It also
+took a lot, lot longer to run... and is still running.
+
+The maxvmem numbers pretty closely reflect what I was seeing
+
+For Snow 3.1,-  11.6GB
+For Mulicore 3.1 - 71.390G (when I watched this, the R processes were
+using only 4.1GB, but must have jumped up to 6GB at some point)
+For Snow 3.2, - 42.980G
+For Mulicore 3.2 - 75.322G
+
+So, I guess in summary, my observations on the system seem to reflect what
+the cluster is reporting back for memory usage of each process.
