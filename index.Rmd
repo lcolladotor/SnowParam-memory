@@ -102,5 +102,93 @@ In this example, the memory mean fold change when using `SnowParam()` between R 
 As shown in the [compare view](https://github.com/lcolladotor/derfinder/compare/bioc3.0...master) nothing changed in [filterData()](https://github.com/lcolladotor/derfinder/blob/master/R/filterData.R) between R 3.1.x and 3.2.x.
 
 
+## Longer tests
+
+In the branch [longerTest](https://github.com/lcolladotor/SnowParam-memory/tree/longerTest), I made it so both examples had 10 times more data while still using 10 cores.
+
+This longer test was motivated by the observed difference in memory use between MulticoreParam() and SnowParam(). I've been told before that the memory use should be similar if not lower for MulticoreParam() given that objects are shared between the parent and child processes. In order to inspect the jobs, the cluster admin required longer jobs because the other ones were too quick. 
+
+I also took advantage of this longer test to record more detailed information about the memory used at a given time by the jobs instead of just the maximum used memory recorded in the emails. I believe that this is the best I can do to answer Valerie's second point from [this email](https://stat.ethz.ch/pipermail/bioc-devel/2015-July/007801.html).
+
+```{r 'memLog', bootstrap.show.code = FALSE}
+## Process memory log info
+#raw <- readLines('logs/testLog.txt')
+raw <- readLines('logs/logMemory.txt')
+
+clean_mem <- function(m) {
+    if(m == "N/A") res <- NA
+    if(grepl('M', m)) res <- as.numeric(gsub('M', '', m)) / 1024
+    if(grepl('G', m)) res <- as.numeric(gsub('G', '', m))
+    return(res)
+}
+
+clean_time <- function(time) {
+    clean <- strsplit(time, ':')[[1]]
+    sum(as.integer(rev(clean)) * 60^(seq_len(length(clean)) - 1))
+}
+
+loginfo <- lapply(strsplit(raw[!grepl('logMemory', raw)], '\t'), function(x) { 
+    clean <- unlist(strsplit(x, ','))
+    clean <- gsub(' ', '', clean)
+    info <- sapply(strsplit(clean, '='), function(z) { z[length(z)]})
+    der <- grepl('der-', info[7])
+    if(der) info[7] <- gsub('der-', '', info[7])
+    res <- data.frame(
+        jobid = info[1],
+        node = info[3],
+        vmem = clean_mem(info[4]),
+        maxvmem = clean_mem(info[5]),
+        elapsed = clean_time(info[6]),
+        param = strsplit(info[7], '-')[[1]][1],
+        rversion = strsplit(info[7], '-')[[1]][2],
+        example = ifelse(der, 'derfinder', 'generic')
+    )
+})
+loginfo <- do.call(rbind, loginfo)
+loginfo$percentMem <- loginfo$vmem / loginfo$maxvmem * 100
+```
+
+The following 3 plots show the memory log results from every 2 second intervals for the generic example. The vmem used (first plot) is always lower than or equal to but not always equal to the maximum vmem used (second plot), hence why I plotted the percent of maximum vmem used (third plot).
+
+```{r 'genericMemPlot', bootstrap.show.code = FALSE, warning = FALSE}
+## Plots from memory logs for generic example
+ggplot(subset(loginfo, example == 'generic'), aes(y = vmem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('vmem used (in GB)')
+ggplot(subset(loginfo, example == 'generic'), aes(y = maxvmem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('Max vmem used (in GB)')
+ggplot(subset(loginfo, example == 'generic'), aes(y = percentMem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('Percent of max vmem used')
+```
+
+The data is a little bit hard to see in the previous plots because the serial runs took much longer than the parallel ones. The next three plots show the same data up to minute 55.
+
+In the vmem used plot (first one), we can see how the runs with MulticoreParam() have high yet short peaks at the beginning, and then reach similar levels to SnowParam(), and even lower than SnowParam() under R 3.1.x.
+
+In the maximum vmem plot (second one), the difference between SnowParam() and MulticoreParam() looks huge, as it does when looking at the memory reported in the email. But that comes from the early peak in MulticoreParam(). Also, in this plot, we can see the large increase after R 3.1.x in memory use when using SnowParam(). Note that this increase is also observed on the first plot and it's not a peak.
+
+The third plot shows that SnowParam() has the closest vmem usage to the maximum, regardless of the R version.
+
+```{r 'genericMemPlotTrunc', bootstrap.show.code = FALSE, warning = FALSE}
+## Plots from memory logs for generic example, truncated at minute 55
+ggplot(subset(loginfo, example == 'generic'), aes(y = vmem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('vmem used (in GB)') + xlim(c(0, 55))
+ggplot(subset(loginfo, example == 'generic'), aes(y = maxvmem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('Max vmem used (in GB)') + xlim(c(0, 55))
+ggplot(subset(loginfo, example == 'generic'), aes(y = percentMem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('Percent of max vmem used') + xlim(c(0, 55))
+```
+
+
+The next three plots show the results for the derfinder example. This example is much faster and didn't increase much in memory time after increasing the data by 10. However, the memory did increase, as expected.
+
+The vmem used plot (first plot) shows that the memory used increases in a step function. The number of steps doesn't match the number of cores used. Results from R 3.1.x are faster than the other R versions for SnowParam() and MulticoreParam().
+
+The maxvmem used (second plot) looks very similar to the first plot, if not identical. That is reflected on the third plot where nearly all the lines are at 100 percent except for SerialParam().
+
+
+
+
+```{r 'derMemPlot', bootstrap.show.code = FALSE, warning = FALSE}
+## Plots from memory logs for derfinder example
+ggplot(subset(loginfo, example == 'derfinder'), aes(y = vmem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('vmem used (in GB)')
+ggplot(subset(loginfo, example == 'derfinder'), aes(y = maxvmem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('Max vmem used (in GB)')
+ggplot(subset(loginfo, example == 'derfinder'), aes(y = percentMem, x = elapsed / 60, colour = param, shape = rversion)) + geom_line(aes(linetype=rversion)) + xlab('Time elapsed (in min)') + ylab('Percent of max vmem used')
+```
+
+
 This page was last updated at `r Sys.time()`.
 
