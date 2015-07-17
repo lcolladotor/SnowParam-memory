@@ -1,0 +1,1158 @@
+**** Job starts ****
+Thu Jul 16 19:27:12 EDT 2015
+1145.7 Mb
+11.5 Mb
+class: SnowParam 
+  bpjobname:BPJOB; bpworkers:10; bptasks:0; bptimeout:Inf; bpRNGseed:; bpisup:FALSE
+  bplog:TRUE; bpthreshold:INFO; bplogdir:NA
+  bpstopOnError:FALSE; bpprogressbar:FALSE
+  bpresultdir:NA
+cluster type: SOCK 
+INFO [2015-07-16 19:28:13] loading futile.logger on workers
+   user  system elapsed 
+ 23.592   0.156  24.150 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:28:49 Filtering chromosome chr1                                                                                  
+ [2] 2015-07-16 19:28:49 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:28:49 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:28:50 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:28:50 Filtering chromosome chr2                                                                                  
+ [6] 2015-07-16 19:28:50 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:28:50 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:28:51 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:28:51 Filtering chromosome chr3                                                                                  
+[10] 2015-07-16 19:28:51 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:28:51 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:28:52 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:28:52 Filtering chromosome chr4                                                                                  
+[14] 2015-07-16 19:28:52 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:28:52 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:28:53 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:28:53 Filtering chromosome chr5                                                                                  
+[18] 2015-07-16 19:28:53 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:28:53 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:28:54 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:28:54 Filtering chromosome chr6                                                                                  
+[22] 2015-07-16 19:28:54 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:28:55 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:28:55 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:28:55 Filtering chromosome chr7                                                                                  
+[26] 2015-07-16 19:28:55 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:28:56 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:28:56 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:28:56 Filtering chromosome chr8                                                                                  
+[30] 2015-07-16 19:28:56 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:28:57 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:28:57 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:28:57 Filtering chromosome chr9                                                                                  
+[34] 2015-07-16 19:28:57 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:28:58 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:28:58 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:28:59 Filtering chromosome chr10                                                                                 
+[38] 2015-07-16 19:28:59 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:28:59 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:28:59 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 25.483   0.153  25.795 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:29:17 Filtering chromosome chr11                                                                                 
+ [2] 2015-07-16 19:29:17 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:29:17 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:29:18 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:29:18 Filtering chromosome chr12                                                                                 
+ [6] 2015-07-16 19:29:18 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:29:19 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:29:19 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:29:19 Filtering chromosome chr13                                                                                 
+[10] 2015-07-16 19:29:19 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:29:20 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:29:20 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:29:20 Filtering chromosome chr14                                                                                 
+[14] 2015-07-16 19:29:20 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:29:21 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:29:21 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:29:21 Filtering chromosome chr15                                                                                 
+[18] 2015-07-16 19:29:21 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:29:22 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:29:22 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:29:23 Filtering chromosome chr16                                                                                 
+[22] 2015-07-16 19:29:23 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:29:23 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:29:23 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:29:24 Filtering chromosome chr17                                                                                 
+[26] 2015-07-16 19:29:24 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:29:24 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:29:24 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:29:25 Filtering chromosome chr18                                                                                 
+[30] 2015-07-16 19:29:25 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:29:25 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:29:25 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:29:26 Filtering chromosome chr19                                                                                 
+[34] 2015-07-16 19:29:26 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:29:26 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:29:26 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:29:27 Filtering chromosome chr20                                                                                 
+[38] 2015-07-16 19:29:27 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:29:27 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:29:28 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 24.806   0.149  25.112 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:29:39 Filtering chromosome chr21                                                                                 
+ [2] 2015-07-16 19:29:39 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:29:40 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:29:40 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:29:41 Filtering chromosome chr22                                                                                 
+ [6] 2015-07-16 19:29:41 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:29:41 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:29:41 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:29:42 Filtering chromosome chr23                                                                                 
+[10] 2015-07-16 19:29:42 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:29:42 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:29:42 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:29:43 Filtering chromosome chr24                                                                                 
+[14] 2015-07-16 19:29:43 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:29:43 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:29:44 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:29:44 Filtering chromosome chr25                                                                                 
+[18] 2015-07-16 19:29:44 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:29:44 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:29:45 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:29:45 Filtering chromosome chr26                                                                                 
+[22] 2015-07-16 19:29:45 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:29:45 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:29:46 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:29:46 Filtering chromosome chr27                                                                                 
+[26] 2015-07-16 19:29:46 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:29:46 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:29:47 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:29:47 Filtering chromosome chr28                                                                                 
+[30] 2015-07-16 19:29:47 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:29:48 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:29:48 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:29:48 Filtering chromosome chr29                                                                                 
+[34] 2015-07-16 19:29:48 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:29:49 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:29:49 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:29:49 Filtering chromosome chr30                                                                                 
+[38] 2015-07-16 19:29:49 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:29:50 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:29:50 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 30.689   0.181  31.153 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:30:09 Filtering chromosome chr31                                                                                 
+ [2] 2015-07-16 19:30:09 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:30:09 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:30:09 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:30:10 Filtering chromosome chr32                                                                                 
+ [6] 2015-07-16 19:30:10 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:30:11 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:30:11 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:30:12 Filtering chromosome chr33                                                                                 
+[10] 2015-07-16 19:30:12 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:30:12 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:30:13 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:30:13 Filtering chromosome chr34                                                                                 
+[14] 2015-07-16 19:30:13 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:30:14 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:30:14 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:30:15 Filtering chromosome chr35                                                                                 
+[18] 2015-07-16 19:30:15 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:30:15 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:30:16 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:30:16 Filtering chromosome chr36                                                                                 
+[22] 2015-07-16 19:30:16 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:30:17 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:30:17 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:30:18 Filtering chromosome chr37                                                                                 
+[26] 2015-07-16 19:30:18 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:30:18 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:30:19 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:30:19 Filtering chromosome chr38                                                                                 
+[30] 2015-07-16 19:30:19 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:30:20 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:30:20 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:30:21 Filtering chromosome chr39                                                                                 
+[34] 2015-07-16 19:30:21 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:30:21 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:30:22 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:30:22 Filtering chromosome chr40                                                                                 
+[38] 2015-07-16 19:30:22 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:30:23 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:30:23 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 32.017   0.177  32.410 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:30:32 Filtering chromosome chr41                                                                                 
+ [2] 2015-07-16 19:30:32 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:30:32 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:30:33 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:30:34 Filtering chromosome chr42                                                                                 
+ [6] 2015-07-16 19:30:34 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:30:34 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:30:34 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:30:35 Filtering chromosome chr43                                                                                 
+[10] 2015-07-16 19:30:35 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:30:35 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:30:36 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:30:37 Filtering chromosome chr44                                                                                 
+[14] 2015-07-16 19:30:37 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:30:37 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:30:37 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:30:38 Filtering chromosome chr45                                                                                 
+[18] 2015-07-16 19:30:38 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:30:38 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:30:39 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:30:40 Filtering chromosome chr46                                                                                 
+[22] 2015-07-16 19:30:40 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:30:40 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:30:40 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:30:41 Filtering chromosome chr47                                                                                 
+[26] 2015-07-16 19:30:41 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:30:42 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:30:42 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:30:43 Filtering chromosome chr48                                                                                 
+[30] 2015-07-16 19:30:43 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:30:43 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:30:44 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:30:44 Filtering chromosome chr49                                                                                 
+[34] 2015-07-16 19:30:44 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:30:45 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:30:45 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:30:46 Filtering chromosome chr50                                                                                 
+[38] 2015-07-16 19:30:46 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:30:46 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:30:47 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 33.071   0.178  33.464 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:30:54 Filtering chromosome chr51                                                                                 
+ [2] 2015-07-16 19:30:54 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:30:55 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:30:55 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:30:56 Filtering chromosome chr52                                                                                 
+ [6] 2015-07-16 19:30:56 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:30:56 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:30:57 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:30:58 Filtering chromosome chr53                                                                                 
+[10] 2015-07-16 19:30:58 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:30:58 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:30:58 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:30:59 Filtering chromosome chr54                                                                                 
+[14] 2015-07-16 19:30:59 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:31:00 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:31:00 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:31:01 Filtering chromosome chr55                                                                                 
+[18] 2015-07-16 19:31:01 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:31:01 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:31:02 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:31:02 Filtering chromosome chr56                                                                                 
+[22] 2015-07-16 19:31:02 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:31:03 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:31:03 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:31:04 Filtering chromosome chr57                                                                                 
+[26] 2015-07-16 19:31:04 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:31:04 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:31:05 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:31:06 Filtering chromosome chr58                                                                                 
+[30] 2015-07-16 19:31:06 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:31:06 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:31:06 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:31:07 Filtering chromosome chr59                                                                                 
+[34] 2015-07-16 19:31:07 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:31:08 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:31:08 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:31:09 Filtering chromosome chr60                                                                                 
+[38] 2015-07-16 19:31:09 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:31:09 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:31:10 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 32.124   0.171  32.592 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:31:16 Filtering chromosome chr61                                                                                 
+ [2] 2015-07-16 19:31:16 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:31:16 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:31:17 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:31:18 Filtering chromosome chr62                                                                                 
+ [6] 2015-07-16 19:31:18 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:31:18 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:31:19 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:31:19 Filtering chromosome chr63                                                                                 
+[10] 2015-07-16 19:31:19 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:31:20 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:31:20 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:31:21 Filtering chromosome chr64                                                                                 
+[14] 2015-07-16 19:31:21 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:31:21 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:31:22 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:31:22 Filtering chromosome chr65                                                                                 
+[18] 2015-07-16 19:31:22 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:31:23 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:31:23 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:31:24 Filtering chromosome chr66                                                                                 
+[22] 2015-07-16 19:31:24 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:31:24 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:31:25 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:31:25 Filtering chromosome chr67                                                                                 
+[26] 2015-07-16 19:31:25 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:31:26 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:31:26 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:31:27 Filtering chromosome chr68                                                                                 
+[30] 2015-07-16 19:31:27 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:31:27 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:31:28 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:31:28 Filtering chromosome chr69                                                                                 
+[34] 2015-07-16 19:31:28 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:31:29 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:31:29 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:31:30 Filtering chromosome chr70                                                                                 
+[38] 2015-07-16 19:31:30 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:31:30 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:31:31 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 31.949   0.167  32.319 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:31:38 Filtering chromosome chr71                                                                                 
+ [2] 2015-07-16 19:31:38 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:31:39 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:31:39 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:31:40 Filtering chromosome chr72                                                                                 
+ [6] 2015-07-16 19:31:40 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:31:40 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:31:40 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:31:41 Filtering chromosome chr73                                                                                 
+[10] 2015-07-16 19:31:41 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:31:41 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:31:42 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:31:43 Filtering chromosome chr74                                                                                 
+[14] 2015-07-16 19:31:43 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:31:43 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:31:43 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:31:44 Filtering chromosome chr75                                                                                 
+[18] 2015-07-16 19:31:44 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:31:44 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:31:45 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:31:46 Filtering chromosome chr76                                                                                 
+[22] 2015-07-16 19:31:46 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:31:46 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:31:46 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:31:47 Filtering chromosome chr77                                                                                 
+[26] 2015-07-16 19:31:47 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:31:48 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:31:48 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:31:49 Filtering chromosome chr78                                                                                 
+[30] 2015-07-16 19:31:49 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:31:49 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:31:50 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:31:50 Filtering chromosome chr79                                                                                 
+[34] 2015-07-16 19:31:50 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:31:51 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:31:51 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:31:52 Filtering chromosome chr80                                                                                 
+[38] 2015-07-16 19:31:52 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:31:52 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:31:53 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 31.555   0.158  31.940 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:32:00 Filtering chromosome chr81                                                                                 
+ [2] 2015-07-16 19:32:00 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:32:00 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:32:01 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:32:01 Filtering chromosome chr82                                                                                 
+ [6] 2015-07-16 19:32:01 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:32:02 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:32:02 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:32:03 Filtering chromosome chr83                                                                                 
+[10] 2015-07-16 19:32:03 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:32:03 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:32:03 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:32:04 Filtering chromosome chr84                                                                                 
+[14] 2015-07-16 19:32:04 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:32:04 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:32:05 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:32:05 Filtering chromosome chr85                                                                                 
+[18] 2015-07-16 19:32:05 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:32:06 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:32:06 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:32:07 Filtering chromosome chr86                                                                                 
+[22] 2015-07-16 19:32:07 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:32:07 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:32:08 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:32:09 Filtering chromosome chr87                                                                                 
+[26] 2015-07-16 19:32:09 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:32:09 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:32:09 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:32:10 Filtering chromosome chr88                                                                                 
+[30] 2015-07-16 19:32:10 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:32:10 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:32:11 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:32:12 Filtering chromosome chr89                                                                                 
+[34] 2015-07-16 19:32:12 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:32:12 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:32:13 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:32:13 Filtering chromosome chr90                                                                                 
+[38] 2015-07-16 19:32:13 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:32:14 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:32:14 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+   user  system elapsed 
+ 31.735   0.174  32.192 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082654  218.1    6861544  366.5   5684620  303.6
+Vcells 453310317 3458.5  864982194 6599.3 601047882 4585.7
+ [1] 2015-07-16 19:32:22 Filtering chromosome chr91                                                                                 
+ [2] 2015-07-16 19:32:22 filterData: normalizing coverage                                                                           
+ [3] 2015-07-16 19:32:22 filterData: done normalizing coverage                                                                      
+ [4] 2015-07-16 19:32:22 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [5] 2015-07-16 19:32:23 Filtering chromosome chr92                                                                                 
+ [6] 2015-07-16 19:32:23 filterData: normalizing coverage                                                                           
+ [7] 2015-07-16 19:32:23 filterData: done normalizing coverage                                                                      
+ [8] 2015-07-16 19:32:24 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+ [9] 2015-07-16 19:32:24 Filtering chromosome chr93                                                                                 
+[10] 2015-07-16 19:32:24 filterData: normalizing coverage                                                                           
+[11] 2015-07-16 19:32:25 filterData: done normalizing coverage                                                                      
+[12] 2015-07-16 19:32:25 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[13] 2015-07-16 19:32:26 Filtering chromosome chr94                                                                                 
+[14] 2015-07-16 19:32:26 filterData: normalizing coverage                                                                           
+[15] 2015-07-16 19:32:26 filterData: done normalizing coverage                                                                      
+[16] 2015-07-16 19:32:27 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[17] 2015-07-16 19:32:27 Filtering chromosome chr95                                                                                 
+[18] 2015-07-16 19:32:27 filterData: normalizing coverage                                                                           
+[19] 2015-07-16 19:32:28 filterData: done normalizing coverage                                                                      
+[20] 2015-07-16 19:32:28 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[21] 2015-07-16 19:32:29 Filtering chromosome chr96                                                                                 
+[22] 2015-07-16 19:32:29 filterData: normalizing coverage                                                                           
+[23] 2015-07-16 19:32:29 filterData: done normalizing coverage                                                                      
+[24] 2015-07-16 19:32:30 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[25] 2015-07-16 19:32:30 Filtering chromosome chr97                                                                                 
+[26] 2015-07-16 19:32:30 filterData: normalizing coverage                                                                           
+[27] 2015-07-16 19:32:31 filterData: done normalizing coverage                                                                      
+[28] 2015-07-16 19:32:31 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[29] 2015-07-16 19:32:32 Filtering chromosome chr98                                                                                 
+[30] 2015-07-16 19:32:32 filterData: normalizing coverage                                                                           
+[31] 2015-07-16 19:32:32 filterData: done normalizing coverage                                                                      
+[32] 2015-07-16 19:32:33 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[33] 2015-07-16 19:32:33 Filtering chromosome chr99                                                                                 
+[34] 2015-07-16 19:32:33 filterData: normalizing coverage                                                                           
+[35] 2015-07-16 19:32:34 filterData: done normalizing coverage                                                                      
+[36] 2015-07-16 19:32:34 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+[37] 2015-07-16 19:32:35 Filtering chromosome chr100                                                                                
+[38] 2015-07-16 19:32:35 filterData: normalizing coverage                                                                           
+[39] 2015-07-16 19:32:35 filterData: done normalizing coverage                                                                      
+[40] 2015-07-16 19:32:36 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+, , chr1
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr2
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr3
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr4
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr5
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr6
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr7
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr8
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr9
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr10
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr11
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr12
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr13
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr14
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr15
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr16
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr17
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr18
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr19
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr20
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr21
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr22
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr23
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr24
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr25
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr26
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr27
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr28
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr29
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr30
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr31
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr32
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr33
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr34
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr35
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr36
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr37
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr38
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr39
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr40
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr41
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr42
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr43
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr44
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr45
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr46
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr47
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr48
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr49
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr50
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr51
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr52
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr53
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr54
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr55
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr56
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr57
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr58
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr59
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr60
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr61
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr62
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr63
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr64
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr65
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr66
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr67
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr68
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr69
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr70
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr71
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr72
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr73
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr74
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr75
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr76
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr77
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr78
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr79
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr80
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr81
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr82
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr83
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr84
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr85
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr86
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr87
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr88
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr89
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr90
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr91
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082890  218.1    6861544  366.5   5684620  303.6
+Vcells 453309819 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr92
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082895  218.1    6861544  366.5   5684620  303.6
+Vcells 453309879 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr93
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082909  218.1    6861544  366.5   5684620  303.6
+Vcells 453309958 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr94
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082923  218.1    6861544  366.5   5684620  303.6
+Vcells 453310029 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr95
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082937  218.1    6861544  366.5   5684620  303.6
+Vcells 453310104 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr96
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082951  218.1    6861544  366.5   5684620  303.6
+Vcells 453310179 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr97
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082965  218.1    6861544  366.5   5684620  303.6
+Vcells 453310254 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr98
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082979  218.1    6861544  366.5   5684620  303.6
+Vcells 453310329 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr99
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4082993  218.1    6861544  366.5   5684620  303.6
+Vcells 453310404 3458.5  864982194 6599.3 601047882 4585.7
+
+, , chr100
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4083007  218.1    6861544  366.5   5684620  303.6
+Vcells 453310479 3458.5  864982194 6599.3 601047882 4585.7
+
+$coverage
+DataFrame with 0 rows and 10 columns
+
+$position
+logical-Rle of length 100000 with 1 run
+  Lengths: 100000
+  Values :  FALSE
+
+ setting  value                                      
+ version  R version 3.2.1 Patched (2015-07-16 r68670)
+ system   x86_64, linux-gnu                          
+ ui       X11                                        
+ language (EN)                                       
+ collate  en_US.UTF-8                                
+ tz       <NA>                                       
+
+ package              * version  date       source        
+ acepack                1.3-3.3  2014-11-24 CRAN (R 3.2.0)
+ AnnotationDbi          1.31.17  2015-06-19 Bioconductor  
+ Biobase                2.29.1   2015-05-04 Bioconductor  
+ BiocGenerics         * 0.15.3   2015-07-01 Bioconductor  
+ BiocParallel         * 1.3.34   2015-07-11 Bioconductor  
+ biomaRt                2.25.1   2015-04-29 Bioconductor  
+ Biostrings             2.37.2   2015-05-08 Bioconductor  
+ bitops                 1.0-6    2013-08-17 CRAN (R 3.2.0)
+ bumphunter             1.9.1    2015-05-06 Bioconductor  
+ cluster                2.0.2    2015-06-19 CRAN (R 3.2.1)
+ codetools              0.2-14   2015-07-15 CRAN (R 3.2.1)
+ colorspace             1.2-6    2015-03-11 CRAN (R 3.2.0)
+ curl                   0.9.1    2015-07-04 CRAN (R 3.2.1)
+ DBI                    0.3.1    2014-09-24 CRAN (R 3.2.0)
+ derfinder            * 1.3.3    2015-06-24 Bioconductor  
+ derfinderHelper        1.3.1    2015-06-24 Bioconductor  
+ devtools             * 1.8.0    2015-05-09 CRAN (R 3.2.0)
+ digest                 0.6.8    2014-12-31 CRAN (R 3.2.0)
+ doRNG                  1.6      2014-03-07 CRAN (R 3.2.0)
+ foreach                1.4.2    2014-04-11 CRAN (R 3.2.0)
+ foreign                0.8-65   2015-07-02 CRAN (R 3.2.1)
+ Formula                1.2-1    2015-04-07 CRAN (R 3.2.0)
+ futile.logger          1.4.1    2015-04-20 CRAN (R 3.2.0)
+ futile.options         1.0.0    2010-04-06 CRAN (R 3.2.0)
+ GenomeInfoDb         * 1.5.8    2015-06-18 Bioconductor  
+ GenomicAlignments      1.5.11   2015-07-01 Bioconductor  
+ GenomicFeatures        1.21.13  2015-06-10 Bioconductor  
+ GenomicFiles           1.5.4    2015-07-04 Bioconductor  
+ GenomicRanges        * 1.21.16  2015-07-01 Bioconductor  
+ getopt               * 1.20.0   2013-08-30 CRAN (R 3.2.0)
+ ggplot2                1.0.1    2015-03-17 CRAN (R 3.2.0)
+ git2r                  0.10.1   2015-05-07 CRAN (R 3.2.0)
+ gridExtra              2.0.0    2015-07-14 CRAN (R 3.2.1)
+ gtable                 0.1.2    2012-12-05 CRAN (R 3.2.0)
+ Hmisc                  3.16-0   2015-04-30 CRAN (R 3.2.0)
+ IRanges              * 2.3.14   2015-07-04 Bioconductor  
+ iterators              1.0.7    2014-04-11 CRAN (R 3.2.0)
+ lambda.r               1.1.7    2015-03-20 CRAN (R 3.2.0)
+ lattice                0.20-33  2015-07-14 CRAN (R 3.2.1)
+ latticeExtra           0.6-26   2013-08-15 CRAN (R 3.2.0)
+ locfit                 1.5-9.1  2013-04-20 CRAN (R 3.2.0)
+ magrittr               1.5      2014-11-22 CRAN (R 3.2.0)
+ MASS                   7.3-42   2015-07-02 CRAN (R 3.2.1)
+ Matrix                 1.2-2    2015-07-08 CRAN (R 3.2.1)
+ matrixStats            0.14.2   2015-06-24 CRAN (R 3.2.1)
+ memoise                0.2.1    2014-04-22 CRAN (R 3.2.0)
+ munsell                0.4.2    2013-07-11 CRAN (R 3.2.0)
+ nnet                   7.3-10   2015-06-29 CRAN (R 3.2.1)
+ pkgmaker               0.22     2014-05-14 CRAN (R 3.2.0)
+ plyr                   1.8.3    2015-06-12 CRAN (R 3.2.1)
+ proto                  0.3-10   2012-12-22 CRAN (R 3.2.0)
+ qvalue                 2.1.0    2015-04-29 Bioconductor  
+ RColorBrewer           1.1-2    2014-12-07 CRAN (R 3.2.0)
+ Rcpp                   0.11.6   2015-05-01 CRAN (R 3.2.0)
+ RCurl                  1.95-4.7 2015-06-30 CRAN (R 3.2.1)
+ registry               0.3      2015-07-08 CRAN (R 3.2.1)
+ reshape2               1.4.1    2014-12-06 CRAN (R 3.2.0)
+ rngtools               1.2.4    2014-03-06 CRAN (R 3.2.0)
+ rpart                  4.1-10   2015-06-29 CRAN (R 3.2.1)
+ Rsamtools              1.21.13  2015-07-09 Bioconductor  
+ RSQLite                1.0.0    2014-10-25 CRAN (R 3.2.0)
+ rtracklayer            1.29.12  2015-07-04 Bioconductor  
+ rversions              1.0.2    2015-07-13 CRAN (R 3.2.1)
+ S4Vectors            * 0.7.10   2015-07-04 Bioconductor  
+ scales                 0.2.5    2015-06-12 CRAN (R 3.2.1)
+ snow                   0.3-13   2013-09-27 CRAN (R 3.2.0)
+ stringi                0.5-5    2015-06-29 CRAN (R 3.2.1)
+ stringr                1.0.0    2015-04-30 CRAN (R 3.2.0)
+ SummarizedExperiment   0.3.2    2015-07-04 Bioconductor  
+ survival               2.38-3   2015-07-02 CRAN (R 3.2.1)
+ XML                    3.98-1.3 2015-06-30 CRAN (R 3.2.1)
+ xml2                   0.1.1    2015-06-02 CRAN (R 3.2.0)
+ xtable                 1.7-4    2014-09-12 CRAN (R 3.2.0)
+ XVector                0.9.1    2015-05-01 Bioconductor  
+ zlibbioc               1.15.0   2015-04-29 Bioconductor  
+   user  system elapsed 
+156.584  34.863 324.941 
+[1] "2015-07-16 19:32:37 EDT"
+**** Job ends ****
+Thu Jul 16 19:32:38 EDT 2015

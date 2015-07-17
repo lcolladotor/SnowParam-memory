@@ -1,0 +1,434 @@
+Using the following user library: ~/R/x86_64-unknown-linux-gnu-library/3.2.x
+Loading required package: methods
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, as.vector, cbind, colnames,
+    do.call, duplicated, eval, evalq, Filter, Find, get, grep, grepl,
+    intersect, is.unsorted, lapply, Map, mapply, match, mget, order,
+    paste, pmax, pmax.int, pmin, pmin.int, Position, rank, rbind,
+    Reduce, rep.int, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unlist, unsplit
+
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+2015-07-16 19:27:51 Filtering and saving the data with cutoff 80
+2015-07-16 19:27:51 Filtering chromosome chr1
+2015-07-16 19:27:51 filterData: normalizing coverage
+2015-07-16 19:27:51 filterData: done normalizing coverage
+2015-07-16 19:27:52 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:52 Filtering chromosome chr2
+2015-07-16 19:27:52 filterData: normalizing coverage
+2015-07-16 19:27:52 filterData: done normalizing coverage
+2015-07-16 19:27:53 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:53 Filtering chromosome chr3
+2015-07-16 19:27:53 filterData: normalizing coverage
+2015-07-16 19:27:53 filterData: done normalizing coverage
+2015-07-16 19:27:54 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:54 Filtering chromosome chr4
+2015-07-16 19:27:54 filterData: normalizing coverage
+2015-07-16 19:27:54 filterData: done normalizing coverage
+2015-07-16 19:27:55 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:55 Filtering chromosome chr5
+2015-07-16 19:27:55 filterData: normalizing coverage
+2015-07-16 19:27:55 filterData: done normalizing coverage
+2015-07-16 19:27:55 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:56 Filtering chromosome chr6
+2015-07-16 19:27:56 filterData: normalizing coverage
+2015-07-16 19:27:56 filterData: done normalizing coverage
+2015-07-16 19:27:56 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:57 Filtering chromosome chr7
+2015-07-16 19:27:57 filterData: normalizing coverage
+2015-07-16 19:27:57 filterData: done normalizing coverage
+2015-07-16 19:27:57 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:58 Filtering chromosome chr8
+2015-07-16 19:27:58 filterData: normalizing coverage
+2015-07-16 19:27:58 filterData: done normalizing coverage
+2015-07-16 19:27:58 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:27:59 Filtering chromosome chr9
+2015-07-16 19:27:59 filterData: normalizing coverage
+2015-07-16 19:27:59 filterData: done normalizing coverage
+2015-07-16 19:27:59 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:00 Filtering chromosome chr10
+2015-07-16 19:28:00 filterData: normalizing coverage
+2015-07-16 19:28:00 filterData: done normalizing coverage
+2015-07-16 19:28:00 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:01 Filtering chromosome chr11
+2015-07-16 19:28:01 filterData: normalizing coverage
+2015-07-16 19:28:01 filterData: done normalizing coverage
+2015-07-16 19:28:01 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:02 Filtering chromosome chr12
+2015-07-16 19:28:02 filterData: normalizing coverage
+2015-07-16 19:28:02 filterData: done normalizing coverage
+2015-07-16 19:28:02 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:03 Filtering chromosome chr13
+2015-07-16 19:28:03 filterData: normalizing coverage
+2015-07-16 19:28:03 filterData: done normalizing coverage
+2015-07-16 19:28:03 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:03 Filtering chromosome chr14
+2015-07-16 19:28:03 filterData: normalizing coverage
+2015-07-16 19:28:04 filterData: done normalizing coverage
+2015-07-16 19:28:04 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:04 Filtering chromosome chr15
+2015-07-16 19:28:04 filterData: normalizing coverage
+2015-07-16 19:28:05 filterData: done normalizing coverage
+2015-07-16 19:28:05 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:05 Filtering chromosome chr16
+2015-07-16 19:28:05 filterData: normalizing coverage
+2015-07-16 19:28:06 filterData: done normalizing coverage
+2015-07-16 19:28:06 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:06 Filtering chromosome chr17
+2015-07-16 19:28:06 filterData: normalizing coverage
+2015-07-16 19:28:07 filterData: done normalizing coverage
+2015-07-16 19:28:07 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:07 Filtering chromosome chr18
+2015-07-16 19:28:07 filterData: normalizing coverage
+2015-07-16 19:28:08 filterData: done normalizing coverage
+2015-07-16 19:28:08 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:08 Filtering chromosome chr19
+2015-07-16 19:28:08 filterData: normalizing coverage
+2015-07-16 19:28:08 filterData: done normalizing coverage
+2015-07-16 19:28:09 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:09 Filtering chromosome chr20
+2015-07-16 19:28:09 filterData: normalizing coverage
+2015-07-16 19:28:09 filterData: done normalizing coverage
+2015-07-16 19:28:10 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:10 Filtering chromosome chr21
+2015-07-16 19:28:10 filterData: normalizing coverage
+2015-07-16 19:28:10 filterData: done normalizing coverage
+2015-07-16 19:28:11 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:11 Filtering chromosome chr22
+2015-07-16 19:28:11 filterData: normalizing coverage
+2015-07-16 19:28:11 filterData: done normalizing coverage
+2015-07-16 19:28:12 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:12 Filtering chromosome chr23
+2015-07-16 19:28:12 filterData: normalizing coverage
+2015-07-16 19:28:12 filterData: done normalizing coverage
+2015-07-16 19:28:13 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:13 Filtering chromosome chr24
+2015-07-16 19:28:13 filterData: normalizing coverage
+2015-07-16 19:28:13 filterData: done normalizing coverage
+2015-07-16 19:28:13 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:14 Filtering chromosome chr25
+2015-07-16 19:28:14 filterData: normalizing coverage
+2015-07-16 19:28:14 filterData: done normalizing coverage
+2015-07-16 19:28:14 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:15 Filtering chromosome chr26
+2015-07-16 19:28:15 filterData: normalizing coverage
+2015-07-16 19:28:15 filterData: done normalizing coverage
+2015-07-16 19:28:15 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:16 Filtering chromosome chr27
+2015-07-16 19:28:16 filterData: normalizing coverage
+2015-07-16 19:28:17 filterData: done normalizing coverage
+2015-07-16 19:28:17 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:18 Filtering chromosome chr28
+2015-07-16 19:28:18 filterData: normalizing coverage
+2015-07-16 19:28:18 filterData: done normalizing coverage
+2015-07-16 19:28:19 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:19 Filtering chromosome chr29
+2015-07-16 19:28:19 filterData: normalizing coverage
+2015-07-16 19:28:20 filterData: done normalizing coverage
+2015-07-16 19:28:20 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:21 Filtering chromosome chr30
+2015-07-16 19:28:21 filterData: normalizing coverage
+2015-07-16 19:28:21 filterData: done normalizing coverage
+2015-07-16 19:28:21 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:22 Filtering chromosome chr31
+2015-07-16 19:28:22 filterData: normalizing coverage
+2015-07-16 19:28:22 filterData: done normalizing coverage
+2015-07-16 19:28:23 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:23 Filtering chromosome chr32
+2015-07-16 19:28:23 filterData: normalizing coverage
+2015-07-16 19:28:24 filterData: done normalizing coverage
+2015-07-16 19:28:24 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:25 Filtering chromosome chr33
+2015-07-16 19:28:25 filterData: normalizing coverage
+2015-07-16 19:28:25 filterData: done normalizing coverage
+2015-07-16 19:28:25 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:26 Filtering chromosome chr34
+2015-07-16 19:28:26 filterData: normalizing coverage
+2015-07-16 19:28:26 filterData: done normalizing coverage
+2015-07-16 19:28:27 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:27 Filtering chromosome chr35
+2015-07-16 19:28:27 filterData: normalizing coverage
+2015-07-16 19:28:28 filterData: done normalizing coverage
+2015-07-16 19:28:28 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:29 Filtering chromosome chr36
+2015-07-16 19:28:29 filterData: normalizing coverage
+2015-07-16 19:28:29 filterData: done normalizing coverage
+2015-07-16 19:28:29 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:30 Filtering chromosome chr37
+2015-07-16 19:28:30 filterData: normalizing coverage
+2015-07-16 19:28:30 filterData: done normalizing coverage
+2015-07-16 19:28:31 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:31 Filtering chromosome chr38
+2015-07-16 19:28:31 filterData: normalizing coverage
+2015-07-16 19:28:32 filterData: done normalizing coverage
+2015-07-16 19:28:32 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:33 Filtering chromosome chr39
+2015-07-16 19:28:33 filterData: normalizing coverage
+2015-07-16 19:28:33 filterData: done normalizing coverage
+2015-07-16 19:28:33 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:34 Filtering chromosome chr40
+2015-07-16 19:28:34 filterData: normalizing coverage
+2015-07-16 19:28:34 filterData: done normalizing coverage
+2015-07-16 19:28:35 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:36 Filtering chromosome chr41
+2015-07-16 19:28:36 filterData: normalizing coverage
+2015-07-16 19:28:36 filterData: done normalizing coverage
+2015-07-16 19:28:36 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:37 Filtering chromosome chr42
+2015-07-16 19:28:37 filterData: normalizing coverage
+2015-07-16 19:28:37 filterData: done normalizing coverage
+2015-07-16 19:28:38 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:38 Filtering chromosome chr43
+2015-07-16 19:28:38 filterData: normalizing coverage
+2015-07-16 19:28:39 filterData: done normalizing coverage
+2015-07-16 19:28:39 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:40 Filtering chromosome chr44
+2015-07-16 19:28:40 filterData: normalizing coverage
+2015-07-16 19:28:40 filterData: done normalizing coverage
+2015-07-16 19:28:40 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:41 Filtering chromosome chr45
+2015-07-16 19:28:41 filterData: normalizing coverage
+2015-07-16 19:28:41 filterData: done normalizing coverage
+2015-07-16 19:28:42 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:42 Filtering chromosome chr46
+2015-07-16 19:28:42 filterData: normalizing coverage
+2015-07-16 19:28:43 filterData: done normalizing coverage
+2015-07-16 19:28:43 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:44 Filtering chromosome chr47
+2015-07-16 19:28:44 filterData: normalizing coverage
+2015-07-16 19:28:44 filterData: done normalizing coverage
+2015-07-16 19:28:44 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:45 Filtering chromosome chr48
+2015-07-16 19:28:45 filterData: normalizing coverage
+2015-07-16 19:28:45 filterData: done normalizing coverage
+2015-07-16 19:28:46 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:46 Filtering chromosome chr49
+2015-07-16 19:28:46 filterData: normalizing coverage
+2015-07-16 19:28:47 filterData: done normalizing coverage
+2015-07-16 19:28:47 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:48 Filtering chromosome chr50
+2015-07-16 19:28:48 filterData: normalizing coverage
+2015-07-16 19:28:48 filterData: done normalizing coverage
+2015-07-16 19:28:48 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:49 Filtering chromosome chr51
+2015-07-16 19:28:49 filterData: normalizing coverage
+2015-07-16 19:28:49 filterData: done normalizing coverage
+2015-07-16 19:28:50 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:50 Filtering chromosome chr52
+2015-07-16 19:28:50 filterData: normalizing coverage
+2015-07-16 19:28:51 filterData: done normalizing coverage
+2015-07-16 19:28:51 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:52 Filtering chromosome chr53
+2015-07-16 19:28:52 filterData: normalizing coverage
+2015-07-16 19:28:52 filterData: done normalizing coverage
+2015-07-16 19:28:52 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:53 Filtering chromosome chr54
+2015-07-16 19:28:53 filterData: normalizing coverage
+2015-07-16 19:28:53 filterData: done normalizing coverage
+2015-07-16 19:28:54 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:55 Filtering chromosome chr55
+2015-07-16 19:28:55 filterData: normalizing coverage
+2015-07-16 19:28:55 filterData: done normalizing coverage
+2015-07-16 19:28:55 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:56 Filtering chromosome chr56
+2015-07-16 19:28:56 filterData: normalizing coverage
+2015-07-16 19:28:56 filterData: done normalizing coverage
+2015-07-16 19:28:56 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:57 Filtering chromosome chr57
+2015-07-16 19:28:57 filterData: normalizing coverage
+2015-07-16 19:28:58 filterData: done normalizing coverage
+2015-07-16 19:28:58 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:28:59 Filtering chromosome chr58
+2015-07-16 19:28:59 filterData: normalizing coverage
+2015-07-16 19:28:59 filterData: done normalizing coverage
+2015-07-16 19:28:59 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:00 Filtering chromosome chr59
+2015-07-16 19:29:00 filterData: normalizing coverage
+2015-07-16 19:29:00 filterData: done normalizing coverage
+2015-07-16 19:29:01 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:01 Filtering chromosome chr60
+2015-07-16 19:29:01 filterData: normalizing coverage
+2015-07-16 19:29:02 filterData: done normalizing coverage
+2015-07-16 19:29:02 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:03 Filtering chromosome chr61
+2015-07-16 19:29:03 filterData: normalizing coverage
+2015-07-16 19:29:03 filterData: done normalizing coverage
+2015-07-16 19:29:03 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:04 Filtering chromosome chr62
+2015-07-16 19:29:04 filterData: normalizing coverage
+2015-07-16 19:29:04 filterData: done normalizing coverage
+2015-07-16 19:29:05 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:06 Filtering chromosome chr63
+2015-07-16 19:29:06 filterData: normalizing coverage
+2015-07-16 19:29:06 filterData: done normalizing coverage
+2015-07-16 19:29:06 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:07 Filtering chromosome chr64
+2015-07-16 19:29:07 filterData: normalizing coverage
+2015-07-16 19:29:08 filterData: done normalizing coverage
+2015-07-16 19:29:08 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:09 Filtering chromosome chr65
+2015-07-16 19:29:09 filterData: normalizing coverage
+2015-07-16 19:29:09 filterData: done normalizing coverage
+2015-07-16 19:29:09 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:10 Filtering chromosome chr66
+2015-07-16 19:29:10 filterData: normalizing coverage
+2015-07-16 19:29:10 filterData: done normalizing coverage
+2015-07-16 19:29:11 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:12 Filtering chromosome chr67
+2015-07-16 19:29:12 filterData: normalizing coverage
+2015-07-16 19:29:12 filterData: done normalizing coverage
+2015-07-16 19:29:12 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:13 Filtering chromosome chr68
+2015-07-16 19:29:13 filterData: normalizing coverage
+2015-07-16 19:29:13 filterData: done normalizing coverage
+2015-07-16 19:29:14 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:14 Filtering chromosome chr69
+2015-07-16 19:29:14 filterData: normalizing coverage
+2015-07-16 19:29:15 filterData: done normalizing coverage
+2015-07-16 19:29:15 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:16 Filtering chromosome chr70
+2015-07-16 19:29:16 filterData: normalizing coverage
+2015-07-16 19:29:16 filterData: done normalizing coverage
+2015-07-16 19:29:16 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:17 Filtering chromosome chr71
+2015-07-16 19:29:17 filterData: normalizing coverage
+2015-07-16 19:29:17 filterData: done normalizing coverage
+2015-07-16 19:29:18 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:18 Filtering chromosome chr72
+2015-07-16 19:29:18 filterData: normalizing coverage
+2015-07-16 19:29:19 filterData: done normalizing coverage
+2015-07-16 19:29:19 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:20 Filtering chromosome chr73
+2015-07-16 19:29:20 filterData: normalizing coverage
+2015-07-16 19:29:20 filterData: done normalizing coverage
+2015-07-16 19:29:20 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:21 Filtering chromosome chr74
+2015-07-16 19:29:21 filterData: normalizing coverage
+2015-07-16 19:29:21 filterData: done normalizing coverage
+2015-07-16 19:29:22 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:22 Filtering chromosome chr75
+2015-07-16 19:29:22 filterData: normalizing coverage
+2015-07-16 19:29:23 filterData: done normalizing coverage
+2015-07-16 19:29:23 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:24 Filtering chromosome chr76
+2015-07-16 19:29:24 filterData: normalizing coverage
+2015-07-16 19:29:24 filterData: done normalizing coverage
+2015-07-16 19:29:24 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:25 Filtering chromosome chr77
+2015-07-16 19:29:25 filterData: normalizing coverage
+2015-07-16 19:29:25 filterData: done normalizing coverage
+2015-07-16 19:29:26 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:27 Filtering chromosome chr78
+2015-07-16 19:29:27 filterData: normalizing coverage
+2015-07-16 19:29:27 filterData: done normalizing coverage
+2015-07-16 19:29:27 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:28 Filtering chromosome chr79
+2015-07-16 19:29:28 filterData: normalizing coverage
+2015-07-16 19:29:28 filterData: done normalizing coverage
+2015-07-16 19:29:29 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:29 Filtering chromosome chr80
+2015-07-16 19:29:29 filterData: normalizing coverage
+2015-07-16 19:29:30 filterData: done normalizing coverage
+2015-07-16 19:29:30 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:31 Filtering chromosome chr81
+2015-07-16 19:29:31 filterData: normalizing coverage
+2015-07-16 19:29:31 filterData: done normalizing coverage
+2015-07-16 19:29:31 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:32 Filtering chromosome chr82
+2015-07-16 19:29:32 filterData: normalizing coverage
+2015-07-16 19:29:33 filterData: done normalizing coverage
+2015-07-16 19:29:33 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:34 Filtering chromosome chr83
+2015-07-16 19:29:34 filterData: normalizing coverage
+2015-07-16 19:29:34 filterData: done normalizing coverage
+2015-07-16 19:29:35 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:35 Filtering chromosome chr84
+2015-07-16 19:29:35 filterData: normalizing coverage
+2015-07-16 19:29:36 filterData: done normalizing coverage
+2015-07-16 19:29:36 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:37 Filtering chromosome chr85
+2015-07-16 19:29:37 filterData: normalizing coverage
+2015-07-16 19:29:37 filterData: done normalizing coverage
+2015-07-16 19:29:37 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:38 Filtering chromosome chr86
+2015-07-16 19:29:38 filterData: normalizing coverage
+2015-07-16 19:29:38 filterData: done normalizing coverage
+2015-07-16 19:29:39 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:40 Filtering chromosome chr87
+2015-07-16 19:29:40 filterData: normalizing coverage
+2015-07-16 19:29:40 filterData: done normalizing coverage
+2015-07-16 19:29:40 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:41 Filtering chromosome chr88
+2015-07-16 19:29:41 filterData: normalizing coverage
+2015-07-16 19:29:41 filterData: done normalizing coverage
+2015-07-16 19:29:42 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:42 Filtering chromosome chr89
+2015-07-16 19:29:42 filterData: normalizing coverage
+2015-07-16 19:29:43 filterData: done normalizing coverage
+2015-07-16 19:29:43 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:44 Filtering chromosome chr90
+2015-07-16 19:29:44 filterData: normalizing coverage
+2015-07-16 19:29:44 filterData: done normalizing coverage
+2015-07-16 19:29:44 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:45 Filtering chromosome chr91
+2015-07-16 19:29:45 filterData: normalizing coverage
+2015-07-16 19:29:45 filterData: done normalizing coverage
+2015-07-16 19:29:46 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:46 Filtering chromosome chr92
+2015-07-16 19:29:46 filterData: normalizing coverage
+2015-07-16 19:29:47 filterData: done normalizing coverage
+2015-07-16 19:29:47 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:48 Filtering chromosome chr93
+2015-07-16 19:29:48 filterData: normalizing coverage
+2015-07-16 19:29:48 filterData: done normalizing coverage
+2015-07-16 19:29:48 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:49 Filtering chromosome chr94
+2015-07-16 19:29:49 filterData: normalizing coverage
+2015-07-16 19:29:49 filterData: done normalizing coverage
+2015-07-16 19:29:50 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:51 Filtering chromosome chr95
+2015-07-16 19:29:51 filterData: normalizing coverage
+2015-07-16 19:29:51 filterData: done normalizing coverage
+2015-07-16 19:29:51 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:52 Filtering chromosome chr96
+2015-07-16 19:29:52 filterData: normalizing coverage
+2015-07-16 19:29:52 filterData: done normalizing coverage
+2015-07-16 19:29:53 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:53 Filtering chromosome chr97
+2015-07-16 19:29:53 filterData: normalizing coverage
+2015-07-16 19:29:54 filterData: done normalizing coverage
+2015-07-16 19:29:54 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:55 Filtering chromosome chr98
+2015-07-16 19:29:55 filterData: normalizing coverage
+2015-07-16 19:29:55 filterData: done normalizing coverage
+2015-07-16 19:29:55 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:56 Filtering chromosome chr99
+2015-07-16 19:29:56 filterData: normalizing coverage
+2015-07-16 19:29:56 filterData: done normalizing coverage
+2015-07-16 19:29:57 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+2015-07-16 19:29:58 Filtering chromosome chr100
+2015-07-16 19:29:58 filterData: normalizing coverage
+2015-07-16 19:29:58 filterData: done normalizing coverage
+2015-07-16 19:29:58 filterData: originally there were 100000 rows, now there are 0 rows. Meaning that 100 percent was filtered.
+Session info -----------------------------------------------------------------------------------------------------------
+Packages ---------------------------------------------------------------------------------------------------------------
+mv: cannot stat `der-serial-3.2.x.*': No such file or directory

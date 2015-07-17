@@ -1,0 +1,703 @@
+**** Job starts ****
+Thu Jul 16 19:27:12 EDT 2015
+1145.7 Mb
+11.5 Mb
+class: SerialParam 
+  bplog:TRUE; bpthreshold:INFO
+INFO [2015-07-16 19:27:51] loading futile.logger package
+, , chr1
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119782  220.1    6861544  366.5   5439685  290.6
+Vcells 153358687 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr2
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119789  220.1    6861544  366.5   5439685  290.6
+Vcells 153358713 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr3
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119799  220.1    6861544  366.5   5439685  290.6
+Vcells 153358744 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr4
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119809  220.1    6861544  366.5   5439685  290.6
+Vcells 153358775 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr5
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119819  220.1    6861544  366.5   5439685  290.6
+Vcells 153358806 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr6
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119829  220.1    6861544  366.5   5439685  290.6
+Vcells 153358837 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr7
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119839  220.1    6861544  366.5   5439685  290.6
+Vcells 153358868 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr8
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119849  220.1    6861544  366.5   5439685  290.6
+Vcells 153358899 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr9
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119859  220.1    6861544  366.5   5439685  290.6
+Vcells 153358930 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr10
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119869  220.1    6861544  366.5   5439685  290.6
+Vcells 153358961 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr11
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119879  220.1    6861544  366.5   5439685  290.6
+Vcells 153358992 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr12
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119889  220.1    6861544  366.5   5439685  290.6
+Vcells 153359023 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr13
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119899  220.1    6861544  366.5   5439685  290.6
+Vcells 153359054 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr14
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119909  220.1    6861544  366.5   5439685  290.6
+Vcells 153359085 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr15
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119919  220.1    6861544  366.5   5439685  290.6
+Vcells 153359116 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr16
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119929  220.1    6861544  366.5   5439685  290.6
+Vcells 153359147 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr17
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119939  220.1    6861544  366.5   5439685  290.6
+Vcells 153359178 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr18
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119949  220.1    6861544  366.5   5439685  290.6
+Vcells 153359209 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr19
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119959  220.1    6861544  366.5   5439685  290.6
+Vcells 153359240 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr20
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119969  220.1    6861544  366.5   5439685  290.6
+Vcells 153359271 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr21
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119979  220.1    6861544  366.5   5439685  290.6
+Vcells 153359302 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr22
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119989  220.1    6861544  366.5   5439685  290.6
+Vcells 153359333 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr23
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4119999  220.1    6861544  366.5   5439685  290.6
+Vcells 153359364 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr24
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120009  220.1    6861544  366.5   5439685  290.6
+Vcells 153359395 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr25
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120019  220.1    6861544  366.5   5439685  290.6
+Vcells 153359426 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr26
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120029  220.1    6861544  366.5   5439685  290.6
+Vcells 153359457 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr27
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120039  220.1    6861544  366.5   5439685  290.6
+Vcells 153359488 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr28
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120049  220.1    6861544  366.5   5439685  290.6
+Vcells 153359519 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr29
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120059  220.1    6861544  366.5   5439685  290.6
+Vcells 153359550 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr30
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120069  220.1    6861544  366.5   5439685  290.6
+Vcells 153359581 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr31
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120079  220.1    6861544  366.5   5439685  290.6
+Vcells 153359612 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr32
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120089  220.1    6861544  366.5   5439685  290.6
+Vcells 153359643 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr33
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120099  220.1    6861544  366.5   5439685  290.6
+Vcells 153359674 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr34
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120109  220.1    6861544  366.5   5439685  290.6
+Vcells 153359705 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr35
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120119  220.1    6861544  366.5   5439685  290.6
+Vcells 153359736 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr36
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120129  220.1    6861544  366.5   5439685  290.6
+Vcells 153359767 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr37
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120139  220.1    6861544  366.5   5439685  290.6
+Vcells 153359798 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr38
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120149  220.1    6861544  366.5   5439685  290.6
+Vcells 153359829 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr39
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120159  220.1    6861544  366.5   5439685  290.6
+Vcells 153359860 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr40
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120169  220.1    6861544  366.5   5439685  290.6
+Vcells 153359891 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr41
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120179  220.1    6861544  366.5   5439685  290.6
+Vcells 153359922 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr42
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120189  220.1    6861544  366.5   5439685  290.6
+Vcells 153359953 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr43
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120199  220.1    6861544  366.5   5439685  290.6
+Vcells 153359984 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr44
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120209  220.1    6861544  366.5   5439685  290.6
+Vcells 153360015 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr45
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120219  220.1    6861544  366.5   5439685  290.6
+Vcells 153360046 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr46
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120229  220.1    6861544  366.5   5439685  290.6
+Vcells 153360077 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr47
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120239  220.1    6861544  366.5   5439685  290.6
+Vcells 153360108 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr48
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120249  220.1    6861544  366.5   5439685  290.6
+Vcells 153360139 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr49
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120259  220.1    6861544  366.5   5439685  290.6
+Vcells 153360170 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr50
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120269  220.1    6861544  366.5   5439685  290.6
+Vcells 153360201 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr51
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120279  220.1    6861544  366.5   5439685  290.6
+Vcells 153360232 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr52
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120289  220.1    6861544  366.5   5439685  290.6
+Vcells 153360263 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr53
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120299  220.1    6861544  366.5   5439685  290.6
+Vcells 153360294 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr54
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120309  220.1    6861544  366.5   5439685  290.6
+Vcells 153360325 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr55
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120319  220.1    6861544  366.5   5439685  290.6
+Vcells 153360356 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr56
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120329  220.1    6861544  366.5   5439685  290.6
+Vcells 153360387 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr57
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120339  220.1    6861544  366.5   5439685  290.6
+Vcells 153360418 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr58
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120349  220.1    6861544  366.5   5439685  290.6
+Vcells 153360449 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr59
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120359  220.1    6861544  366.5   5439685  290.6
+Vcells 153360480 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr60
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120369  220.1    6861544  366.5   5439685  290.6
+Vcells 153360511 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr61
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120379  220.1    6861544  366.5   5439685  290.6
+Vcells 153360542 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr62
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120389  220.1    6861544  366.5   5439685  290.6
+Vcells 153360573 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr63
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120399  220.1    6861544  366.5   5439685  290.6
+Vcells 153360604 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr64
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120409  220.1    6861544  366.5   5439685  290.6
+Vcells 153360635 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr65
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120419  220.1    6861544  366.5   5439685  290.6
+Vcells 153360666 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr66
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120429  220.1    6861544  366.5   5439685  290.6
+Vcells 153360697 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr67
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120439  220.1    6861544  366.5   5439685  290.6
+Vcells 153360728 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr68
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120449  220.1    6861544  366.5   5439685  290.6
+Vcells 153360759 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr69
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120459  220.1    6861544  366.5   5439685  290.6
+Vcells 153360790 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr70
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120469  220.1    6861544  366.5   5439685  290.6
+Vcells 153360821 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr71
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120479  220.1    6861544  366.5   5439685  290.6
+Vcells 153360852 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr72
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120489  220.1    6861544  366.5   5439685  290.6
+Vcells 153360883 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr73
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120499  220.1    6861544  366.5   5439685  290.6
+Vcells 153360914 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr74
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120509  220.1    6861544  366.5   5439685  290.6
+Vcells 153360945 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr75
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120519  220.1    6861544  366.5   5439685  290.6
+Vcells 153360976 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr76
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120529  220.1    6861544  366.5   5439685  290.6
+Vcells 153361007 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr77
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120539  220.1    6861544  366.5   5439685  290.6
+Vcells 153361038 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr78
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120549  220.1    6861544  366.5   5439685  290.6
+Vcells 153361069 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr79
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120559  220.1    6861544  366.5   5439685  290.6
+Vcells 153361100 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr80
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120569  220.1    6861544  366.5   5439685  290.6
+Vcells 153361131 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr81
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120579  220.1    6861544  366.5   5439685  290.6
+Vcells 153361162 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr82
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120589  220.1    6861544  366.5   5439685  290.6
+Vcells 153361193 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr83
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120599  220.1    6861544  366.5   5439685  290.6
+Vcells 153361224 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr84
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120609  220.1    6861544  366.5   5439685  290.6
+Vcells 153361255 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr85
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120619  220.1    6861544  366.5   5439685  290.6
+Vcells 153361286 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr86
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120629  220.1    6861544  366.5   5439685  290.6
+Vcells 153361317 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr87
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120639  220.1    6861544  366.5   5439685  290.6
+Vcells 153361348 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr88
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120649  220.1    6861544  366.5   5439685  290.6
+Vcells 153361379 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr89
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120659  220.1    6861544  366.5   5439685  290.6
+Vcells 153361410 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr90
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120669  220.1    6861544  366.5   5439685  290.6
+Vcells 153361441 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr91
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120679  220.1    6861544  366.5   5439685  290.6
+Vcells 153361472 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr92
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120689  220.1    6861544  366.5   5439685  290.6
+Vcells 153361503 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr93
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120699  220.1    6861544  366.5   5439685  290.6
+Vcells 153361534 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr94
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120709  220.1    6861544  366.5   5439685  290.6
+Vcells 153361565 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr95
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120719  220.1    6861544  366.5   5439685  290.6
+Vcells 153361596 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr96
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120729  220.1    6861544  366.5   5439685  290.6
+Vcells 153361627 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr97
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120739  220.1    6861544  366.5   5439685  290.6
+Vcells 153361658 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr98
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120749  220.1    6861544  366.5   5439685  290.6
+Vcells 153361689 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr99
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120759  220.1    6861544  366.5   5439685  290.6
+Vcells 153361720 1170.1  241382366 1841.7 201054048 1534.0
+
+, , chr100
+
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   4120769  220.1    6861544  366.5   5439685  290.6
+Vcells 153361751 1170.1  241382366 1841.7 201054048 1534.0
+
+$coverage
+DataFrame with 0 rows and 10 columns
+
+$position
+logical-Rle of length 100000 with 1 run
+  Lengths: 100000
+  Values :  FALSE
+
+ setting  value                                      
+ version  R version 3.2.1 Patched (2015-07-16 r68670)
+ system   x86_64, linux-gnu                          
+ ui       X11                                        
+ language (EN)                                       
+ collate  en_US.UTF-8                                
+ tz       <NA>                                       
+
+ package              * version  date       source        
+ acepack                1.3-3.3  2014-11-24 CRAN (R 3.2.0)
+ AnnotationDbi          1.31.17  2015-06-19 Bioconductor  
+ Biobase                2.29.1   2015-05-04 Bioconductor  
+ BiocGenerics         * 0.15.3   2015-07-01 Bioconductor  
+ BiocParallel         * 1.3.34   2015-07-11 Bioconductor  
+ biomaRt                2.25.1   2015-04-29 Bioconductor  
+ Biostrings             2.37.2   2015-05-08 Bioconductor  
+ bitops                 1.0-6    2013-08-17 CRAN (R 3.2.0)
+ bumphunter             1.9.1    2015-05-06 Bioconductor  
+ cluster                2.0.2    2015-06-19 CRAN (R 3.2.1)
+ codetools              0.2-14   2015-07-15 CRAN (R 3.2.1)
+ colorspace             1.2-6    2015-03-11 CRAN (R 3.2.0)
+ curl                   0.9.1    2015-07-04 CRAN (R 3.2.1)
+ DBI                    0.3.1    2014-09-24 CRAN (R 3.2.0)
+ derfinder            * 1.3.3    2015-06-24 Bioconductor  
+ derfinderHelper        1.3.1    2015-06-24 Bioconductor  
+ devtools             * 1.8.0    2015-05-09 CRAN (R 3.2.0)
+ digest                 0.6.8    2014-12-31 CRAN (R 3.2.0)
+ doRNG                  1.6      2014-03-07 CRAN (R 3.2.0)
+ foreach                1.4.2    2014-04-11 CRAN (R 3.2.0)
+ foreign                0.8-65   2015-07-02 CRAN (R 3.2.1)
+ Formula                1.2-1    2015-04-07 CRAN (R 3.2.0)
+ futile.logger        * 1.4.1    2015-04-20 CRAN (R 3.2.0)
+ futile.options         1.0.0    2010-04-06 CRAN (R 3.2.0)
+ GenomeInfoDb         * 1.5.8    2015-06-18 Bioconductor  
+ GenomicAlignments      1.5.11   2015-07-01 Bioconductor  
+ GenomicFeatures        1.21.13  2015-06-10 Bioconductor  
+ GenomicFiles           1.5.4    2015-07-04 Bioconductor  
+ GenomicRanges        * 1.21.16  2015-07-01 Bioconductor  
+ getopt               * 1.20.0   2013-08-30 CRAN (R 3.2.0)
+ ggplot2                1.0.1    2015-03-17 CRAN (R 3.2.0)
+ git2r                  0.10.1   2015-05-07 CRAN (R 3.2.0)
+ gridExtra              2.0.0    2015-07-14 CRAN (R 3.2.1)
+ gtable                 0.1.2    2012-12-05 CRAN (R 3.2.0)
+ Hmisc                  3.16-0   2015-04-30 CRAN (R 3.2.0)
+ IRanges              * 2.3.14   2015-07-04 Bioconductor  
+ iterators              1.0.7    2014-04-11 CRAN (R 3.2.0)
+ lambda.r               1.1.7    2015-03-20 CRAN (R 3.2.0)
+ lattice                0.20-33  2015-07-14 CRAN (R 3.2.1)
+ latticeExtra           0.6-26   2013-08-15 CRAN (R 3.2.0)
+ locfit                 1.5-9.1  2013-04-20 CRAN (R 3.2.0)
+ magrittr               1.5      2014-11-22 CRAN (R 3.2.0)
+ MASS                   7.3-42   2015-07-02 CRAN (R 3.2.1)
+ Matrix                 1.2-2    2015-07-08 CRAN (R 3.2.1)
+ matrixStats            0.14.2   2015-06-24 CRAN (R 3.2.1)
+ memoise                0.2.1    2014-04-22 CRAN (R 3.2.0)
+ munsell                0.4.2    2013-07-11 CRAN (R 3.2.0)
+ nnet                   7.3-10   2015-06-29 CRAN (R 3.2.1)
+ pkgmaker               0.22     2014-05-14 CRAN (R 3.2.0)
+ plyr                   1.8.3    2015-06-12 CRAN (R 3.2.1)
+ proto                  0.3-10   2012-12-22 CRAN (R 3.2.0)
+ qvalue                 2.1.0    2015-04-29 Bioconductor  
+ RColorBrewer           1.1-2    2014-12-07 CRAN (R 3.2.0)
+ Rcpp                   0.11.6   2015-05-01 CRAN (R 3.2.0)
+ RCurl                  1.95-4.7 2015-06-30 CRAN (R 3.2.1)
+ registry               0.3      2015-07-08 CRAN (R 3.2.1)
+ reshape2               1.4.1    2014-12-06 CRAN (R 3.2.0)
+ rngtools               1.2.4    2014-03-06 CRAN (R 3.2.0)
+ rpart                  4.1-10   2015-06-29 CRAN (R 3.2.1)
+ Rsamtools              1.21.13  2015-07-09 Bioconductor  
+ RSQLite                1.0.0    2014-10-25 CRAN (R 3.2.0)
+ rtracklayer            1.29.12  2015-07-04 Bioconductor  
+ rversions              1.0.2    2015-07-13 CRAN (R 3.2.1)
+ S4Vectors            * 0.7.10   2015-07-04 Bioconductor  
+ scales                 0.2.5    2015-06-12 CRAN (R 3.2.1)
+ stringi                0.5-5    2015-06-29 CRAN (R 3.2.1)
+ stringr                1.0.0    2015-04-30 CRAN (R 3.2.0)
+ SummarizedExperiment   0.3.2    2015-07-04 Bioconductor  
+ survival               2.38-3   2015-07-02 CRAN (R 3.2.1)
+ XML                    3.98-1.3 2015-06-30 CRAN (R 3.2.1)
+ xml2                   0.1.1    2015-06-02 CRAN (R 3.2.0)
+ xtable                 1.7-4    2014-09-12 CRAN (R 3.2.0)
+ XVector                0.9.1    2015-05-01 Bioconductor  
+ zlibbioc               1.15.0   2015-04-29 Bioconductor  
+   user  system elapsed 
+158.778   7.732 167.117 
+[1] "2015-07-16 19:29:59 EDT"
+**** Job ends ****
+Thu Jul 16 19:30:00 EDT 2015

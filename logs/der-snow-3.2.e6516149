@@ -1,0 +1,124 @@
+
+R version 3.2.0 Patched (2015-04-29 r68274) -- "Full of Ingredients"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> library(snow)
+> options(timeout=getClusterOption("timeout"))
+> BiocParallel::bpslaveLoop(makeSOCKmaster())
+Warning message:
+In .doLoadActions(where, attach) :
+  trying to execute load actions without 'methods' package
+> 
+ion: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 2
+Node: 2
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 3
+Node: 3
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 4
+Node: 4
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 5
+Node: 5
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 6
+Node: 6
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 7
+Node: 7
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 8
+Node: 8
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 9
+Node: 9
+Timestamp: 2015-07-16 19:32:09
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+############### LOG OUTPUT ###############
+Task: 10
+Node: 10
+Timestamp: 2015-07-16 19:32:33
+Success: TRUE
+Task duration: 
+Memory use (gc): 
+Log messages:
+
+stderr and stdout:
+Session info -----------------------------------------------------------------------------------------------------------
+Packages ---------------------------------------------------------------------------------------------------------------
