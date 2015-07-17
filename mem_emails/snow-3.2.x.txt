@@ -64,3 +64,16 @@ Job 6516001 (snow-3.2.x) Complete
  CPU              = 03:31:01
  Max vmem         = 42.980G
  Exit Status      = 0
+
+Job 6516143 (snow-3.2.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-074.cm.cluster
+ Host             = compute-074.cm.cluster
+ Start Time       = 07/16/2015 19:27:12
+ End Time         = 07/16/2015 19:56:32
+ User Time        = 00:02:36
+ System Time      = 00:00:49
+ Wallclock Time   = 00:29:20
+ CPU              = 03:47:52
+ Max vmem         = 43.099G
+ Exit Status      = 0

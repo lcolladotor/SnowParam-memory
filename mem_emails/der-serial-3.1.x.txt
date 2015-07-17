@@ -49,3 +49,20 @@ Job 6463547 (der-serial-3.1.x) Complete
  CPU              = 00:01:13
  Max vmem         = 929.055M
  Exit Status      = 0
+
+--- Longer tests ---
+
+## Missed run 5
+
+Job 6516148 (der-serial-3.1.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-054.cm.cluster
+ Host             = compute-054.cm.cluster
+ Start Time       = 07/16/2015 19:27:12
+ End Time         = 07/16/2015 19:30:37
+ User Time        = 00:03:05
+ System Time      = 00:00:13
+ Wallclock Time   = 00:03:25
+ CPU              = 00:03:19
+ Max vmem         = 2.141G
+ Exit Status      = 0

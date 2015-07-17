@@ -49,3 +49,20 @@ Job 6463549 (der-multicore-3.2) Complete
  CPU              = 00:02:45
  Max vmem         = 13.793G
  Exit Status      = 0
+
+--- Longer tests ---
+
+## Missed run 5
+
+Job 6516150 (der-multicore-3.2) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-052.cm.cluster
+ Host             = compute-052.cm.cluster
+ Start Time       = 07/16/2015 19:27:12
+ End Time         = 07/16/2015 19:31:20
+ User Time        = 00:00:47
+ System Time      = 00:01:03
+ Wallclock Time   = 00:04:08
+ CPU              = 00:07:44
+ Max vmem         = 66.458G
+ Exit Status      = 0

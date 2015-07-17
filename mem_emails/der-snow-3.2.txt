@@ -49,3 +49,20 @@ Job 6463548 (der-snow-3.2) Complete
  CPU              = 00:04:24
  Max vmem         = 11.072G
  Exit Status      = 0
+
+--- Longer tests ---
+
+## Missed run 5
+
+Job 6516149 (der-snow-3.2) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-051.cm.cluster
+ Host             = compute-051.cm.cluster
+ Start Time       = 07/16/2015 19:27:12
+ End Time         = 07/16/2015 19:32:34
+ User Time        = 00:02:30
+ System Time      = 00:00:46
+ Wallclock Time   = 00:05:22
+ CPU              = 00:12:22
+ Max vmem         = 50.983G
+ Exit Status      = 0
