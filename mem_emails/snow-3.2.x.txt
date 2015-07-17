@@ -49,3 +49,18 @@ Job 6463542 (snow-3.2.x) Complete
  CPU              = 00:17:36
  Max vmem         = 7.286G
  Exit Status      = 0
+
+--- Longer tests ---
+
+Job 6516001 (snow-3.2.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-053.cm.cluster
+ Host             = compute-053.cm.cluster
+ Start Time       = 07/16/2015 15:10:10
+ End Time         = 07/16/2015 15:39:54
+ User Time        = 00:03:08
+ System Time      = 00:00:47
+ Wallclock Time   = 00:29:44
+ CPU              = 03:31:01
+ Max vmem         = 42.980G
+ Exit Status      = 0

@@ -49,3 +49,18 @@ Job 6463544 (serial-3.2.x) Complete
  CPU              = 00:05:34
  Max vmem         = 1.306G
  Exit Status      = 0
+
+--- Longer tests ---
+
+Job 6516003 (serial-3.2.x) Complete
+ User             = lcollado
+ Queue            = shared.q@compute-076.cm.cluster
+ Host             = compute-076.cm.cluster
+ Start Time       = 07/16/2015 15:10:11
+ End Time         = 07/16/2015 17:39:29
+ User Time        = 02:29:08
+ System Time      = 00:00:05
+ Wallclock Time   = 02:29:18
+ CPU              = 02:29:14
+ Max vmem         = 7.594G
+ Exit Status      = 0
